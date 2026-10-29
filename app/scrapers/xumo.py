@@ -1,0 +1,726 @@
+from __future__ import annotations
+
+import json
+import logging
+import re
+import uuid
+from datetime import datetime, timedelta, timezone
+from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
+
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+from .base import BaseScraper, ChannelData, ProgramData, StreamDeadError, infer_language_from_metadata, dedupe_dominant_episode_id
+from .category_utils import infer_category_from_name
+from ..gracenote_map import resolve_gracenote
+
+logger = logging.getLogger(__name__)
+
+
+class XumoScraper(BaseScraper):
+    """
+    Xumo Play scraper for FastChannels.
+
+    Design notes:
+    - fetch_channels() stores an opaque raw URL: xumo://channel/<channel_id>
+    - fetch_epg() uses Valencia web EPG endpoints
+    - resolve() performs live channel -> broadcast -> asset -> provider source resolution
+
+    This intentionally mirrors the Xumo Play web flow rather than older community
+    scripts that mixed Valencia and Android TV endpoints.
+    """
+
+    source_name = "xumo"
+    display_name = "Xumo Play"
+    scrape_interval = 720
+    stream_audit_enabled  = True
+    audit_ignore_4xx      = True  # CDN URLs expire per program window; 4xx = between programs, not dead
+    # Bounds the per-channel resolve() call during scheduled stream audits.
+    # Without this the indirection probe in _unwrap_playlist_indirection()
+    # (a synchronous network call) can stall the whole sequential audit loop
+    # on one hung channel — see app/worker.py's _run_with_signal_timeout.
+    audit_channel_timeout_seconds = 15
+    config_schema = []
+
+    BASE_URL = "https://valencia-app-mds.xumo.com"
+    IMAGE_BASE    = "https://image.xumo.com/v1/assets/asset"
+    CHANNEL_IMAGE = "https://image.xumo.com/v1/channels/channel"
+    MARKET_ID = "10006"
+    DEFAULT_GEO_ID = "2f08a9b3"
+
+    CHANNEL_LIST_FIELDS = (
+        "/v2/proxy/channels/list/{market_id}.json"
+        "?sort=hybrid&geoId={geo_id}&deviceId={device_id}&ifaId={ifa_id}"
+    )
+    BROADCAST_URL = "/v2/channels/channel/{channel_id}/broadcast.json?hour={hour}"
+    ASSET_URL = (
+        "/v2/assets/asset/{asset_id}.json"
+        "?f=providers&f=cuePoints&f=connectorId&f=genres&f=title"
+        "&f=episodeTitle&f=runtime&f=ratings&f=keywords&f=season&f=episode"
+    )
+    EPG_URL = (
+        "/v2/epg/{market_id}/{date_str}/{page}.json"
+        "?f=asset.title&f=asset.descriptions&limit={limit}&offset={offset}"
+    )
+
+    CHANNEL_SCHEME = "xumo://channel/"
+    MAX_EPG_DAYS = 2
+    EPG_PAGES_PER_DAY = 24
+    EPG_LIMIT = 50
+    EPG_MAX_OFFSET = 1000
+    EPG_OFFSET_STEP = 50
+    REQUEST_TIMEOUT_SECONDS = 12
+
+    DRM_CALLSIGN_SUFFIXES = (
+        "-DRM",
+        "DRM-CMS",
+    )
+
+    def __init__(self, config: dict | None = None):
+        super().__init__(config)
+        self.session.headers.update(
+            {
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/145.0.0.0 Safari/537.36"
+                ),
+                "Accept": "application/json, text/plain, */*",
+                "Origin": "https://play.xumo.com",
+                "Referer": "https://play.xumo.com/",
+            }
+        )
+        self.market_id = str(self.config.get("market_id") or self.MARKET_ID)
+        self.geo_id = str(self.config.get("geo_id") or self.DEFAULT_GEO_ID)
+        # Stable per-process IDs help keep ad/stream requests closer to the web client.
+        self._device_id = str(uuid.uuid4())
+        self._ifa_id = str(uuid.uuid4())
+        self._asset_cache: dict[str, dict[str, Any]] = {}
+
+        # Dedicated no-retry session for the playlist-indirection probe (see
+        # _unwrap_playlist_indirection). It runs synchronously on the
+        # play-time hot path, so it must fail fast on a slow/flaky provider
+        # instead of inheriting self.session's retry adapter (total=3,
+        # backoff_factor=1.0), which can otherwise stack ~30-55s of retries
+        # onto a single tune before falling back.
+        self._indirection_session = requests.Session()
+        self._indirection_session.headers.update(self.session.headers)
+        _no_retry_adapter = HTTPAdapter(max_retries=Retry(total=0))
+        self._indirection_session.mount("https://", _no_retry_adapter)
+        self._indirection_session.mount("http://", _no_retry_adapter)
+
+    # ---------------------------------------------------------------------
+    # Required FastChannels methods
+    # ---------------------------------------------------------------------
+    def fetch_channels(self) -> list[ChannelData]:
+        url = self.BASE_URL + self.CHANNEL_LIST_FIELDS.format(
+            market_id=self.market_id,
+            geo_id=self.geo_id,
+            device_id=self._device_id,
+            ifa_id=self._ifa_id,
+        )
+        payload = self._get_json(url)
+        if not payload:
+            return []
+
+        items = []
+        if isinstance(payload.get("channel"), dict):
+            items = payload["channel"].get("item") or []
+        elif isinstance(payload.get("items"), list):
+            items = payload.get("items") or []
+
+        channels: list[ChannelData] = []
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+
+            props = item.get("properties") or {}
+            callsign = str(item.get("callsign") or "")
+            is_live = str(props.get("is_live", "")).lower() == "true"
+            if not is_live:
+                continue
+            if any(callsign.endswith(suffix) for suffix in self.DRM_CALLSIGN_SUFFIXES):
+                continue
+
+            channel_id = self._nested_str(item, "guid", "value")
+            name = str(item.get("title") or "").strip()
+            if not channel_id or not name:
+                continue
+            category = self._extract_genre(item) or infer_category_from_name(name)
+
+            descs = item.get("descriptions") or {}
+            description = (
+                descs.get("large") or descs.get("medium")
+                or descs.get("small") or descs.get("tiny")
+                or item.get("description") or item.get("summary")
+                or None
+            )
+            if description:
+                description = str(description).strip() or None
+
+            channels.append(
+                ChannelData(
+                    source_channel_id=channel_id,
+                    name=name,
+                    stream_url=f"{self.CHANNEL_SCHEME}{channel_id}",
+                    logo_url=f"{self.CHANNEL_IMAGE}/{channel_id}/600x336.jpg?type=channelTile",
+                    category=category,
+                    language=infer_language_from_metadata(name, category),
+                    description=description,
+                    gracenote_id=resolve_gracenote('xumo', lookup_key=channel_id),
+                )
+            )
+
+        logger.info("[xumo] %d channels", len(channels))
+        return channels
+
+    def fetch_epg(self, channels: list[ChannelData], **kwargs) -> list[ProgramData]:
+        if not channels:
+            return []
+
+        wanted_ids = {str(ch.source_channel_id) for ch in channels}
+        programmes: list[ProgramData] = []
+        seen: set[tuple[str, str, str]] = set()
+
+        now_utc = datetime.now(timezone.utc)
+        # Xumo's "day" buckets run on a US-local boundary, so the current
+        # overnight UTC window lives under the previous date key.
+        dates = [
+            (now_utc + timedelta(days=day)).strftime("%Y%m%d")
+            for day in range(-1, self.MAX_EPG_DAYS)
+        ]
+
+        total = len(wanted_ids)
+        seen_channels: set[str] = set()
+
+        for date_str in dates:
+            for page in range(0, self.EPG_PAGES_PER_DAY):
+                found_any_for_page = False
+
+                page_no_data = False
+                for offset in range(0, self.EPG_MAX_OFFSET + 1, self.EPG_OFFSET_STEP):
+                    url = self.BASE_URL + self.EPG_URL.format(
+                        market_id=self.market_id,
+                        date_str=date_str,
+                        page=page,
+                        limit=self.EPG_LIMIT,
+                        offset=offset,
+                    )
+                    payload = self._get_epg_json(url)
+                    if payload is self._EPG_NO_DATA:
+                        page_no_data = True
+                        break
+                    if not payload:
+                        continue
+
+                    assets = payload.get("assets") or {}
+                    if isinstance(assets, dict):
+                        self._asset_cache.update(assets)
+
+                    page_channels = payload.get("channels") or []
+                    if not page_channels:
+                        if offset == 0:
+                            # No data at offset 0 strongly suggests this page is empty.
+                            break
+                        continue
+
+                    found_any_for_page = True
+                    matched_channel_count = 0
+
+                    for channel_row in page_channels:
+                        channel_id = str(channel_row.get("channelId") or "")
+                        if channel_id not in wanted_ids:
+                            continue
+                        matched_channel_count += 1
+                        if channel_id not in seen_channels:
+                            seen_channels.add(channel_id)
+                            if self._progress_cb:
+                                self._progress_cb('epg', len(seen_channels), total)
+
+                        for slot in channel_row.get("schedule") or []:
+                            asset_id = str(slot.get("assetId") or "")
+                            start = self._parse_xumo_dt(slot.get("start"))
+                            end = self._parse_xumo_dt(slot.get("end"))
+                            if not asset_id or not start or not end:
+                                continue
+                            if end <= now_utc:
+                                continue
+
+                            asset = assets.get(asset_id) or self._asset_cache.get(asset_id) or {}
+                            title = str(asset.get("title") or "Unknown")
+                            descriptions = asset.get("descriptions") or {}
+                            description = (
+                                descriptions.get("large")
+                                or descriptions.get("medium")
+                                or descriptions.get("small")
+                                or descriptions.get("tiny")
+                            )
+                            episode_title = str(asset.get("episodeTitle") or "").strip() or None
+                            season = asset.get("season")
+                            episode = asset.get("episode")
+                            try:
+                                season = int(season) if season is not None else None
+                                episode = int(episode) if episode is not None else None
+                            except (TypeError, ValueError):
+                                season = episode = None
+                            poster_url = (self._poster_url(asset_id)
+                                          or f"{self.CHANNEL_IMAGE}/{channel_id}/600x336.jpg?type=channelTile")
+                            category = self._extract_asset_genre(asset)
+
+                            dedupe_key = (channel_id, start.isoformat(), asset_id)
+                            if dedupe_key in seen:
+                                continue
+                            seen.add(dedupe_key)
+
+                            content_type = str(asset.get("contentType") or "").upper()
+                            _pfx = asset_id[:2]
+                            _is_music = bool(category) and "music" in category.casefold()
+                            if content_type == "EPISODIC":
+                                _program_type = "episode"
+                            elif content_type in ("MOVIE", "FEATURE"):
+                                _program_type = "movie"
+                            elif _pfx in ("MV", "XM") and not _is_music:
+                                # MV = Movie, XM = Xumo Movie — reliably movie content.
+                                # Guarded against music/radio assets (e.g. iHeartRadio
+                                # channels use "XM"-prefixed asset IDs too but are audio,
+                                # not movies — see GitHub issue #37).
+                                # XT omitted: full asset shows contentType=EPISODIC for many XT IDs
+                                _program_type = "movie"
+                            elif _pfx == "SH":
+                                _program_type = "episode"
+                            else:
+                                _program_type = None
+                            programmes.append(
+                                ProgramData(
+                                    source_channel_id=channel_id,
+                                    title=title,
+                                    start_time=start,
+                                    end_time=end,
+                                    description=description,
+                                    poster_url=poster_url,
+                                    category=category,
+                                    episode_title=episode_title,
+                                    season=season,
+                                    episode=episode,
+                                    program_type=_program_type,
+                                    episode_id=asset_id or None,
+                                )
+                            )
+
+
+                if page_no_data or not found_any_for_page:
+                    # 400 = server has no data for this hour; later hours won't
+                    # have data either.  Also stop when a page is completely empty.
+                    break
+
+        dedupe_dominant_episode_id(programmes)
+        logger.info("[xumo] %d EPG entries", len(programmes))
+        return programmes
+
+    def audit_resolve(self, raw_url: str) -> str:
+        """
+        Catalog check + CDN URL resolution for stream audits.
+        First confirms the channel exists in Xumo's broadcast catalog.  If the
+        API returns no assets the channel is genuinely gone (StreamDeadError).
+        API failure is treated as transient (returns opaque URL → skips manifest).
+        Otherwise resolves to the current CDN URL so the audit can check for DRM.
+        4xx results are handled leniently (audit_ignore_4xx) since CDN URLs
+        expire per program window. VOD results are NOT ignored — channels that
+        consistently serve a finished VOD manifest are genuinely episode-only
+        and should be flagged (e.g. game-show-catalog channels like 25 Words or Less).
+        """
+        if not raw_url.startswith(self.CHANNEL_SCHEME):
+            return raw_url
+
+        channel_id = raw_url.split(self.CHANNEL_SCHEME, 1)[1].strip()
+        if not channel_id:
+            return raw_url
+
+        hour = datetime.now(timezone.utc).hour
+        broadcast_url = self.BASE_URL + self.BROADCAST_URL.format(channel_id=channel_id, hour=hour)
+        broadcast = self._get_json(broadcast_url)
+        if broadcast is None:
+            return raw_url  # API failure — transient, count as alive
+
+        assets = broadcast.get("assets") or []
+        if not assets:
+            raise StreamDeadError(f"[xumo] channel removed from catalog: {channel_id}")
+
+        # Resolve to CDN URL so the audit can still detect DRM
+        return self.resolve(raw_url)
+
+    def resolve(self, raw_url: str) -> str:
+        if not raw_url.startswith(self.CHANNEL_SCHEME):
+            return raw_url
+
+        channel_id = raw_url.split(self.CHANNEL_SCHEME, 1)[1].strip()
+        if not channel_id:
+            return raw_url
+
+        hour = datetime.now(timezone.utc).hour
+        broadcast_url = self.BASE_URL + self.BROADCAST_URL.format(channel_id=channel_id, hour=hour)
+        broadcast = self._get_json(broadcast_url)
+        if not broadcast:
+            return raw_url
+
+        assets = broadcast.get("assets") or []
+        live_asset_id = None
+        for asset in assets:
+            if not isinstance(asset, dict):
+                continue
+            if asset.get("live") is True and asset.get("id"):
+                live_asset_id = str(asset["id"])
+                break
+        if not live_asset_id and assets:
+            candidate = assets[0]
+            if isinstance(candidate, dict) and candidate.get("id"):
+                live_asset_id = str(candidate["id"])
+        if not live_asset_id:
+            return raw_url
+
+        asset = self._get_asset(live_asset_id)
+        if not asset:
+            return raw_url
+
+        source_url = self._extract_stream_source(asset)
+        if not source_url:
+            return raw_url
+
+        return self._unwrap_playlist_indirection(self._process_stream_uri(source_url))
+
+    # ------------------------------------------------------------------
+    # Internal helpers
+    # ------------------------------------------------------------------
+    # Sentinel returned by _get_epg_json when the server says "no data for this
+    # hour" (HTTP 400).  Callers should stop iterating offsets *and* pages.
+    _EPG_NO_DATA = object()
+
+    def _get_json(self, url: str) -> dict[str, Any] | None:
+        """Safely fetch JSON via BaseScraper.get()."""
+        try:
+            response = self.get(url)
+        except Exception as exc:
+            logger.warning("[xumo] request failed for %s: %s", url, exc)
+            return None
+
+        if not response:
+            return None
+
+        try:
+            data = response.json()
+        except Exception as exc:
+            logger.warning("[xumo] invalid JSON for %s: %s", url, exc)
+            return None
+
+        if not isinstance(data, dict):
+            return None
+        return data
+
+    def _get_epg_json(self, url: str):
+        """
+        Fetch EPG JSON.  Three return values:
+          - dict           → success
+          - None           → transient error; skip this offset, try the next
+          - _EPG_NO_DATA   → HTTP 400 "no data for this hour"; break offset
+                             loop *and* page loop immediately
+        """
+        try:
+            response = self.session.get(url, timeout=self.REQUEST_TIMEOUT_SECONDS)
+        except Exception as exc:
+            logger.debug("[xumo] EPG request failed for %s: %s", url, exc)
+            return None
+
+        if response.status_code == 400:
+            return self._EPG_NO_DATA
+
+        if not response.ok:
+            logger.debug("[xumo] EPG HTTP %d for %s", response.status_code, url)
+            return None
+
+        try:
+            data = response.json()
+        except Exception:
+            return None
+
+        return data if isinstance(data, dict) else None
+
+    def _get_asset(self, asset_id: str) -> dict[str, Any] | None:
+        cached = self._asset_cache.get(asset_id)
+        if isinstance(cached, dict) and cached.get("providers"):
+            return cached
+
+        url = self.BASE_URL + self.ASSET_URL.format(asset_id=asset_id)
+        asset = self._get_json(url)
+        if asset:
+            self._asset_cache[asset_id] = asset
+        return asset
+
+    def _extract_stream_source(self, asset: dict[str, Any]) -> str | None:
+        providers = asset.get("providers") or []
+        for provider in providers:
+            if not isinstance(provider, dict):
+                continue
+            sources = provider.get("sources") or []
+            for source in sources:
+                if not isinstance(source, dict):
+                    continue
+                uri = source.get("uri")
+                produces = str(source.get("produces") or "")
+                if not uri:
+                    continue
+                if "mpegurl" in produces.lower() or uri.endswith(".m3u8") or ".m3u8?" in uri:
+                    return str(uri)
+        return None
+
+    def _process_stream_uri(self, uri: str) -> str:
+        """
+        The web player sometimes leaves placeholder macros in query params.
+        Replace the ones that appear useful, then strip any remaining [PLACEHOLDER]
+        fragments so the URL stays usable.
+        """
+        replacements = {
+            "[PLATFORM]": "web",
+            "[APP_VERSION]": "1.0.0",
+            "[timestamp]": str(int(datetime.now(timezone.utc).timestamp() * 1000)),
+            "[app_bundle]": "play.xumo.com",
+            "[device_make]": "OpenAI",
+            "[device_model]": "FastChannels",
+            "[content_language]": "en",
+            "[IS_LAT]": "0",
+            "[IFA]": self._ifa_id,
+            "[IFA_TYPE]": "aaid",
+            "[SESSION_ID]": str(uuid.uuid4()),
+            "[DEVICE_ID]": self._device_id.replace("-", ""),
+            "[CCPA_Value]": "1---",
+            "[publica_site_id]": "",
+            "[LAT]": "",
+            "[LON]": "",
+            "[OS]": "web",
+            "[OS_VERSION]": "",
+            "[AMZN_APP_ID]": "",
+            "[app_store_url]": "",
+            "[CONTENT_IMDB_GENRE]": "",
+            "[IAB_content_category]": "",
+            "[content_genre]": "",
+            "[content_rating]": "",
+        }
+
+        processed = uri
+        for old, new in replacements.items():
+            processed = processed.replace(old, new)
+
+        # Strip any leftover bracketed macros.
+        processed = re.sub(r"\[[^\]]+\]", "", processed)
+
+        # Remove empty query params introduced by stripped macros.
+        parsed = urlparse(processed)
+        query_pairs = [(k, v) for k, v in parse_qsl(parsed.query, keep_blank_values=False) if v != ""]
+        cleaned_query = urlencode(query_pairs, doseq=True)
+        return urlunparse(parsed._replace(query=cleaned_query))
+
+    # Suffixes that mark a URL as already being a playable manifest.
+    _MANIFEST_SUFFIXES = (".m3u8", ".mpd")
+    # (connect, read) timeout for the indirection probe — short and
+    # non-retried since it runs on the play-time hot path (see
+    # _indirection_session in __init__).
+    _INDIRECTION_PROBE_TIMEOUT = (3, 5)
+    # Provider is expected to return a short JSON string; refuse to buffer
+    # anything larger rather than fully downloading an unbounded body.
+    _INDIRECTION_MAX_BYTES = 8192
+
+    def _unwrap_playlist_indirection(self, url: str) -> str:
+        """Follow one hop when a channel resolves to a JSON pointer, not a manifest.
+
+        A few Xumo channels are delivered through a provider API that returns
+        the real playlist URL as a bare JSON string instead of serving the
+        manifest itself — Local Now via ottcms.weathergroup.com is the one in
+        the current lineup:
+
+            GET /api/v1/scte35stream/XumoV3  ->  200 application/json
+            "https://…mediatailor….amazonaws.com/…/playlist.m3u8?…"
+
+        Lenient players (VLC) sniff that and follow it; strict ones do not.
+        Shaka requires a leading #EXTM3U and reports the JSON body as
+        HLS_PLAYLIST_HEADER_MISSING (error 4015), so the channel is unplayable
+        in the browser and through the PrismCast bridge.
+
+        Only probed when the resolved URL has no manifest suffix — true for
+        exactly one of 72 channels here — so the common path costs no extra
+        request. Deliberately narrow: a non-JSON content type, a non-string
+        payload, or anything that isn't an http(s) URL is left untouched, so a
+        provider returning JSON for some other reason cannot break playback.
+        The probe itself uses a dedicated no-retry session with a tight
+        timeout (see _indirection_session in __init__) so a flaky provider
+        can't turn into a multi-attempt stall or a 429 retry storm on this
+        synchronous play-time path — same non-caching behavior as the rest of
+        resolve() (broadcast/asset lookups also re-fetch on every call).
+        """
+        if urlparse(url).path.lower().endswith(self._MANIFEST_SUFFIXES):
+            return url
+
+        try:
+            with self._indirection_session.get(
+                url, timeout=self._INDIRECTION_PROBE_TIMEOUT, stream=True,
+            ) as response:
+                response.raise_for_status()
+
+                content_length = response.headers.get("Content-Length")
+                if content_length and int(content_length) > self._INDIRECTION_MAX_BYTES:
+                    logger.warning(
+                        "[xumo] indirection probe response too large for %s (%s bytes)",
+                        url[:80], content_length,
+                    )
+                    return url
+
+                body = response.raw.read(self._INDIRECTION_MAX_BYTES + 1, decode_content=True)
+                content_type = (response.headers.get("Content-Type") or "").split(";", 1)[0].strip().lower()
+        except Exception as exc:  # noqa: BLE001 - never let a probe break playback
+            logger.warning("[xumo] indirection probe failed for %s: %s", url[:80], exc)
+            return url
+
+        if len(body) > self._INDIRECTION_MAX_BYTES:
+            logger.warning("[xumo] indirection probe response exceeded size cap for %s", url[:80])
+            return url
+
+        if "json" not in content_type:
+            logger.warning(
+                "[xumo] indirection probe returned non-JSON content-type %r for %s",
+                content_type, url[:80],
+            )
+            return url
+
+        try:
+            payload = json.loads(body)
+        except ValueError as exc:
+            logger.warning("[xumo] indirection probe returned invalid JSON for %s: %s", url[:80], exc)
+            return url
+
+        if not isinstance(payload, str):
+            logger.warning("[xumo] indirection probe returned a non-string JSON payload for %s", url[:80])
+            return url
+
+        candidate = payload.strip()
+        parsed_candidate = urlparse(candidate)
+        if parsed_candidate.scheme not in ("http", "https") or not parsed_candidate.netloc:
+            logger.warning("[xumo] indirection probe returned a non-URL payload for %s", url[:80])
+            return url
+
+        # debug, not info: with no caching this fires on every resolve() for
+        # the affected channel, so INFO would scale with viewer traffic.
+        logger.debug(
+            "[xumo] unwrapped playlist indirection: %s -> %s",
+            urlparse(url).netloc, parsed_candidate.netloc,
+        )
+        return candidate
+
+    @staticmethod
+    def _parse_xumo_dt(value: Any) -> datetime | None:
+        if not value:
+            return None
+        if isinstance(value, (int, float)):
+            # Defensive support for epoch timestamps.
+            try:
+                return datetime.fromtimestamp(float(value), tz=timezone.utc)
+            except Exception:
+                return None
+
+        text = str(value).strip()
+        for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ"):
+            try:
+                dt = datetime.strptime(text, fmt)
+                return dt.astimezone(timezone.utc)
+            except ValueError:
+                continue
+        return None
+
+    @staticmethod
+    def _nested_str(obj: dict[str, Any], *path: str) -> str | None:
+        cur: Any = obj
+        for key in path:
+            if not isinstance(cur, dict):
+                return None
+            cur = cur.get(key)
+        if cur is None:
+            return None
+        return str(cur)
+
+    @staticmethod
+    def _join_genres(values: list[Any] | None) -> str | None:
+        if not values:
+            return None
+        labels: list[str] = []
+        for value in values:
+            if isinstance(value, dict):
+                label = value.get("value") or value.get("title")
+            else:
+                label = str(value) if value is not None else None
+            if not label:
+                continue
+            label = label.strip()
+            if label and label not in labels:
+                labels.append(label)
+        return ';'.join(labels) or None
+
+    # Asset ID prefixes that resolve directly on the image CDN.
+    # XMP (SIMULCAST type) and EP (episode, needs connectorId lookup) do not.
+    _IMAGE_CDN_PREFIXES = ("SH", "MV", "XT", "XM")
+
+    def _poster_url(self, asset_id: str) -> str | None:
+        if not asset_id:
+            return None
+        prefix = asset_id[:2]
+        if prefix not in self._IMAGE_CDN_PREFIXES or asset_id.startswith("XMP"):
+            return None
+        # Channels DVR expects 2:3 portrait for movies, 4:3 for TV shows.
+        # MV = Movie, XM = Xumo Movie, XT = Xumo movie-type content; SH = Show.
+        size = "720x1080" if prefix in ("MV", "XM", "XT") else "800x600"
+        return f"{self.IMAGE_BASE}/{asset_id}/{size}.jpg"
+
+    @staticmethod
+    def _extract_genre(item: dict[str, Any]) -> str | None:
+        genres = item.get("genre") or []
+        if isinstance(genres, list):
+            return XumoScraper._join_genres(genres)
+        return None
+
+    @staticmethod
+    def _extract_asset_genre(asset: dict[str, Any]) -> str | None:
+        genres = asset.get("genres") or []
+        if isinstance(genres, list):
+            return XumoScraper._join_genres(genres)
+        return None
+
+    @staticmethod
+    def _extract_logo(item: dict[str, Any]) -> str | None:
+        images = item.get("images") or {}
+        if isinstance(images, dict):
+            for key in ("logo", "logoHorizontal", "logo_vertical", "thumbnail"):
+                value = images.get(key)
+                if value:
+                    return str(value)
+        if item.get("logo"):
+            return str(item["logo"])
+        return None
+
+    @staticmethod
+    def _extract_poster(asset: dict[str, Any]) -> str | None:
+        for key in ("image", "images", "artwork"):
+            value = asset.get(key)
+            if isinstance(value, str) and value:
+                return value
+            if isinstance(value, dict):
+                for subkey in ("poster", "hero", "thumbnail", "url"):
+                    subval = value.get(subkey)
+                    if subval:
+                        return str(subval)
+            if isinstance(value, list):
+                for entry in value:
+                    if isinstance(entry, str) and entry:
+                        return entry
+                    if isinstance(entry, dict):
+                        subval = entry.get("url") or entry.get("src")
+                        if subval:
+                            return str(subval)
+        return None
