@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+pytz
+pycryptodome
+curl_cffi>=0.10,<0.16
+requests-oauthlib
+tzdata
