@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="hallmark.hallmark_hits" tvg-name="Non-Stop Hallmark Hits" tvg-logo="/static/logos/hallmark/hits_improved.png" group-title="Movies" tvg-language="en" tvg-chno="9001",Non-Stop Hallmark Hits
+https://crwn-hits.akamaized.net/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="hallmark.hallmark_romcoms" tvg-name="Non-Stop Rom-Coms" tvg-logo="/static/logos/hallmark/romcoms_improved.png" group-title="Movies" tvg-language="en" tvg-chno="9002",Non-Stop Rom-Coms
+https://crwn-nsrc.akamaized.net/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="hallmark.hallmark_christmas" tvg-name="Non-Stop Christmas" tvg-logo="/static/logos/hallmark/christmas_improved.png" group-title="Movies" tvg-language="en" tvg-chno="9003",Non-Stop Christmas
+https://crwn-christmas.akamaized.net/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="hallmark.hallmark_mysteries" tvg-name="Non-Stop Mysteries" tvg-logo="/static/logos/hallmark/mysteries_improved.png" group-title="Movies" tvg-language="en" tvg-chno="9004",Non-Stop Mysteries
+https://crwn-mysteries.akamaized.net/hls/playlist.m3u8
