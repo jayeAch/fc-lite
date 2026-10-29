@@ -66,7 +66,7 @@ PROFILES = {
     'stirr':          (False, False, 'token (per-play API call)', {}),
     'xumo':           (False, False, 'token (per-play API call)', {}),
     'tcl':            (False, False, 'token (per-play API call)', {}),
-    'whale':          (False, False, 'token (per-play lookup)', {}),
+    'whale':          (True, True, 'token (per-play lookup)', {}),
     'zeam':           (False, False, 'token (per-play API call)', {}),
     'cspan':          (False, False, 'token (per-play API call)', {}),
     'ballysports':    (False, False, 'token (per-play API call)', {}),
