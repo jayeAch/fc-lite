@@ -26,6 +26,7 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 sys.path.insert(0, str(Path(__file__).parent))
+import prune  # noqa: E402
 from app.scrapers import registry  # noqa: E402
 
 log = logging.getLogger('run')
@@ -302,11 +303,8 @@ def main():
     out_dir = Path(opts['out'])
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    if not a.sources:  # clean up output of sources that are switched off
-        for k, e in srcs.items():
-            if not e.get('enabled'):
-                for ext in ('m3u', 'xml', 'raw.json'):
-                    (out_dir / f'{k}.{ext}').unlink(missing_ok=True)
+    if not a.sources:  # delete output no enabled source uses (disabled/removed sources)
+        prune.prune(out_dir, {k for k, e in srcs.items() if e.get('enabled')}, opts['combined'])
 
     results, failed = {}, list(bad)
     with ThreadPoolExecutor(max_workers=int(opts['workers'])) as ex:
