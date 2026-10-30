@@ -19,6 +19,7 @@ import json
 import logging
 import re
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -31,6 +32,9 @@ log = logging.getLogger('run')
 HTTP = re.compile(r'^https?://', re.I)
 
 DEFAULT_OPTIONS = {'out': 'playlists', 'workers': 4, 'combined': True, 'base_url': ''}
+
+# seconds to pause between build-time resolves for rate-limited services
+RESOLVE_DELAY = {'stirr': 1.0}
 
 # name: (enabled, resolve_at_build, note, default scraper config)
 # Enabled by default = free, no login, no DRM, and the stream URL is playable as a plain URL
@@ -63,10 +67,10 @@ PROFILES = {
     # stream URL only obtained per play (session/token), needs resolver.py + options.base_url
     'pluto':          (False, False, 'token (per-play JWT)', {}),
     'plex':           (False, False, 'token (short-lived per-play URL)', {}),
-    'stirr':          (True, True, 'token (per-play API call)', {}),
+    'stirr':          (True,  True,  'token (per-play API call)', {}),
     'xumo':           (False, False, 'token (per-play API call)', {}),
     'tcl':            (False, False, 'token (per-play API call)', {}),
-    'whale':          (True, True, 'token (per-play lookup)', {}),
+    'whale':          (True,  True,  'token (per-play lookup)', {}),
     'zeam':           (False, False, 'token (per-play API call)', {}),
     'cspan':          (False, False, 'token (per-play API call)', {}),
     'ballysports':    (False, False, 'token (per-play API call)', {}),
@@ -92,6 +96,8 @@ def init_config(path: Path, reg) -> dict:
             continue
         en, rab, note, scfg = PROFILES.get(name, (False, False, 'unclassified', {}))
         srcs[name] = {'enabled': en, 'resolve_at_build': rab, 'note': note, 'config': dict(scfg)}
+        if name in RESOLVE_DELAY:
+            srcs[name]['resolve_delay'] = RESOLVE_DELAY[name]
         added.append(name)
     if added or not path.exists():
         path.write_text(json.dumps(cfg, indent=2) + '\n', encoding='utf-8')
@@ -201,6 +207,31 @@ def write_xmltv(path, chans, progs):
 
 # ── scraping ────────────────────────────────────────────────────────────────
 
+def needs_resolve(url) -> bool:
+    return bool(url) and (not HTTP.match(url) or ('[' in url and ']' in url))
+
+
+def resolve_now(name, sc, channels, delay=0.0, passes=3):
+    """Bake final URLs into channels. Retries failures (e.g. HTTP 429) after a growing pause."""
+    pending = [c for c in channels if needs_resolve(c.stream_url)]
+    for attempt in range(passes):
+        for c in pending:
+            try:
+                c.stream_url = sc.resolve(c.stream_url) or c.stream_url
+            except Exception as e:
+                log.warning('[%s] resolve %s failed: %s', name, c.source_channel_id, e)
+            if delay:
+                time.sleep(delay)
+        pending = [c for c in pending if needs_resolve(c.stream_url)]
+        if not pending:
+            return
+        if attempt < passes - 1:
+            wait = 15 * (attempt + 1)
+            log.info('[%s] %d unresolved, retrying in %ds', name, len(pending), wait)
+            time.sleep(wait)
+    log.warning('[%s] %d channels still unresolved', name, len(pending))
+
+
 def scrape(name, cls, cfg, out_dir):
     entry = cfg.get('sources', {}).get(name, {})
     base_url = cfg.get('options', {}).get('base_url', '')
@@ -215,12 +246,7 @@ def scrape(name, cls, cfg, out_dir):
     if cls.license_url:
         log.warning('[%s] DRM source; static M3U will not play without a license proxy', name)
     if entry.get('resolve_at_build'):
-        for c in channels:
-            if c.stream_url and not HTTP.match(c.stream_url):
-                try:
-                    c.stream_url = sc.resolve(c.stream_url) or c.stream_url
-                except Exception as e:
-                    log.warning('[%s] resolve %s failed: %s', name, c.source_channel_id, e)
+        resolve_now(name, sc, channels, float(entry.get('resolve_delay', 0)))
     m3u, skipped = m3u_entries(name, channels, base_url)
     chans, progs = xmltv_entries(name, channels, programs)
     write_m3u(out_dir / f'{name}.m3u', m3u)
