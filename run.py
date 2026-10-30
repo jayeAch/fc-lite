@@ -70,7 +70,7 @@ PROFILES = {
     # stream URL only obtained per play (session/token), needs resolver.py + options.base_url
     'pluto':          (False, False, 'token (per-play JWT)', {}),
     'plex':           (False, False, 'token (short-lived per-play URL)', {}),
-    'stirr':          (True,  True,  'token (per-play API call)', {}),
+    'stirr':          (True,  False,  'token (per-play API call)', {}),
     'xumo':           (False, False, 'token (per-play API call)', {}),
     'tcl':            (False, False, 'token (per-play API call)', {}),
     'whale':          (True,  True,  'token (per-play lookup)', {}),
