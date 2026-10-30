@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 # VideoObject / og:description). Fetching that is one HTTP round-trip per
 # channel, so results are cached on disk and only refreshed occasionally.
 _DESC_CACHE_PATH = Path(
-    os.environ.get("FASTCHANNELS_STIRR_DESC_CACHE", "/data/cache/stirr_descriptions.json")
+    os.environ.get("FASTCHANNELS_STIRR_DESC_CACHE", "cache/stirr_descriptions.json")
 )
 _DESC_HIT_TTL = timedelta(days=30)   # complete descriptions rarely change
 _DESC_MISS_TTL = timedelta(days=3)   # retry pages that yielded nothing sooner
