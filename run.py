@@ -55,7 +55,7 @@ PROFILES = {
     # DRM
     'roku':           (False, False, 'token + DRM (Widevine/FairPlay variants)', {}),
     'vix':            (False, False, 'DRM', {}),
-    'vidaa':          (TRUE, TRUE, 'DRM', {}),
+    'vidaa':          (True, True, 'DRM', {}),
     'pbs':            (False, False, 'DRM', {}),
     'sling':          (False, False, 'DRM + login', {}),
     'amazon_prime_free': (False, False, 'DRM + login', {}),
