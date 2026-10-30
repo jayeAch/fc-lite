@@ -132,7 +132,6 @@
 <channel id="whale.1065522377628650142"><display-name>TV5 Monde Info</display-name><icon src="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/tv5mondeinfo_white.png"/></channel>
 <channel id="whale.942280082834594503"><display-name>time2Rlx</display-name><icon src="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/wedotvtime2rlx_white.png"/></channel>
 <channel id="whale.979187723418476864"><display-name>NOMADLife.tv</display-name><icon src="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/nomadlifetv_white.png"/></channel>
-<programme start="20261030145405 +0000" stop="20261030154314 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E11 - Episode 11</title><desc>Two lovers have their backs against the wall when a blackmailer asks for something they loathe to give. Petra does her best to lie about her feelings.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/1/2026-09-05/c46d5508fc3103693cef92fef822bcb1.jpg.webp"/></programme>
 <programme start="20261030154314 +0000" stop="20261030163206 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E12 - Episode 12</title><desc>Petra realises that it’s not all black and white when it comes to the game of love. John has Felicity incensed when John derails her plan. Stefan comes across startling information about an enemy.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/1/2026-09-06/c46d5508fc3103693cef92fef822bcb1.jpg.webp"/></programme>
 <programme start="20261030163206 +0000" stop="20261030172343 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E13 - Episode 13</title><desc>Dineo is confused and angry to learn about SJ’s secret. Msizi breaks every rule to bring someone powerful to his corner. Felicity is thrown by the price of someone’s silence.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/1/2026-09-07/c46d5508fc3103693cef92fef822bcb1.jpg.webp"/></programme>
 <programme start="20261030172343 +0000" stop="20261030181235 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E14 - Episode 14</title><desc>Felicity turns the tables on John, while Msizi pulls off a masterstroke. Angelique has a change of heart.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/1/2026-09-08/c46d5508fc3103693cef92fef822bcb1.jpg.webp"/></programme>
@@ -162,7 +161,7 @@
 <programme start="20261031131117 +0000" stop="20261031135851 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E10 - Episode 10</title><desc>Felicity and Stefan’s search for their blackmailer proves more dangerous than they thought, while Petra’s lunch with SJ takes an unexpected turn.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/1/2026-09-04/c46d5508fc3103693cef92fef822bcb1.jpg.webp"/></programme>
 <programme start="20261031135851 +0000" stop="20261031144800 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E11 - Episode 11</title><desc>Two lovers have their backs against the wall when a blackmailer asks for something they loathe to give. Petra does her best to lie about her feelings.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/1/2026-09-05/c46d5508fc3103693cef92fef822bcb1.jpg.webp"/></programme>
 <programme start="20261031144800 +0000" stop="20261031153652 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E12 - Episode 12</title><desc>Petra realises that it’s not all black and white when it comes to the game of love. John has Felicity incensed when John derails her plan. Stefan comes across startling information about an enemy.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/1/2026-09-06/c46d5508fc3103693cef92fef822bcb1.jpg.webp"/></programme>
-<programme start="20261031153652 +0000" stop="20261031162830 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E13 - Episode 13</title></programme>
+<programme start="20261031153652 +0000" stop="20261031162830 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E13 - Episode 13</title><desc>Dineo is confused and angry to learn about SJ’s secret. Msizi breaks every rule to bring someone powerful to his corner. Felicity is thrown by the price of someone’s silence.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/1/2026-09-07/c46d5508fc3103693cef92fef822bcb1.jpg.webp"/></programme>
 <programme start="20261031162830 +0000" stop="20261031171931 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E14 - Episode 14</title></programme>
 <programme start="20261031171931 +0000" stop="20261031180719 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E15 - Episode 15</title></programme>
 <programme start="20261031180719 +0000" stop="20261031185519 +0000" channel="whale.1047721653058412082"><title>Legacy - S01:E16 - Episode 16</title></programme>
@@ -336,7 +335,6 @@
 <programme start="20261106132344 +0000" stop="20261106141252 +0000" channel="whale.1047721653058412082"><title>Legacy - S03:E18 - Episode 18</title></programme>
 <programme start="20261106141252 +0000" stop="20261106150049 +0000" channel="whale.1047721653058412082"><title>Legacy - S03:E19 - Episode 19</title></programme>
 <programme start="20261106150049 +0000" stop="20261106155003 +0000" channel="whale.1047721653058412082"><title>Legacy - S03:E20 - Episode 20</title></programme>
-<programme start="20261030150543 +0000" stop="20261030153330 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title><sub-title>Sedgwick The Thief</sub-title><desc>One of the guys is arrested for shoplifting.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-31/2da053bee7ef802a1dd26aaf20600bcd.jpeg.webp"/><episode-num system="xmltv_ns">4.11.</episode-num><rating><value>TVPG</value></rating></programme>
 <programme start="20261030153330 +0000" stop="20261030170240 +0000" channel="whale.925725895506330246"><title>Red Green - On Tour</title><sub-title>How To Do Everything Tour (2013)</sub-title><desc>A 2013 live performance by comedian Steve Smith as his alter ego, handyman Red Green.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-31/7f6f22f0bca0da33a7eafeb7bee5522a.png.webp"/><episode-num system="xmltv_ns">0.2.</episode-num><rating><value>TVPG</value></rating></programme>
 <programme start="20261030170240 +0000" stop="20261030172919 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title><sub-title>A Shot In The Dark</sub-title><desc>Red and Harold contract a contagious disease and have to give each other shots.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-24/a15b04ba45c24206bdc078290a9ef7a6.png.webp"/><episode-num system="xmltv_ns">13.14.</episode-num><rating><value>TVPG</value></rating></programme>
 <programme start="20261030172919 +0000" stop="20261030175750 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title><sub-title>The Water Park</sub-title><desc>Red and his pals use an accidental cement spill to their advantage and build a water park out of Possum Lake.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-22/ed8e1b200ab159b374ec2b3e1b8f2403.jpeg.webp"/><episode-num system="xmltv_ns">2.16.</episode-num><rating><value>TVPG</value></rating></programme>
@@ -387,7 +385,7 @@
 <programme start="20261031141442 +0000" stop="20261031144059 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title><sub-title>Dalton's Hot Gift</sub-title><desc>Red suspects Mike stole Dalton's birthday gift.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-30/26eb9d4c3d1f32c6f262d7a222fc7cc2.jpeg.webp"/><episode-num system="xmltv_ns">10.4.</episode-num><rating><value>TVPG</value></rating></programme>
 <programme start="20261031144059 +0000" stop="20261031150746 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title><sub-title>Lunar Eclipse</sub-title><desc>The men reminisce as they watch a lunar eclipse.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-09-03/5197bfe2f0c5b5e733c313468fb3b263.jpeg.webp"/><episode-num system="xmltv_ns">9.8.</episode-num><rating><value>TVPG</value></rating></programme>
 <programme start="20261031150746 +0000" stop="20261031153534 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title><sub-title>Real Estate</sub-title><desc>Red has now become Moose Thompson's real estate agent.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-30/421d558ccfdbc410f0418593f9742f45.jpeg.webp"/><episode-num system="xmltv_ns">5.19.</episode-num><rating><value>TVPG</value></rating></programme>
-<programme start="20261031153534 +0000" stop="20261031160404 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title></programme>
+<programme start="20261031153534 +0000" stop="20261031160404 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title><sub-title>Hot Water Bottle</sub-title><desc>Blowing up a hot water bottle.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-30/c05b7d39ba7754033352e756833fe724.jpeg.webp"/><episode-num system="xmltv_ns">0.14.</episode-num><rating><value>TVPG</value></rating></programme>
 <programme start="20261031160404 +0000" stop="20261031163102 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title></programme>
 <programme start="20261031163102 +0000" stop="20261031165855 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title></programme>
 <programme start="20261031165855 +0000" stop="20261031172534 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title></programme>
@@ -612,9 +610,9 @@
 <programme start="20261104230804 +0000" stop="20261104233631 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title></programme>
 <programme start="20261104233631 +0000" stop="20261105000421 +0000" channel="whale.925725895506330246"><title>The Red Green Show</title></programme>
 <programme start="20261030142438 +0000" stop="20261030162215 +0000" channel="whale.1022125030546936778"><title>Unknown</title><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-10/cdce10dae090976133d509bc859e2c12.png.webp"/></programme>
-<programme start="20261030162215 +0000" stop="20261030181527 +0000" channel="whale.1022125030546936778"><title>Rendezvous</title></programme>
+<programme start="20261030162215 +0000" stop="20261030181527 +0000" channel="whale.1022125030546936778"><title>Rendezvous</title><desc>In a bleak retrofuture, the powerful Tiger Corp. develops a promising experiment to dominate space and time.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-10/290ede9017dd22516ca8905f19e6686a.jpg.webp"/><rating><value>TV-14</value></rating></programme>
 <programme start="20261030181527 +0000" stop="20261030193212 +0000" channel="whale.1022125030546936778"><title>Slave Girls on the Moon</title><desc>When her colleague is accidentally shot into the year 8888 and sent to a prison on the Moon, scientist Chloe Trustcott must travel to the future and get arrested herself to plan a prison-break in order to save her.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-07-23/878375b31e81c76f78c460beb6736948.png.webp"/><rating><value>TV-14</value></rating></programme>
-<programme start="20261030193212 +0000" stop="20261030211634 +0000" channel="whale.1022125030546936778"><title>Unknown</title><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-07-23/64ca5bf2805bdd4bb2c12fe413e67256.png.webp"/></programme>
+<programme start="20261030193212 +0000" stop="20261030211634 +0000" channel="whale.1022125030546936778"><title>Unknown</title></programme>
 <programme start="20261030211634 +0000" stop="20261030213831 +0000" channel="whale.1022125030546936778"><title>Kessler Syndrome</title></programme>
 <programme start="20261030213831 +0000" stop="20261030220915 +0000" channel="whale.1022125030546936778"><title>Battledream Chronicles</title></programme>
 <programme start="20261030220915 +0000" stop="20261030223019 +0000" channel="whale.1022125030546936778"><title>The Looking Planet</title></programme>
@@ -657,8 +655,7 @@
 <programme start="20261031121431 +0000" stop="20261031135845 +0000" channel="whale.1022125030546936766"><title>Americano</title></programme>
 <programme start="20261031135845 +0000" stop="20261031154135 +0000" channel="whale.1022125030546936766"><title>You Hittin Dat</title></programme>
 <programme start="20261031154135 +0000" stop="20261031171827 +0000" channel="whale.1022125030546936766"><title>The Shooting</title></programme>
-<programme start="20261030152012 +0000" stop="20261030153932 +0000" channel="whale.1022125030546936773"><title>Missing Dog</title><desc>It is a bad day for Rudolf, a lonely retiree who finds himself followed by a dog on his way to the post office. Yet this encounter will have unexpected consequences in his life.</desc></programme>
-<programme start="20261030153932 +0000" stop="20261030155850 +0000" channel="whale.1022125030546936773"><title>Mouth Of Horror</title></programme>
+<programme start="20261030153932 +0000" stop="20261030155850 +0000" channel="whale.1022125030546936773"><title>Mouth Of Horror</title><desc>A girl wakes up in the dark, wounded and surrounded by corpses. She does not remember what happened or her name, but she has a phone.</desc></programme>
 <programme start="20261030155850 +0000" stop="20261030161805 +0000" channel="whale.1022125030546936773"><title>La Promessa</title></programme>
 <programme start="20261030161805 +0000" stop="20261030165709 +0000" channel="whale.1022125030546936773"><title>Il Rosario</title></programme>
 <programme start="20261030165709 +0000" stop="20261030173055 +0000" channel="whale.1022125030546936773"><title>Borghi E Demoni</title></programme>
@@ -811,8 +808,7 @@
 <programme start="20261031211302 +0000" stop="20261031221701 +0000" channel="whale.1022125030546936761"><title>One Step Beyond</title></programme>
 <programme start="20261031221701 +0000" stop="20261031225133 +0000" channel="whale.1022125030546936761"><title>The Veil</title></programme>
 <programme start="20261031225133 +0000" stop="20261031232318 +0000" channel="whale.1022125030546936761"><title>The Veil</title></programme>
-<programme start="20261030144134 +0000" stop="20261030152705 +0000" channel="whale.894118415936589488"><title>Jerry Springer</title><desc>Jeanette must choose between two men, Brian gives Ron an ultimatum, and Joanne faces betrayal!</desc></programme>
-<programme start="20261030152705 +0000" stop="20261030161007 +0000" channel="whale.894118415936589488"><title>Jerry Springer</title></programme>
+<programme start="20261030152705 +0000" stop="20261030161007 +0000" channel="whale.894118415936589488"><title>Jerry Springer</title><desc>Controlling men push Morgan, Hannah, and Ebony to question their relationships.</desc></programme>
 <programme start="20261030161007 +0000" stop="20261030165551 +0000" channel="whale.894118415936589488"><title>Jerry Springer</title></programme>
 <programme start="20261030165551 +0000" stop="20261030174441 +0000" channel="whale.894118415936589488"><title>Jerry Springer</title></programme>
 <programme start="20261030174441 +0000" stop="20261030182719 +0000" channel="whale.894118415936589488"><title>Jerry Springer</title></programme>
@@ -1369,8 +1365,7 @@
 <programme start="20261031184605 +0000" stop="20261031204232 +0000" channel="whale.1088385876566278483"><title>A Dose Of Her Own Pill</title></programme>
 <programme start="20261031204232 +0000" stop="20261031230000 +0000" channel="whale.1088385876566278483"><title>Man Down</title></programme>
 <programme start="20261031230000 +0000" stop="20261101012255 +0000" channel="whale.1088385876566278483"><title>March 17th</title></programme>
-<programme start="20261030144812 +0000" stop="20261030153333 +0000" channel="whale.894117456778889583"><title>Maury</title><desc>Deshan's sister and mother seek a paternity test! Melissa and Rob face DNA drama!</desc></programme>
-<programme start="20261030153333 +0000" stop="20261030162054 +0000" channel="whale.894117456778889583"><title>Maury</title></programme>
+<programme start="20261030153333 +0000" stop="20261030162054 +0000" channel="whale.894117456778889583"><title>Maury</title><desc>AJ denies fathering Labri's son, citing rumors of her infidelity, but Lanee' insists on a paternity test.</desc></programme>
 <programme start="20261030162054 +0000" stop="20261030170903 +0000" channel="whale.894117456778889583"><title>People's Court</title></programme>
 <programme start="20261030170903 +0000" stop="20261030175555 +0000" channel="whale.894117456778889583"><title>People's Court</title></programme>
 <programme start="20261030175555 +0000" stop="20261030184455 +0000" channel="whale.894117456778889583"><title>The People's Court</title></programme>
@@ -1605,8 +1600,7 @@
 <programme start="20261031180300 +0000" stop="20261031195507 +0000" channel="whale.967946649035481273"><title>A hole between the eyes</title></programme>
 <programme start="20261031195507 +0000" stop="20261031220434 +0000" channel="whale.967946649035481273"><title>Ben and Charlie</title></programme>
 <programme start="20261031220434 +0000" stop="20261101000052 +0000" channel="whale.967946649035481273"><title>The Finch Thief</title></programme>
-<programme start="20261030145023 +0000" stop="20261030152452 +0000" channel="whale.972720861289775954"><title>Madame...Monsieur</title><desc>Men and women have different perceptions about the world. They react differently to societal actions.</desc></programme>
-<programme start="20261030152452 +0000" stop="20261030165455 +0000" channel="whale.972720861289775954"><title>Liwong</title></programme>
+<programme start="20261030152452 +0000" stop="20261030165455 +0000" channel="whale.972720861289775954"><title>Liwong</title><desc>Prince Randy and his Foundation fought for their country to legalize tissue donation, but trouble soon comes.</desc></programme>
 <programme start="20261030165455 +0000" stop="20261030190456 +0000" channel="whale.972720861289775954"><title>Turning Tables</title></programme>
 <programme start="20261030190456 +0000" stop="20261030203529 +0000" channel="whale.972720861289775954"><title>Jomako Black Democracy</title></programme>
 <programme start="20261030203529 +0000" stop="20261030223259 +0000" channel="whale.972720861289775954"><title>The Set Up</title></programme>
@@ -1685,8 +1679,7 @@
 <programme start="20261103184150 +0000" stop="20261103204023 +0000" channel="whale.972720861289775954"><title>Lily's Voice</title></programme>
 <programme start="20261103204023 +0000" stop="20261103222321 +0000" channel="whale.972720861289775954"><title>The Herbert Macaulay Affair</title></programme>
 <programme start="20261103222321 +0000" stop="20261103233645 +0000" channel="whale.972720861289775954"><title>Gacal</title></programme>
-<programme start="20261030134132 +0000" stop="20261030154043 +0000" channel="whale.609411515976060398"><title>The Devil At Your Heels</title><desc>Devil at Your Heels, traces the trials of stuntman Ken Carter who attempts a death defying aerial jump in a car. Not content with a normal jump, Ken Carter attempts a jump from Canada to the USA.</desc></programme>
-<programme start="20261030154043 +0000" stop="20261030162943 +0000" channel="whale.609411515976060398"><title>Aircraft Carrier: Guardian Of The Seas</title></programme>
+<programme start="20261030154043 +0000" stop="20261030162943 +0000" channel="whale.609411515976060398"><title>Aircraft Carrier: Guardian Of The Seas</title><desc>One of the greatest engineering feats in history, the modern US nuclear carrier is a masterpiece of technology, and the flagship of a fleet.</desc></programme>
 <programme start="20261030162943 +0000" stop="20261030181931 +0000" channel="whale.609411515976060398"><title>Sherlock Holmes: The Sign Of Four</title></programme>
 <programme start="20261030181931 +0000" stop="20261030194951 +0000" channel="whale.609411515976060398"><title>Kumu Hina</title></programme>
 <programme start="20261030194951 +0000" stop="20261030213851 +0000" channel="whale.609411515976060398"><title>The Truth</title></programme>
@@ -2153,8 +2146,7 @@
 <programme start="20261031195900 +0000" stop="20261031215700 +0000" channel="whale.979187723418476860"><title>The 10th Victim</title></programme>
 <programme start="20261031215700 +0000" stop="20261031235500 +0000" channel="whale.979187723418476860"><title>The Navigator: A Medieval Odyssey</title></programme>
 <programme start="20261031235500 +0000" stop="20261101014000 +0000" channel="whale.979187723418476860"><title>The Premature Burial</title></programme>
-<programme start="20261030133000 +0000" stop="20261030153000 +0000" channel="whale.942280082834594517"><title>Shadows of the City</title><desc>Behind the city's Black Eclipse Syndicate's power lies a crumbling loyalty that threatens to bring it all down.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030174500 +0000" channel="whale.942280082834594517"><title>Honesty</title></programme>
+<programme start="20261030153000 +0000" stop="20261030174500 +0000" channel="whale.942280082834594517"><title>Honesty</title><desc>A struggling woman finds hope in a friend, but together they spiral into crime and violence.</desc></programme>
 <programme start="20261030174500 +0000" stop="20261030193000 +0000" channel="whale.942280082834594517"><title>Sade</title></programme>
 <programme start="20261030193000 +0000" stop="20261030213000 +0000" channel="whale.942280082834594517"><title>Falcon Rising</title></programme>
 <programme start="20261030213000 +0000" stop="20261030233000 +0000" channel="whale.942280082834594517"><title>Executor</title></programme>
@@ -2398,8 +2390,7 @@
 <programme start="20261104181853 +0000" stop="20261104212120 +0000" channel="whale.879576692313038808"><title>Raindrop</title></programme>
 <programme start="20261104212120 +0000" stop="20261104231520 +0000" channel="whale.879576692313038808"><title>Lethal Obsession</title></programme>
 <programme start="20261104231520 +0000" stop="20261105005132 +0000" channel="whale.879576692313038808"><title>Game Change</title></programme>
-<programme start="20261030141355 +0000" stop="20261030154257 +0000" channel="whale.1057801252425569161"><title>Hotel del Luna</title><desc>Goo Chan Seong busca ayuda en el Hotel Del Luna para recuperar un regalo y desencadena eventos.</desc></programme>
-<programme start="20261030154257 +0000" stop="20261030170928 +0000" channel="whale.1057801252425569161"><title>Hotel del Luna</title></programme>
+<programme start="20261030154257 +0000" stop="20261030170928 +0000" channel="whale.1057801252425569161"><title>Hotel del Luna</title><desc>Man Wol le da a Chan Seong una visita guiada por su hotel. En su primer día como gerente, Chan Seong se encuentra con un estudiante que necesita su ayuda.</desc></programme>
 <programme start="20261030170928 +0000" stop="20261030183716 +0000" channel="whale.1057801252425569161"><title>Hotel del Luna</title></programme>
 <programme start="20261030183716 +0000" stop="20261030200741 +0000" channel="whale.1057801252425569161"><title>Hotel del Luna</title></programme>
 <programme start="20261030200741 +0000" stop="20261030212423 +0000" channel="whale.1057801252425569161"><title>Hotel del Luna</title></programme>
@@ -2781,8 +2772,7 @@
 <programme start="20261103064207 +0000" stop="20261103082052 +0000" channel="whale.942280082834594516"><title>Quizás</title></programme>
 <programme start="20261103082052 +0000" stop="20261103093834 +0000" channel="whale.942280082834594516"><title>Dos aguas</title></programme>
 <programme start="20261103093834 +0000" stop="20261103110001 +0000" channel="whale.942280082834594516"><title>Atrevidas</title></programme>
-<programme start="20261030134338 +0000" stop="20261030153047 +0000" channel="whale.1034986045911343818"><title>Stories from the Sea</title><desc>The film shows these women as they navigate the sea, calculate routes and perform tasks such as hoisting the sails and steering the ship. The documentary features women of different ages and backgrounds, including an apprentice on a cargo ship, a retiree traveling alone on a cruise ship, and a group of young people on a sailing trip for intercultural understanding.</desc></programme>
-<programme start="20261030153047 +0000" stop="20261030174249 +0000" channel="whale.1034986045911343818"><title>Johanna Dohnal - Visionary of Feminism</title></programme>
+<programme start="20261030153047 +0000" stop="20261030174249 +0000" channel="whale.1034986045911343818"><title>Johanna Dohnal - Visionary of Feminism</title><desc>Dohnal worked in the SPÖ from 1956 and was a minister from 1979 to 1995. Under her leadership, rape within marriage became punishable, guardianship of unmarried mothers was abolished, sexual harassment became a criminal offense, and expulsion in cases of domestic violence became law. Women's shelters, gender quotas, and equal treatment laws were established for the first time.</desc></programme>
 <programme start="20261030174249 +0000" stop="20261030181904 +0000" channel="whale.1034986045911343818"><title>Home Game</title></programme>
 <programme start="20261030181904 +0000" stop="20261030200817 +0000" channel="whale.1034986045911343818"><title>Gisela</title></programme>
 <programme start="20261030200817 +0000" stop="20261030203048 +0000" channel="whale.1034986045911343818"><title>I Knew You Were My Kind</title></programme>
@@ -2878,8 +2868,8 @@
 <programme start="20261101131354 +0000" stop="20261101145932 +0000" channel="whale.1034986045911343817"><title>Youth Topia</title></programme>
 <programme start="20261101145932 +0000" stop="20261101164543 +0000" channel="whale.1034986045911343817"><title>Burning Beds</title></programme>
 <programme start="20261101164543 +0000" stop="20261101181931 +0000" channel="whale.1034986045911343817"><title>Adam Ondra: Pushing the Limits</title></programme>
-<programme start="20261030152045 +0000" stop="20261030154043 +0000" channel="whale.1034986045911343825"><title>Drishtikon</title><desc>Aadhya tries to change Drishtikon of her father by and tries to prove him wrong. she tries to take family business.</desc></programme>
-<programme start="20261030154043 +0000" stop="20261030155209 +0000" channel="whale.1034986045911343825"><title>Afwahbaaz</title></programme>
+<programme start="20261030154043 +0000" stop="20261030155209 +0000" channel="whale.1034986045911343825"><title>Afwahbaaz</title><desc>Guru Ashwatthama starts a day with his IT Cell students in a rural India School with mostly unemployed
+adult as his WhatsApp university students.</desc></programme>
 <programme start="20261030155209 +0000" stop="20261030161233 +0000" channel="whale.1034986045911343825"><title>Drishtikon</title></programme>
 <programme start="20261030161233 +0000" stop="20261030162355 +0000" channel="whale.1034986045911343825"><title>Afwahbaaz</title></programme>
 <programme start="20261030162355 +0000" stop="20261030164140 +0000" channel="whale.1034986045911343825"><title>Drishtikon</title></programme>
@@ -2939,8 +2929,7 @@
 <programme start="20261031144749 +0000" stop="20261031150813 +0000" channel="whale.1034986045911343825"><title>Drishtikon</title></programme>
 <programme start="20261031150813 +0000" stop="20261031151934 +0000" channel="whale.1034986045911343825"><title>Afwahbaaz</title></programme>
 <programme start="20261031151934 +0000" stop="20261031153710 +0000" channel="whale.1034986045911343825"><title>Drishtikon</title></programme>
-<programme start="20261030150228 +0000" stop="20261030153810 +0000" channel="whale.1022125030546936771"><title>Pink in Blue</title><desc>Story starts with a baby girl born in a family where Yashoda is not happy with it. HE expects baby boy as the boy continues the generation and hierarchy. HE starts ignoring the baby girl and forces his son Ashok to remarry so that the family will get a boy.</desc></programme>
-<programme start="20261030153810 +0000" stop="20261030162454 +0000" channel="whale.1022125030546936771"><title>Murders By Masses</title></programme>
+<programme start="20261030153810 +0000" stop="20261030162454 +0000" channel="whale.1022125030546936771"><title>Murders By Masses</title><desc>Renuka comes back home and a series of hateful actions from her father takes place who is still struggling to accept the sexual identity of her daughter and locks her inside a room thinking her to be a ghost. Nisha (Garima's lawyer), gets to know about the fact that Pratyush is gay and frames with, Garima (Pratyush's wife), in the worst imaginative way with help of, Nitin (a social media influencer), who is against the wave of LGBTQ committee and their freedom.</desc></programme>
 <programme start="20261030162454 +0000" stop="20261030173529 +0000" channel="whale.1022125030546936771"><title>6387 meters Black Peak</title></programme>
 <programme start="20261030173529 +0000" stop="20261030195827 +0000" channel="whale.1022125030546936771"><title>Its Life Yaar</title></programme>
 <programme start="20261030195827 +0000" stop="20261030203128 +0000" channel="whale.1022125030546936771"><title>Rishta Anjana</title></programme>
@@ -3189,8 +3178,7 @@
 <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="whale.1022680398146637012"><title>CNA Originals</title></programme>
 <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="whale.1022680398146637012"><title>CNA Originals</title></programme>
 <programme start="20261106150000 +0000" stop="20261106160000 +0000" channel="whale.1022680398146637012"><title>CNA Originals</title></programme>
-<programme start="20261030145933 +0000" stop="20261030152931 +0000" channel="whale.989293714931712087"><title>A Diary from the Empire to the Republic Ep.3</title><desc>This is Xu Shichang, a 'jinshi' which means a successful candidate in the highest imperial examinations. He was trusted aide to Yuan Shikai, known as the &quot;Crystal Fox&quot; for his political cunning. He was deeply involved in some of the defining events of late Qing Dynasty of China. His diaries offer a glimpse into the intrigues, alliances and power struggles that shaped a turbulent era.</desc></programme>
-<programme start="20261030152931 +0000" stop="20261030160000 +0000" channel="whale.989293714931712087"><title>A Diary from the Empire to the Republic Ep.4</title></programme>
+<programme start="20261030152931 +0000" stop="20261030160000 +0000" channel="whale.989293714931712087"><title>A Diary from the Empire to the Republic Ep.4</title><desc>This is Xu Shichang, a 'jinshi' which means a successful candidate in the highest imperial examinations. He was trusted aide to Yuan Shikai, known as the &quot;Crystal Fox&quot; for his political cunning. He was deeply involved in some of the defining events of late Qing Dynasty of China. His diaries offer a glimpse into the intrigues, alliances and power struggles that shaped a turbulent era.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030164400 +0000" channel="whale.989293714931712087"><title>Energy Wave Ep.2</title></programme>
 <programme start="20261030164400 +0000" stop="20261030172800 +0000" channel="whale.989293714931712087"><title>Energy Wave Ep.3</title></programme>
 <programme start="20261030172800 +0000" stop="20261030182929 +0000" channel="whale.989293714931712087"><title>Splendid Xinjiang Ep.6</title></programme>
@@ -3399,8 +3387,7 @@
 <programme start="20261106130000 +0000" stop="20261106135700 +0000" channel="whale.999420644834214639"><title>Our Nature</title></programme>
 <programme start="20261106135700 +0000" stop="20261106145800 +0000" channel="whale.999420644834214639"><title>A New Prehistory</title></programme>
 <programme start="20261106145800 +0000" stop="20261106155900 +0000" channel="whale.999420644834214639"><title>A New Prehistory</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.626555045429117070"><title>50+ Years of Sport</title><desc>The sporting year of 1974 gave us the &quot;Rumble in the Jungle&quot;, a FIFA World Cup and a historic baseball record.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.626555045429117070"><title>50+ Years of Sport</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.626555045429117070"><title>50+ Years of Sport</title><desc>We take you back to 1970, the year when Pelé carried off a new World Cup and Arthur Ashe won Wimbledon.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.626555045429117070"><title>Foul Play</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.626555045429117070"><title>Football Nation</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.626555045429117070"><title>The Front Row</title></programme>
@@ -3726,8 +3713,8 @@
 <programme start="20261106140000 +0000" stop="20261106143000 +0000" channel="whale.626555045429117070"><title>50+ Years of Sport</title></programme>
 <programme start="20261106143000 +0000" stop="20261106150000 +0000" channel="whale.626555045429117070"><title>50+ Years of Sport</title></programme>
 <programme start="20261106150000 +0000" stop="20261106153000 +0000" channel="whale.626555045429117070"><title>50+ Years of Sport</title></programme>
-<programme start="20261030145533 +0000" stop="20261030152607 +0000" channel="whale.1022125030546936767"><title>Trajectory</title><desc>The Milestones in Space Exploration with the Project Gemini Commences with Venus Express, Emu and Deep Space Communications</desc></programme>
-<programme start="20261030152607 +0000" stop="20261030155640 +0000" channel="whale.1022125030546936767"><title>Trajectory</title></programme>
+<programme start="20261106153000 +0000" stop="20261106160000 +0000" channel="whale.626555045429117070"><title>The Evolution of Sport</title></programme>
+<programme start="20261030152607 +0000" stop="20261030155640 +0000" channel="whale.1022125030546936767"><title>Trajectory</title><desc>The Milestones in Space Exploration with the Project Gemini Docking And Eva, Curiousity with Roving Mars and Swarm</desc></programme>
 <programme start="20261030155640 +0000" stop="20261030162713 +0000" channel="whale.1022125030546936767"><title>Trajectory</title></programme>
 <programme start="20261030162713 +0000" stop="20261030185235 +0000" channel="whale.1022125030546936767"><title>Spooks Hoods And JFK</title></programme>
 <programme start="20261030185235 +0000" stop="20261030210645 +0000" channel="whale.1022125030546936767"><title>I killed JFK</title></programme>
@@ -3746,8 +3733,7 @@
 <programme start="20261031135045 +0000" stop="20261031142119 +0000" channel="whale.1022125030546936767"><title>Trajectory</title></programme>
 <programme start="20261031142119 +0000" stop="20261031145152 +0000" channel="whale.1022125030546936767"><title>Trajectory</title></programme>
 <programme start="20261031145152 +0000" stop="20261031151403 +0000" channel="whale.1022125030546936767"><title>Trajectory</title></programme>
-<programme start="20261030145024 +0000" stop="20261030152506 +0000" channel="whale.1022125030546936777"><title>Zenith</title><desc>As our expertise in space technology increases there have been spin-offs in many areas: particularly in communications.</desc></programme>
-<programme start="20261030152506 +0000" stop="20261030170931 +0000" channel="whale.1022125030546936777"><title>To The Moon</title></programme>
+<programme start="20261030152506 +0000" stop="20261030170931 +0000" channel="whale.1022125030546936777"><title>To The Moon</title><desc>Between 1969 and 1972 twelve men walked on the surface of the moon. It was seen as the first chapter in an ambitious program of space exploration. But what started with NASA’s Apollo missions ended with the Apollo missions. Humanity’s boldest venture is now 50 years in the past. Although the Apollo missions were relatively short, it can not be underestimated just how groundbreaking its achievements were, unlocking the potential to explore and understand the world beyond Earth’s atmosphere like never before.</desc></programme>
 <programme start="20261030170931 +0000" stop="20261030181646 +0000" channel="whale.1022125030546936777"><title>Aurora</title></programme>
 <programme start="20261030181646 +0000" stop="20261030184923 +0000" channel="whale.1022125030546936777"><title>Zenith</title></programme>
 <programme start="20261030184923 +0000" stop="20261030195643 +0000" channel="whale.1022125030546936777"><title>Aurora</title></programme>
@@ -4359,6 +4345,7 @@
 <programme start="20261106102942 +0000" stop="20261106115642 +0000" channel="whale.989293714931712080"><title>Cuba Suena</title></programme>
 <programme start="20261106115642 +0000" stop="20261106133929 +0000" channel="whale.989293714931712080"><title>Amanece en Calcuta</title></programme>
 <programme start="20261106133929 +0000" stop="20261106152600 +0000" channel="whale.989293714931712080"><title>Brad Show Live</title></programme>
+<programme start="20261106152600 +0000" stop="20261106171113 +0000" channel="whale.989293714931712080"><title>Alas del Centenario</title></programme>
 <programme start="20261030151404 +0000" stop="20261030160806 +0000" channel="whale.931186243466302957"><title>Secretos de Australia Salvaje</title><desc>Los Quokas y Quolls resaltan las diferencias dentro de un grupo único de especies.</desc></programme>
 <programme start="20261030160806 +0000" stop="20261030170410 +0000" channel="whale.931186243466302957"><title>Secretos de Australia Salvaje</title></programme>
 <programme start="20261030170410 +0000" stop="20261030175615 +0000" channel="whale.931186243466302957"><title>Secretos de Australia Salvaje</title></programme>
@@ -4689,8 +4676,7 @@
 <programme start="20261102223106 +0000" stop="20261102230108 +0000" channel="whale.523509741847643710"><title>Top 20 Movie Geniuses Of All Time</title></programme>
 <programme start="20261102230108 +0000" stop="20261102233109 +0000" channel="whale.523509741847643710"><title>Top 20 Movies With More Than One Plot Twist</title></programme>
 <programme start="20261102233109 +0000" stop="20261103000110 +0000" channel="whale.523509741847643710"><title>Top 20 Satisfying Deaths Of Hated Movie Characters</title></programme>
-<programme start="20261030145908 +0000" stop="20261030153008 +0000" channel="whale.411588392116624389"><title>Around the World in 80 Fails</title><desc>Dive deep, soar high, or stay grounded—adventure fails await in every element, across the globe!</desc></programme>
-<programme start="20261030153008 +0000" stop="20261030160208 +0000" channel="whale.411588392116624389"><title>Best Fails of the Month</title></programme>
+<programme start="20261030153008 +0000" stop="20261030160208 +0000" channel="whale.411588392116624389"><title>Best Fails of the Month</title><desc>The best of the worst for May '20.</desc></programme>
 <programme start="20261030160208 +0000" stop="20261030163408 +0000" channel="whale.411588392116624389"><title>Best Fails of the Month</title></programme>
 <programme start="20261030163408 +0000" stop="20261030170608 +0000" channel="whale.411588392116624389"><title>Best Fails of the Month</title></programme>
 <programme start="20261030170608 +0000" stop="20261030173808 +0000" channel="whale.411588392116624389"><title>Best Fails of the Month</title></programme>
@@ -5011,8 +4997,7 @@
 <programme start="20261106141508 +0000" stop="20261106144608 +0000" channel="whale.411588392116624389"><title>Around the World in 80 Fails</title></programme>
 <programme start="20261106144608 +0000" stop="20261106151708 +0000" channel="whale.411588392116624389"><title>Around the World in 80 Fails</title></programme>
 <programme start="20261106151708 +0000" stop="20261106154808 +0000" channel="whale.411588392116624389"><title>Around the World in 80 Fails</title></programme>
-<programme start="20261030150654 +0000" stop="20261030153854 +0000" channel="whale.411588625798144805"><title>Adventure/Anywhere</title><desc>Travel the world with athletes of many disciplines as they take their skills out into the wild.</desc></programme>
-<programme start="20261030153854 +0000" stop="20261030161054 +0000" channel="whale.411588625798144805"><title>Adventure/Anywhere</title></programme>
+<programme start="20261030153854 +0000" stop="20261030161054 +0000" channel="whale.411588625798144805"><title>Adventure/Anywhere</title><desc>Travel the world with athletes of many disciplines as they take their skills out into the wild.</desc></programme>
 <programme start="20261030161054 +0000" stop="20261030164254 +0000" channel="whale.411588625798144805"><title>Adventure/Anywhere</title></programme>
 <programme start="20261030164254 +0000" stop="20261030171454 +0000" channel="whale.411588625798144805"><title>Adventure/Anywhere</title></programme>
 <programme start="20261030171454 +0000" stop="20261030174554 +0000" channel="whale.411588625798144805"><title>Theory of Awesome</title></programme>
@@ -5329,8 +5314,7 @@
 <programme start="20261106141533 +0000" stop="20261106144733 +0000" channel="whale.411588625798144805"><title>Exhibition Awesome</title></programme>
 <programme start="20261106144733 +0000" stop="20261106151933 +0000" channel="whale.411588625798144805"><title>Exhibition Awesome</title></programme>
 <programme start="20261106151933 +0000" stop="20261106155133 +0000" channel="whale.411588625798144805"><title>Exhibition Awesome</title></programme>
-<programme start="20261030150612 +0000" stop="20261030153812 +0000" channel="whale.411588003363298938"><title>Best Pets of the Month</title><desc>The best pets for October '19. But after watching these clips, the real winner is you.</desc></programme>
-<programme start="20261030153812 +0000" stop="20261030161012 +0000" channel="whale.411588003363298938"><title>Best Pets of the Month</title></programme>
+<programme start="20261030153812 +0000" stop="20261030161012 +0000" channel="whale.411588003363298938"><title>Best Pets of the Month</title><desc>The best pets for November '19. But after watching these clips, the real winner is you.</desc></programme>
 <programme start="20261030161012 +0000" stop="20261030164212 +0000" channel="whale.411588003363298938"><title>TPC That's My Pet</title></programme>
 <programme start="20261030164212 +0000" stop="20261030171412 +0000" channel="whale.411588003363298938"><title>TPC That's My Pet</title></programme>
 <programme start="20261030171412 +0000" stop="20261030174512 +0000" channel="whale.411588003363298938"><title>TPC That's My Pet</title></programme>
@@ -5648,6 +5632,7 @@
 <programme start="20261106135013 +0000" stop="20261106142213 +0000" channel="whale.411588003363298938"><title>Animals Unscripted</title></programme>
 <programme start="20261106142213 +0000" stop="20261106145413 +0000" channel="whale.411588003363298938"><title>Animals Unscripted</title></programme>
 <programme start="20261106145413 +0000" stop="20261106152613 +0000" channel="whale.411588003363298938"><title>Best Pets of the Month</title></programme>
+<programme start="20261106152613 +0000" stop="20261106155813 +0000" channel="whale.411588003363298938"><title>Best Pets of the Month</title></programme>
 <programme start="20261030152019 +0000" stop="20261030155019 +0000" channel="whale.411588870569207033"><title>Captured: Extreme Weather</title><desc>Mother Nature unleashes some of her most deadly forces to wreak havoc in the air and unexpectedly terrify her victims.</desc></programme>
 <programme start="20261030155019 +0000" stop="20261030162019 +0000" channel="whale.411588870569207033"><title>Viral Wild</title></programme>
 <programme start="20261030162019 +0000" stop="20261030165019 +0000" channel="whale.411588870569207033"><title>Viral Wild</title></programme>
@@ -5923,6 +5908,7 @@
 <programme start="20261106141319 +0000" stop="20261106144249 +0000" channel="whale.411588870569207033"><title>Alaska's Ultimate Bush Pilots</title></programme>
 <programme start="20261106144249 +0000" stop="20261106151219 +0000" channel="whale.411588870569207033"><title>Alaska's Ultimate Bush Pilots</title></programme>
 <programme start="20261106151219 +0000" stop="20261106154219 +0000" channel="whale.411588870569207033"><title>Fight to Survive</title></programme>
+<programme start="20261106154219 +0000" stop="20261106161219 +0000" channel="whale.411588870569207033"><title>Fight to Survive</title></programme>
 <programme start="20261030151700 +0000" stop="20261030161800 +0000" channel="whale.999420644834214638"><title>V Is for Vino</title><desc>Rías Baixas, located in northwest Spain, produces one Vince's favorite white wines, Albariño!</desc></programme>
 <programme start="20261030161800 +0000" stop="20261030164900 +0000" channel="whale.999420644834214638"><title>Euromaxx on Vacation</title></programme>
 <programme start="20261030164900 +0000" stop="20261030172100 +0000" channel="whale.999420644834214638"><title>Euromaxx on Vacation</title></programme>
@@ -6190,8 +6176,7 @@
 <programme start="20261106130500 +0000" stop="20261106140600 +0000" channel="whale.999420644834214638"><title>Jewels of the Alps – Italy's Great Lakes</title></programme>
 <programme start="20261106140600 +0000" stop="20261106150600 +0000" channel="whale.999420644834214638"><title>Jewels of the Alps – Italy's Great Lakes</title></programme>
 <programme start="20261106150600 +0000" stop="20261106155600 +0000" channel="whale.999420644834214638"><title>Jewels of the Alps – Italy's Great Lakes</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.999420644834214622"><title>Reflections</title><desc>A program for daily devotion featuring scenic and lush landscapes from all throughout around the world that are accompanied by popular hymns and powerful songs of praise and worship along with scripture from the Holy Bible.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.999420644834214622"><title>Rick Renner</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.999420644834214622"><title>Rick Renner</title><desc>Join Rick to find out how one believer straying from truth affects the whole church -- and why teachers are held to a higher standard.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030170000 +0000" channel="whale.999420644834214622"><title>Marcus Lamb</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.999420644834214622"><title>Gary Keesee, Fixing the Money Thing</title></programme>
 <programme start="20261030173000 +0000" stop="20261030180000 +0000" channel="whale.999420644834214622"><title>John Ankerberg</title></programme>
@@ -6500,6 +6485,7 @@
 <programme start="20261106140000 +0000" stop="20261106143000 +0000" channel="whale.999420644834214622"><title>Jewish Voice with Jonathan Bernis</title></programme>
 <programme start="20261106143000 +0000" stop="20261106150000 +0000" channel="whale.999420644834214622"><title>Jesus the Healer with Nancy Dufresne</title></programme>
 <programme start="20261106150000 +0000" stop="20261106153000 +0000" channel="whale.999420644834214622"><title>Kenneth Copeland</title></programme>
+<programme start="20261106153000 +0000" stop="20261106160000 +0000" channel="whale.999420644834214622"><title>Creflo Dollar</title></programme>
 <programme start="20261030150000 +0000" stop="20261030160000 +0000" channel="whale.403923561330776795"><title>SKWAD</title></programme>
 <programme start="20261030160000 +0000" stop="20261030170000 +0000" channel="whale.403923561330776795"><title>SKWAD</title></programme>
 <programme start="20261030170000 +0000" stop="20261030180000 +0000" channel="whale.403923561330776795"><title>SKWAD</title></programme>
@@ -6669,7 +6655,6 @@
 <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="whale.403923561330776795"><title>SKWAD</title></programme>
 <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="whale.403923561330776795"><title>SKWAD</title></programme>
 <programme start="20261106150000 +0000" stop="20261106160000 +0000" channel="whale.403923561330776795"><title>SKWAD</title></programme>
-<programme start="20261030150334 +0000" stop="20261030153012 +0000" channel="whale.989293714931712085"><title>The Dog Chef</title></programme>
 <programme start="20261030153012 +0000" stop="20261030155905 +0000" channel="whale.989293714931712085"><title>The Dog Chef</title></programme>
 <programme start="20261030155905 +0000" stop="20261030163413 +0000" channel="whale.989293714931712085"><title>The Dog Chef</title></programme>
 <programme start="20261030163413 +0000" stop="20261030170019 +0000" channel="whale.989293714931712085"><title>The Dog Chef</title></programme>
@@ -6832,8 +6817,7 @@
 <programme start="20261104091143 +0000" stop="20261104093818 +0000" channel="whale.989293714931712085"><title>The Dog Chef</title></programme>
 <programme start="20261104093818 +0000" stop="20261104100423 +0000" channel="whale.989293714931712085"><title>The Dog Chef</title></programme>
 <programme start="20261104100423 +0000" stop="20261104110233 +0000" channel="whale.989293714931712085"><title>Pets Add Life Podcast</title></programme>
-<programme start="20261030140550 +0000" stop="20261030154502 +0000" channel="whale.1022125030546936779"><title>How Not to Die</title><desc>How Not to Die is a bold feature documentary that confronts the greatest threat to human health—our diet. Based on the international bestselling book of the same name, by Dr. Michael Greger, this movie plays like a fast-paced action thriller but is packed with hard-hitting data that just might save your life. How Not to Die exposes the role of the standard Western diet in fueling today’s most widespread illnesses. The film offers jaw-dropping, but evidence-based, insights into the prevention of heart disease, type 2 diabetes, obesity, kidney disease, liver dysfunction, and a spectrum of brain disorders, including dementia and Alzheimer’s disease. It also addresses how diet influences the development of colon, prostate, and other digestive cancers, delivering life-saving information with clarity and authority.</desc></programme>
-<programme start="20261030154502 +0000" stop="20261030174619 +0000" channel="whale.1022125030546936779"><title>Forks Over Knives</title></programme>
+<programme start="20261030154502 +0000" stop="20261030174619 +0000" channel="whale.1022125030546936779"><title>Forks Over Knives</title><desc>Forks Over Knives explores the groundbreaking claim that chronic diseases like heart disease and type 2 diabetes can be prevented—or even reversed—through a whole-food, plant-based diet. Follow the journeys of Dr. T. Colin Campbell and Dr. Caldwell Esselstyn, whose research reveals the power of food as medicine. See how real people transform their lives and health by rejecting animal-based and processed foods.</desc></programme>
 <programme start="20261030174619 +0000" stop="20261030194733 +0000" channel="whale.1022125030546936779"><title>PlantPure Nation</title></programme>
 <programme start="20261030194733 +0000" stop="20261030214441 +0000" channel="whale.1022125030546936779"><title>Give Me Shelter - Film</title></programme>
 <programme start="20261030214441 +0000" stop="20261030234138 +0000" channel="whale.1022125030546936779"><title>A Prayer For Compassion</title></programme>
@@ -6854,8 +6838,7 @@
 <programme start="20261101015928 +0000" stop="20261101035636 +0000" channel="whale.1022125030546936779"><title>Give Me Shelter - Film</title></programme>
 <programme start="20261101035636 +0000" stop="20261101055333 +0000" channel="whale.1022125030546936779"><title>A Prayer For Compassion</title></programme>
 <programme start="20261101055333 +0000" stop="20261101074345 +0000" channel="whale.1022125030546936779"><title>The Human Experiment</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.1022125030546936772"><title>Privada Cigar Club</title><desc>Join a journey to explore the unique art of cigar-making with the Leon family in Costa Rica.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1022125030546936772"><title>Privada Cigar Club</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1022125030546936772"><title>Privada Cigar Club</title><desc>This masterclass steps into the world of tobacco curing, a process of both tradition and technique.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.1022125030546936772"><title>Lounge Life</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.1022125030546936772"><title>Unrolled</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.1022125030546936772"><title>Behind The Blend</title></programme>
@@ -7154,8 +7137,8 @@
 <programme start="20261106140000 +0000" stop="20261106143000 +0000" channel="whale.1022125030546936772"><title>Behind The Blend</title></programme>
 <programme start="20261106143000 +0000" stop="20261106150000 +0000" channel="whale.1022125030546936772"><title>Unrolled</title></programme>
 <programme start="20261106150000 +0000" stop="20261106153000 +0000" channel="whale.1022125030546936772"><title>Lounge Life</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.956148002287389582"><title>Tasting America</title><desc>Tasting America lets one person sample food they wouldn't normally try, to see how they react to dishes they wouldn't normally eat. It's a culinary adventure for the not so faint of heart, revealing the best ways to eat dishes all around the country!</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.956148002287389582"><title>Wardens</title></programme>
+<programme start="20261106153000 +0000" stop="20261106160000 +0000" channel="whale.1022125030546936772"><title>Unrolled</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.956148002287389582"><title>Wardens</title><desc>Watch as these brave men and women defend public lands from poachers and other environmental hazards, brave treacherous white</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030170000 +0000" channel="whale.956148002287389582"><title>Dream Cruises</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.956148002287389582"><title>Selling Mega Mansions</title></programme>
 <programme start="20261030173000 +0000" stop="20261030180000 +0000" channel="whale.956148002287389582"><title>Travel in Style</title></programme>
@@ -7564,8 +7547,7 @@
 <programme start="20261106112500 +0000" stop="20261106131000 +0000" channel="whale.411586786151105512"><title>Love Is A Map</title></programme>
 <programme start="20261106131000 +0000" stop="20261106144500 +0000" channel="whale.411586786151105512"><title>Ghosts of the Republique</title></programme>
 <programme start="20261106144500 +0000" stop="20261106155500 +0000" channel="whale.411586786151105512"><title>High Herstory</title></programme>
-<programme start="20261030150000 +0000" stop="20261030154209 +0000" channel="whale.925707611914371540"><title>DJ Ben Ha Meen Explains How Jimi Hendrix Was Unapologetically Black In New Cosmic Graphic Novel</title><desc>DJ Ben Ha Meen explores Jimi Hendrix's legacy in the graphic novel *Purple Haze,* blending music, storytelling, and space adventures.</desc></programme>
-<programme start="20261030154209 +0000" stop="20261030154713 +0000" channel="whale.925707611914371540"><title>Squid Game Season 2 actors Yim Si-Wan and Jo Yu-Ri talk new challenges</title></programme>
+<programme start="20261030154209 +0000" stop="20261030154713 +0000" channel="whale.925707611914371540"><title>Squid Game Season 2 actors Yim Si-Wan and Jo Yu-Ri talk new challenges</title><desc>In this interview with Headkrack, Squid Game Season 2 actors Yim Si-Wan and Jo Yu-Ri discuss their excitement about joining the global phenomenon. Yim Si-Wan shares his gratitude for the attention the series has received and reveals his passion for boxing as a personal outlet. Jo Yu-Ri reflects on her experience filming and highlights her thoughts on games like dalgona and other challenges from the show. The actors explore the thrill of stepping into the intense world of Squid Game and their personal connections to its themes.</desc></programme>
 <programme start="20261030154713 +0000" stop="20261030155054 +0000" channel="whale.925707611914371540"><title>Pharrell Williams says Piece by Piece hopes to inspire freedom for the mentally enslaved.</title></programme>
 <programme start="20261030155054 +0000" stop="20261030160000 +0000" channel="whale.925707611914371540"><title>Nick Cannon Discusses His Love Of Cars, How He Transports His Kids, His Favorite Cars, And New Show</title></programme>
 <programme start="20261030160000 +0000" stop="20261030180000 +0000" channel="whale.925707611914371540"><title>Tyrese Goes Off On Hip-Hop, Women, R&amp;B, Police Brutality, Drake, Comic Nerds, New Album &amp; Movie.</title></programme>
@@ -7631,8 +7613,7 @@
 <programme start="20261031160000 +0000" stop="20261031190000 +0000" channel="whale.858573967945506058"><title>Feel Good Bikini Mix</title></programme>
 <programme start="20261031190000 +0000" stop="20261031220000 +0000" channel="whale.858573967945506058"><title>Bikini Daily Mix</title></programme>
 <programme start="20261031220000 +0000" stop="20261101010000 +0000" channel="whale.858573967945506058"><title>Bikini Roulette</title></programme>
-<programme start="20261030150005 +0000" stop="20261030152921 +0000" channel="whale.942280082834594499"><title>Craziest Moments Caught On Camera</title><desc>Mind-blowing and unpredictable moments you won't believe!</desc></programme>
-<programme start="20261030152921 +0000" stop="20261030155923 +0000" channel="whale.942280082834594499"><title>Did That Just Happen?</title></programme>
+<programme start="20261030152921 +0000" stop="20261030155923 +0000" channel="whale.942280082834594499"><title>Did That Just Happen?</title><desc>Heartstopping moments taken to the extreme!</desc></programme>
 <programme start="20261030155923 +0000" stop="20261030162954 +0000" channel="whale.942280082834594499"><title>Did That Just Happen?</title></programme>
 <programme start="20261030162954 +0000" stop="20261030165930 +0000" channel="whale.942280082834594499"><title>Did That Just Happen?</title></programme>
 <programme start="20261030165930 +0000" stop="20261030173012 +0000" channel="whale.942280082834594499"><title>Untamed Animals</title></programme>
@@ -7903,8 +7884,7 @@
 <programme start="20261105063523 +0000" stop="20261105070533 +0000" channel="whale.942280082834594499"><title>Craziest Moments Caught On Camera</title></programme>
 <programme start="20261105070533 +0000" stop="20261105073611 +0000" channel="whale.942280082834594499"><title>Craziest Moments Caught On Camera</title></programme>
 <programme start="20261105073611 +0000" stop="20261105080548 +0000" channel="whale.942280082834594499"><title>Untamed Animals</title></programme>
-<programme start="20261030152024 +0000" stop="20261030153304 +0000" channel="whale.942280082834594524"><title>The Bible Project</title><desc>Deuteronomy - Watch our overview video on the book of Deuteronomy, which breaks down the literary design of the book and its flow of thought.</desc></programme>
-<programme start="20261030153304 +0000" stop="20261030160013 +0000" channel="whale.942280082834594524"><title>Harvest Greg Laurie</title></programme>
+<programme start="20261030153304 +0000" stop="20261030160013 +0000" channel="whale.942280082834594524"><title>Harvest Greg Laurie</title><desc>Dealing With Doubt</desc></programme>
 <programme start="20261030160013 +0000" stop="20261030163013 +0000" channel="whale.942280082834594524"><title>Lift Up Jesus</title></programme>
 <programme start="20261030163013 +0000" stop="20261030164305 +0000" channel="whale.942280082834594524"><title>Therapy &amp; Theology</title></programme>
 <programme start="20261030164305 +0000" stop="20261030170006 +0000" channel="whale.942280082834594524"><title>Godly Goosebumps</title></programme>
@@ -8260,9 +8240,8 @@
 <programme start="20261106134801 +0000" stop="20261106140008 +0000" channel="whale.942280082834594524"><title>Therapy &amp; Theology</title></programme>
 <programme start="20261106140008 +0000" stop="20261106150008 +0000" channel="whale.942280082834594524"><title>Dr. Charles Stanley</title></programme>
 <programme start="20261106150008 +0000" stop="20261106153013 +0000" channel="whale.942280082834594524"><title>The Circle of Our Impact</title></programme>
-<programme start="20261030152135 +0000" stop="20261030153215 +0000" channel="whale.956148002287389580"><title>Landscape Design</title><desc>A look at 2 different designs by Divine Nature Landscape Design in Los Altos, California. Johnna Brooks of Divine Nature specializes in creating lush gardens that flow.</desc></programme>
-<programme start="20261030153215 +0000" stop="20261030154538 +0000" channel="whale.956148002287389580"><title>Woodworking For Beginners</title></programme>
-<programme start="20261030154538 +0000" stop="20261030160215 +0000" channel="whale.956148002287389580"><title>Woodworking For Beginners</title></programme>
+<programme start="20261106153013 +0000" stop="20261106160013 +0000" channel="whale.942280082834594524"><title>Dr. Jack Graham</title></programme>
+<programme start="20261030154538 +0000" stop="20261030160215 +0000" channel="whale.956148002287389580"><title>Woodworking For Beginners</title><desc>I'm gonna talk a bit about my miter saw, and try to give you a beginner's guide on how to use a miter saw.</desc></programme>
 <programme start="20261030160215 +0000" stop="20261030161726 +0000" channel="whale.956148002287389580"><title>Bold Backyards</title></programme>
 <programme start="20261030161726 +0000" stop="20261030163215 +0000" channel="whale.956148002287389580"><title>Ashley Renne: Sustainable Travel</title></programme>
 <programme start="20261030163215 +0000" stop="20261030170641 +0000" channel="whale.956148002287389580"><title>Austin Flipsters</title></programme>
@@ -9059,6 +9038,9 @@
 <programme start="20261106144603 +0000" stop="20261106145654 +0000" channel="whale.956148002287389580"><title>Desert Architecture</title></programme>
 <programme start="20261106145654 +0000" stop="20261106150211 +0000" channel="whale.956148002287389580"><title>Ideas For Your Home</title></programme>
 <programme start="20261106150211 +0000" stop="20261106152229 +0000" channel="whale.956148002287389580"><title>The Zero-Waste Home</title></programme>
+<programme start="20261106152229 +0000" stop="20261106153215 +0000" channel="whale.956148002287389580"><title>Landscape Design</title></programme>
+<programme start="20261106153215 +0000" stop="20261106153953 +0000" channel="whale.956148002287389580"><title>HomeMade Modern</title></programme>
+<programme start="20261106153953 +0000" stop="20261106155332 +0000" channel="whale.956148002287389580"><title>HomeMade Modern</title></programme>
 <programme start="20261030150000 +0000" stop="20261030160000 +0000" channel="whale.942280082834594518"><title>Afroland Comedy</title></programme>
 <programme start="20261030160000 +0000" stop="20261030170000 +0000" channel="whale.942280082834594518"><title>Afroland Comedy</title></programme>
 <programme start="20261030170000 +0000" stop="20261030180000 +0000" channel="whale.942280082834594518"><title>Afroland Comedy</title></programme>
@@ -9228,8 +9210,7 @@
 <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="whale.942280082834594518"><title>Afroland Comedy</title></programme>
 <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="whale.942280082834594518"><title>Afroland Comedy</title></programme>
 <programme start="20261106150000 +0000" stop="20261106160000 +0000" channel="whale.942280082834594518"><title>Afroland Comedy</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.942280082834594506"><title>Tucker Budyzn Collections</title><desc>Join Tucker, a charismatic Golden Retriever, as he navigates everyday adventures, humorous challenges, and adorable interactions with his family.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.942280082834594506"><title>Crusoe The Dachshund Collections</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.942280082834594506"><title>Crusoe The Dachshund Collections</title><desc>Follow the charming adventures of Crusoe the Dachshund as he embarks on fun-filled escapades and playful antics!</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.942280082834594506"><title>Wanderlust Samoyed Collections</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.942280082834594506"><title>The Daisy and Poppy Collections</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.942280082834594506"><title>The Tom Davis Dog Training Collections</title></programme>
@@ -9277,8 +9258,7 @@
 <programme start="20261031230000 +0000" stop="20261101000000 +0000" channel="whale.942280082834594506"><title>Crusoe The Dachshund Collections</title></programme>
 <programme start="20261030040000 +0000" stop="20261031040000 +0000" channel="whale.942280082834594520"><title>JK's House</title><desc>At JK’s House, Dr. Amber Jenkins (Robin Givens) and JK blend family values and life lessons with music and dance.</desc></programme>
 <programme start="20261031040000 +0000" stop="20261101040000 +0000" channel="whale.942280082834594520"><title>JK's House</title></programme>
-<programme start="20261030143503 +0000" stop="20261030152620 +0000" channel="whale.672540845069111078"><title>Tiffany Haddish Top Of The World</title><desc>Tiffany Haddish graces the Just For Laughs stages to host one night of hysterical stand-up comedy.</desc></programme>
-<programme start="20261030152620 +0000" stop="20261030163910 +0000" channel="whale.672540845069111078"><title>Howie Mandel: Don't Sneeze On Me</title></programme>
+<programme start="20261030152620 +0000" stop="20261030163910 +0000" channel="whale.672540845069111078"><title>Howie Mandel: Don't Sneeze On Me</title><desc>Howie Mandel hosts this post pandemic comedy special featuring comedians you know and love.</desc></programme>
 <programme start="20261030163910 +0000" stop="20261030170915 +0000" channel="whale.672540845069111078"><title>Just For Laughs All Access</title></programme>
 <programme start="20261030170915 +0000" stop="20261030174922 +0000" channel="whale.672540845069111078"><title>Live At Just For Laughs</title></programme>
 <programme start="20261030174922 +0000" stop="20261030182911 +0000" channel="whale.672540845069111078"><title>Funny As Hell</title></programme>
@@ -9496,8 +9476,7 @@
 <programme start="20261031040000 +0000" stop="20261031061500 +0000" channel="whale.942280082834594514"><title>Never Quit</title></programme>
 <programme start="20261031204500 +0000" stop="20261101003000 +0000" channel="whale.942280082834594514"><title>Til Death Do Us Part: Journey To The Cross</title></programme>
 <programme start="20261031223000 +0000" stop="20261031080000 +0000" channel="whale.942280082834594514"><title>Forgive and Forget</title></programme>
-<programme start="20261030151225 +0000" stop="20261030154414 +0000" channel="whale.911148153934782542"><title>Just For Laughs Gags</title><desc>A priest slaps his flock, a kid commandeers a school bus, and wine gets sniff-tested in this zany Just for Lau</desc></programme>
-<programme start="20261030154414 +0000" stop="20261030161429 +0000" channel="whale.911148153934782542"><title>Just For Laughs Gags</title></programme>
+<programme start="20261030154414 +0000" stop="20261030161429 +0000" channel="whale.911148153934782542"><title>Just For Laughs Gags</title><desc>Pranks with grandpa in caravan, clown at window &amp; more fun.</desc></programme>
 <programme start="20261030161429 +0000" stop="20261030164642 +0000" channel="whale.911148153934782542"><title>Just For Laughs Gags</title></programme>
 <programme start="20261030164642 +0000" stop="20261030171855 +0000" channel="whale.911148153934782542"><title>Just For Laughs Gags</title></programme>
 <programme start="20261030171855 +0000" stop="20261030174910 +0000" channel="whale.911148153934782542"><title>Just For Laughs Gags</title></programme>
@@ -10163,8 +10142,7 @@
 <programme start="20261106000000 +0000" stop="20261106060000 +0000" channel="whale.626513244395669364"><title>SOUNDS OF TRACE</title></programme>
 <programme start="20261106060000 +0000" stop="20261106120000 +0000" channel="whale.626513244395669364"><title>URBAN VIBES</title></programme>
 <programme start="20261106120000 +0000" stop="20261106180000 +0000" channel="whale.626513244395669364"><title>HITS NON STOP</title></programme>
-<programme start="20261030140000 +0000" stop="20261030154000 +0000" channel="whale.886562974989884515"><title>THE OFFICIAL TRACE GLOBAL CHART</title><desc>THE OFFICIAL TRACE GLOBAL CHART</desc></programme>
-<programme start="20261030154000 +0000" stop="20261030160000 +0000" channel="whale.886562974989884515"><title>BIG BEATS &amp; NEW DROPS</title></programme>
+<programme start="20261030154000 +0000" stop="20261030160000 +0000" channel="whale.886562974989884515"><title>BIG BEATS &amp; NEW DROPS</title><desc>BIG BEATS &amp; NEW DROPS</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030180000 +0000" channel="whale.886562974989884515"><title>FOCUS UK</title></programme>
 <programme start="20261030180000 +0000" stop="20261030185000 +0000" channel="whale.886562974989884515"><title>HIT 10</title></programme>
 <programme start="20261030185000 +0000" stop="20261030190000 +0000" channel="whale.886562974989884515"><title>BIG BEATS &amp; NEW DROPS</title></programme>
@@ -10636,8 +10614,7 @@
 <programme start="20261031204200 +0000" stop="20261031221000 +0000" channel="whale.968837716807123413"><title>Box Playlist - es el rap a su maxima expresion</title></programme>
 <programme start="20261031221000 +0000" stop="20261031230600 +0000" channel="whale.968837716807123413"><title>Box Playlist - es 33 videos graciosos y entrevista duque 7</title></programme>
 <programme start="20261031230600 +0000" stop="20261101004200 +0000" channel="whale.968837716807123413"><title>Box Playlist - en concierto con Raffy Diaz</title></programme>
-<programme start="20261030150510 +0000" stop="20261030153551 +0000" channel="whale.910027172377794537"><title>Around the World in 80 Tricks S1 - &quot;South Korea - Youth&quot;</title><desc>This time Magical Bones is in Seoul. He goes to the B-Boy championships and also visits his friend Ji and performs a spectacular trick on a shirt.</desc></programme>
-<programme start="20261030153551 +0000" stop="20261030160628 +0000" channel="whale.910027172377794537"><title>Around the World in 80 Tricks S1 - &quot;Delhi&quot;</title></programme>
+<programme start="20261030153551 +0000" stop="20261030160628 +0000" channel="whale.910027172377794537"><title>Around the World in 80 Tricks S1 - &quot;Delhi&quot;</title><desc>In this episode Pete take to the streets of India’s capital city Delhi. He performs a series of fun and baffling tricks including a levitation attempt.</desc></programme>
 <programme start="20261030160628 +0000" stop="20261030163522 +0000" channel="whale.910027172377794537"><title>Jet Set S1 - &quot;The Ice Hotel V Barbados&quot;</title></programme>
 <programme start="20261030163522 +0000" stop="20261030170508 +0000" channel="whale.910027172377794537"><title>Jet Set S1 - &quot;Chiang Mai V Venice&quot;</title></programme>
 <programme start="20261030170508 +0000" stop="20261030173449 +0000" channel="whale.910027172377794537"><title>Jet Set S1 - &quot;Eze (France) V Stockholm&quot;</title></programme>
@@ -10887,6 +10864,7 @@
 <programme start="20261106134504 +0000" stop="20261106142008 +0000" channel="whale.910027172377794537"><title>Journeys in India S2 - &quot;Nagarhole and Bandipur: The Southern Paradise of India&quot;</title></programme>
 <programme start="20261106142008 +0000" stop="20261106145514 +0000" channel="whale.910027172377794537"><title>Journeys in India S2 - &quot;Bhavnagar: Land of Surprises&quot;</title></programme>
 <programme start="20261106145514 +0000" stop="20261106152957 +0000" channel="whale.910027172377794537"><title>Journeys in India S2 - &quot;Panna: Land of the Dhole&quot;</title></programme>
+<programme start="20261106152957 +0000" stop="20261106160054 +0000" channel="whale.910027172377794537"><title>Travel in Style S1 - &quot;MONACO &amp; VENICE&quot;</title></programme>
 <programme start="20261030145725 +0000" stop="20261030155457 +0000" channel="whale.989293714931712088"><title>Bird's-eye China Ep.1</title><desc>Unfolding between the Kunlun, Altai and Tianshan ranges, cradling two vast basins, lies a beautiful land: Xinjiang. Join us on an aerial journey as we ascend the Tianshan to reveal the life-giving secrets of its crystal clear waters, before touching the summit of Bogda Peak, towering 5 km above sea-level, and gliding over the glittering, gem-like Tianchi Lake and the boundless grasslands that extend far beyond what even a bird's eye can see into the west...</desc></programme>
 <programme start="20261030155457 +0000" stop="20261030160000 +0000" channel="whale.989293714931712088"><title>As Chill as the Pandas in Sichuan</title></programme>
 <programme start="20261030160000 +0000" stop="20261030163510 +0000" channel="whale.989293714931712088"><title>Foodwise: Shantou</title></programme>
@@ -10933,7 +10911,6 @@
 <programme start="20261031142553 +0000" stop="20261031150037 +0000" channel="whale.989293714931712088"><title>The Sichuan Zhuqin</title></programme>
 <programme start="20261031150037 +0000" stop="20261031155526 +0000" channel="whale.989293714931712088"><title>Bird's-eye China Ep.2</title></programme>
 <programme start="20261031155526 +0000" stop="20261031155809 +0000" channel="whale.989293714931712088"><title>ALL THE LIVES WE LIVE: A man behind the scenes, in every season</title></programme>
-<programme start="20261030145907 +0000" stop="20261030152344 +0000" channel="whale.905558162617737047"><title>Facing Waves</title></programme>
 <programme start="20261030152344 +0000" stop="20261030154820 +0000" channel="whale.905558162617737047"><title>Facing Waves</title></programme>
 <programme start="20261030154820 +0000" stop="20261030161313 +0000" channel="whale.905558162617737047"><title>Facing Waves</title></programme>
 <programme start="20261030161313 +0000" stop="20261030163812 +0000" channel="whale.905558162617737047"><title>Epic Trails</title></programme>
@@ -11312,8 +11289,8 @@
 <programme start="20261106141809 +0000" stop="20261106144315 +0000" channel="whale.905558162617737047"><title>Great Family Adventure</title></programme>
 <programme start="20261106144315 +0000" stop="20261106150749 +0000" channel="whale.905558162617737047"><title>Great Family Adventure</title></programme>
 <programme start="20261106150749 +0000" stop="20261106153210 +0000" channel="whale.905558162617737047"><title>Great Family Adventure</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.925710235225102102"><title>Fpv Drone Highlights, Episode 33</title><desc>Check out these amazing videos captured by first person view (FPV) racing drones</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.925710235225102102"><title>Fpv Drone Highlights, Episode 31</title></programme>
+<programme start="20261106153210 +0000" stop="20261106155639 +0000" channel="whale.905558162617737047"><title>Great Family Adventure</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.925710235225102102"><title>Fpv Drone Highlights, Episode 31</title><desc>Check out these amazing videos captured by first person view (FPV) racing drones</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.925710235225102102"><title>Best Of Europe By Drone, Episode 10</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.925710235225102102"><title>Best Of Europe By Drone, Episode 11</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.925710235225102102"><title>Best Of Europe By Drone, Episode 22</title></programme>
@@ -11570,8 +11547,7 @@
 <programme start="20261104223000 +0000" stop="20261104230000 +0000" channel="whale.925710235225102102"><title>Usa From Above, Episode 6</title></programme>
 <programme start="20261104230000 +0000" stop="20261104233000 +0000" channel="whale.925710235225102102"><title>Fpv Drone Highlights, Episode 13</title></programme>
 <programme start="20261104233000 +0000" stop="20261105000000 +0000" channel="whale.925710235225102102"><title>Fpv Drone Highlights, Episode 34</title></programme>
-<programme start="20261030145625 +0000" stop="20261030152856 +0000" channel="whale.1022125030546936765"><title>Escape to Lisbon, Portugal Part 2</title><desc>Continue the adventure through Lisbon in Part 2, discovering more of the city’s vibrant culture, stunning architecture, scenic waterfronts, and authentic Portuguese lifestyle.</desc></programme>
-<programme start="20261030152856 +0000" stop="20261030160128 +0000" channel="whale.1022125030546936765"><title>The Ancient Tower of Agia Triada</title></programme>
+<programme start="20261030152856 +0000" stop="20261030160128 +0000" channel="whale.1022125030546936765"><title>The Ancient Tower of Agia Triada</title><desc>Explore the mysterious and historic Tower of Agia Triada, located near the ancient settlement of Arkesine on the island of Amorgos, Greece. Standing proudly among the rugged landscapes of the Cyclades, this remarkable ancient structure offers a fascinating glimpse into the island’s rich history and archaeological heritage.</desc></programme>
 <programme start="20261030160128 +0000" stop="20261030170243 +0000" channel="whale.1022125030546936765"><title>Planet Inventory Austral Islands Polynesia</title></programme>
 <programme start="20261030170243 +0000" stop="20261030173514 +0000" channel="whale.1022125030546936765"><title>Escape to the Giza Pyramid, Egypt</title></programme>
 <programme start="20261030173514 +0000" stop="20261030180746 +0000" channel="whale.1022125030546936765"><title>The Porto Cathedral, Portugal</title></programme>
@@ -11599,8 +11575,7 @@
 <programme start="20261031112400 +0000" stop="20261031115632 +0000" channel="whale.1022125030546936765"><title>Escape to Lisbon, Portugal Part 2</title></programme>
 <programme start="20261031115632 +0000" stop="20261031122903 +0000" channel="whale.1022125030546936765"><title>The Ancient Tower of Agia Triada</title></programme>
 <programme start="20261031122903 +0000" stop="20261031132808 +0000" channel="whale.1022125030546936765"><title>Planet Inventory Austral Islands Polynesia</title></programme>
-<programme start="20261030144947 +0000" stop="20261030152245 +0000" channel="whale.1022125030546936775"><title>Sidi Abo El Abbas Mosque</title><desc>The Abu al-Abbas al-Mursi Mosque is an Egyptian mosque in the city of Alexandria. It is dedicated to the 13th century Murcian Andalusi Sufi saint Abul Abbas al Mursi, whose tomb it contains. It is located in the Anfoushi neighborhood of Alexandria, near the Citadel of Qaitbay.</desc></programme>
-<programme start="20261030152245 +0000" stop="20261030155542 +0000" channel="whale.1022125030546936775"><title>Dzhumaya Mosque &amp; Plovdiv</title></programme>
+<programme start="20261030152245 +0000" stop="20261030155542 +0000" channel="whale.1022125030546936775"><title>Dzhumaya Mosque &amp; Plovdiv</title><desc>Dzhumaya Mosque is the main Muslim shrine in Plovdiv. It was built in 1363–1364 on the site of the Sveta Petka Tarnovska Cathedral Church after the conquest of Plovdiv by the Ottoman army. The Dzhumaya Mosque is one of the oldest cult Ottoman buildings of the Balkans. Today Dzhumaya Mosque is an active Muslim temple and is visited not only on religious holidays, but also during the week by the Muslim religious community in Plovdiv...[</desc></programme>
 <programme start="20261030155542 +0000" stop="20261030162840 +0000" channel="whale.1022125030546936775"><title>Dervish Tekie</title></programme>
 <programme start="20261030162840 +0000" stop="20261030170137 +0000" channel="whale.1022125030546936775"><title>Old City of Mostar</title></programme>
 <programme start="20261030170137 +0000" stop="20261030173435 +0000" channel="whale.1022125030546936775"><title>Saint Demetrius Cathedral</title></programme>
@@ -11699,8 +11674,7 @@
 <programme start="20261101200646 +0000" stop="20261101203943 +0000" channel="whale.1022125030546936775"><title>Saint Demetrius Cathedral</title></programme>
 <programme start="20261101203943 +0000" stop="20261101211241 +0000" channel="whale.1022125030546936775"><title>The Giza Pyramid Complex</title></programme>
 <programme start="20261101211241 +0000" stop="20261101214319 +0000" channel="whale.1022125030546936775"><title>Khan Palace</title></programme>
-<programme start="20261030145900 +0000" stop="20261030153300 +0000" channel="whale.968837716807123414"><title>Cook Like A Champion Taste Of Mexico S04-E06</title><desc>Cook Like A Champion Taste Of Mexico S04-E06.</desc></programme>
-<programme start="20261030153300 +0000" stop="20261030154800 +0000" channel="whale.968837716807123414"><title>Old Town Of Djenne - Mali</title></programme>
+<programme start="20261030153300 +0000" stop="20261030154800 +0000" channel="whale.968837716807123414"><title>Old Town Of Djenne - Mali</title><desc>Old Town Of Djenne - Mali.</desc></programme>
 <programme start="20261030154800 +0000" stop="20261030155100 +0000" channel="whale.968837716807123414"><title>Christmas Spiced White Russian</title></programme>
 <programme start="20261030155100 +0000" stop="20261030162500 +0000" channel="whale.968837716807123414"><title>Home, Life &amp; Style Caspian Lake Episode | Season 1; Episode 6</title></programme>
 <programme start="20261030162500 +0000" stop="20261030164100 +0000" channel="whale.968837716807123414"><title>Capri - Italy</title></programme>
@@ -11914,8 +11888,7 @@
 <programme start="20261102074600 +0000" stop="20261102081400 +0000" channel="whale.968837716807123414"><title>Cook Like A Champion | Season 3; Episode 7 - Pork Tend</title></programme>
 <programme start="20261102081400 +0000" stop="20261102082800 +0000" channel="whale.968837716807123414"><title>Capri - Italy</title></programme>
 <programme start="20261102082800 +0000" stop="20261102083200 +0000" channel="whale.968837716807123414"><title>Cream Pyramid with Fruits</title></programme>
-<programme start="20261030142457 +0000" stop="20261030152656 +0000" channel="whale.931186243466302967"><title>Norway For Pilgrims - Hiking The St. Olavs Way</title><desc>The route is 400 miles long, starts in Oslo and heads north to Trondheim.</desc></programme>
-<programme start="20261030152656 +0000" stop="20261030162517 +0000" channel="whale.931186243466302967"><title>Sri Lanka: Precious Isle</title></programme>
+<programme start="20261030152656 +0000" stop="20261030162517 +0000" channel="whale.931186243466302967"><title>Sri Lanka: Precious Isle</title><desc>A journey to the most beautiful regions of Sri Lanka, in the company of a group who inhabit this land.</desc></programme>
 <programme start="20261030162517 +0000" stop="20261030172600 +0000" channel="whale.931186243466302967"><title>Secrets Of Arabia</title></programme>
 <programme start="20261030172600 +0000" stop="20261030182644 +0000" channel="whale.931186243466302967"><title>Secrets Of Arabia</title></programme>
 <programme start="20261030182644 +0000" stop="20261030192722 +0000" channel="whale.931186243466302967"><title>Secrets Of Arabia</title></programme>
@@ -12062,9 +12035,7 @@
 <programme start="20261104213542 +0000" stop="20261104223554 +0000" channel="whale.931186243466302967"><title>Italy, My Love</title></programme>
 <programme start="20261104223554 +0000" stop="20261104233616 +0000" channel="whale.931186243466302967"><title>Italy, My Love</title></programme>
 <programme start="20261104233616 +0000" stop="20261105002633 +0000" channel="whale.931186243466302967"><title>The Taste Of Israel</title></programme>
-<programme start="20261030151635 +0000" stop="20261030152324 +0000" channel="whale.1065522377628650143"><title>#VF S09</title><desc>Mode, design, gastronomie, art de vivre... Découvrez le chic à la française !</desc></programme>
-<programme start="20261030152324 +0000" stop="20261030153000 +0000" channel="whale.1065522377628650143"><title>20EME ANNIVERSAIRE DES RELATIONS MONACO-USA</title></programme>
-<programme start="20261030153000 +0000" stop="20261030155521 +0000" channel="whale.1065522377628650143"><title>SECRETS DES PROFONDEURS - SAISON 2 / AUTRES DISTRIBUTEURS CANADIENS</title></programme>
+<programme start="20261030153000 +0000" stop="20261030155521 +0000" channel="whale.1065522377628650143"><title>SECRETS DES PROFONDEURS - SAISON 2 / AUTRES DISTRIBUTEURS CANADIENS</title><desc>Mario and Sam try to discover the identity of a wreck lying at the bottom of the Saint Lawrence, between Lévis and the Island of Orleans.</desc></programme>
 <programme start="20261030155521 +0000" stop="20261030160946 +0000" channel="whale.1065522377628650143"><title>L'ART ET LA MATIERE-S09</title></programme>
 <programme start="20261030160946 +0000" stop="20261030163857 +0000" channel="whale.1065522377628650143"><title>DESTINATION FRANCOPHONIE 2025-2026</title></programme>
 <programme start="20261030163857 +0000" stop="20261030165524 +0000" channel="whale.1065522377628650143"><title>CHIC EN VF S10</title></programme>
@@ -12153,8 +12124,7 @@
 <programme start="20261031225747 +0000" stop="20261031232620 +0000" channel="whale.1065522377628650143"><title>Passe moi les jumelles S12</title></programme>
 <programme start="20261031232620 +0000" stop="20261031235433 +0000" channel="whale.1065522377628650143"><title>VERSION FRANCAISE-S11</title></programme>
 <programme start="20261031235433 +0000" stop="20261101000000 +0000" channel="whale.1065522377628650143"><title>#VF S09</title></programme>
-<programme start="20261030151100 +0000" stop="20261030153801 +0000" channel="whale.1022125030546936774"><title>How To Make A Paper Pigeon</title><desc>Origami is the traditional Japanese art of folding paper into decorative shapes and figures without cutting or glue.Learn how to make an origami paper pigeon with easy and clear instructions.</desc></programme>
-<programme start="20261030153801 +0000" stop="20261030154855 +0000" channel="whale.1022125030546936774"><title>Navratri Special Rangoli</title></programme>
+<programme start="20261030153801 +0000" stop="20261030154855 +0000" channel="whale.1022125030546936774"><title>Navratri Special Rangoli</title><desc>Rangoli is a traditional Indian art form where decorative patterns are created on floors using colored powders, rice flour, or sand, especially during festivals.Design a Navratri special rangoli dedicated to Durga Mata and Matarani.</desc></programme>
 <programme start="20261030154855 +0000" stop="20261030160137 +0000" channel="whale.1022125030546936774"><title>Navratri Rangoli</title></programme>
 <programme start="20261030160137 +0000" stop="20261030161548 +0000" channel="whale.1022125030546936774"><title>Diwali Diya Set</title></programme>
 <programme start="20261030161548 +0000" stop="20261030162927 +0000" channel="whale.1022125030546936774"><title>Gudi Padwa Rangoli</title></programme>
@@ -12300,8 +12270,7 @@
 <programme start="20261101010949 +0000" stop="20261101012436 +0000" channel="whale.1022125030546936774"><title>Diwali Diya Rangoli</title></programme>
 <programme start="20261101012436 +0000" stop="20261101013652 +0000" channel="whale.1022125030546936774"><title>Origami Baby Suite</title></programme>
 <programme start="20261101013652 +0000" stop="20261101014325 +0000" channel="whale.1022125030546936774"><title>Janmashtami Rangoli</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.931186243466302961"><title>Scrapbook Soup</title><desc>Words and lettering can add an interesting element to your scrapbooking. First, May Flaum creates a canvas with a stamped bird and word cut outs. Next, Julie has some tips for hand lettering. Then, Dina Wakley demonstrates paint and ink techniques using a stencil with gesso and pattern resist. Julie has a last tip for embellishing and using letter stickers.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.931186243466302961"><title>Make It Artsy</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.931186243466302961"><title>Make It Artsy</title><desc>Nature's elements include those that are growing and those that result from being exposed to nature. Host Julie Fei Fan Balzer begins with paint blob flowers, a fun and easy way to create flowers with a minimum of drawing. Then Alexandra Stapleton creates a card using a stamped, cut out of a floral image. Seth Apter creates a rust monoprint; the weathered look shows the effects of nature. Finally, Tori Weyers has lesson 2 and left handed flowers. Use your non dominant hand and watercolors to exp...</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030161000 +0000" channel="whale.931186243466302961"><title>The Midnight Quilt Show</title></programme>
 <programme start="20261030161000 +0000" stop="20261030162000 +0000" channel="whale.931186243466302961"><title>The Midnight Quilt Show</title></programme>
 <programme start="20261030162000 +0000" stop="20261030163000 +0000" channel="whale.931186243466302961"><title>The Midnight Quilt Show</title></programme>
@@ -12572,8 +12541,8 @@
 <programme start="20261106134500 +0000" stop="20261106140000 +0000" channel="whale.931186243466302961"><title>Off Our Needles</title></programme>
 <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="whale.931186243466302961"><title>Draw Better Portraits: Capturing Likeness</title></programme>
 <programme start="20261106150000 +0000" stop="20261106153000 +0000" channel="whale.931186243466302961"><title>Beads, Baubles &amp; Jewels</title></programme>
-<programme start="20261030151233 +0000" stop="20261030154056 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title><desc>You can make rainbow crafts or decorate your old stuff to make your life a little bit brighter! In this vid...</desc></programme>
-<programme start="20261030154056 +0000" stop="20261030160953 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title></programme>
+<programme start="20261106153000 +0000" stop="20261106160000 +0000" channel="whale.931186243466302961"><title>Beads, Baubles &amp; Jewels</title></programme>
+<programme start="20261030154056 +0000" stop="20261030160953 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title><desc>See how easy it is to make an eco-friendly home out of pallets, clay and straw! Moreover, we showed how to ...</desc></programme>
 <programme start="20261030160953 +0000" stop="20261030164147 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title></programme>
 <programme start="20261030164147 +0000" stop="20261030165132 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title></programme>
 <programme start="20261030165132 +0000" stop="20261030171854 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title></programme>
@@ -12849,8 +12818,8 @@
 <programme start="20261106134246 +0000" stop="20261106141019 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title></programme>
 <programme start="20261106141019 +0000" stop="20261106144337 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title></programme>
 <programme start="20261106144337 +0000" stop="20261106153005 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title></programme>
-<programme start="20261030150157 +0000" stop="20261030152313 +0000" channel="whale.972712064533996134"><title>123GO!</title><desc>Today we’re pitting black against pink in the art epic battle! What's going to come of it? Relax and enjoy the show! We’re beginning the ultimate showdown!</desc></programme>
-<programme start="20261030152313 +0000" stop="20261030154701 +0000" channel="whale.972712064533996134"><title>123GO!</title></programme>
+<programme start="20261106153005 +0000" stop="20261106161042 +0000" channel="whale.886574565227497107"><title>5-Minute Crafts</title></programme>
+<programme start="20261030152313 +0000" stop="20261030154701 +0000" channel="whale.972712064533996134"><title>123GO!</title><desc>It doesn’t matter what colour food is, the most important thing is it’s tasty.</desc></programme>
 <programme start="20261030154701 +0000" stop="20261030161149 +0000" channel="whale.972712064533996134"><title>123GO!</title></programme>
 <programme start="20261030161149 +0000" stop="20261030164432 +0000" channel="whale.972712064533996134"><title>123GO!</title></programme>
 <programme start="20261030164432 +0000" stop="20261030171028 +0000" channel="whale.972712064533996134"><title>123GO!</title></programme>
@@ -13197,8 +13166,7 @@
 <programme start="20261106140209 +0000" stop="20261106143916 +0000" channel="whale.972712064533996134"><title>123GO!</title></programme>
 <programme start="20261106143916 +0000" stop="20261106151312 +0000" channel="whale.972712064533996134"><title>123GO!</title></programme>
 <programme start="20261106151312 +0000" stop="20261106154653 +0000" channel="whale.972712064533996134"><title>123GO!</title></programme>
-<programme start="20261030133000 +0000" stop="20261030153000 +0000" channel="whale.956148002287389583"><title>Internet Recipes Tested</title><desc>Adam Bianchi, from BuzzFeed's hit series, Worth It challenges his friends to take on the internet's most viral food tricks, recipes &amp; hacks in this hilarious food show.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030174500 +0000" channel="whale.956148002287389583"><title>Kids Draw It, Chefs Cook It</title></programme>
+<programme start="20261030153000 +0000" stop="20261030174500 +0000" channel="whale.956148002287389583"><title>Kids Draw It, Chefs Cook It</title><desc>Two chefs compete to create the perfect dish based off a child’s wild imagination.</desc></programme>
 <programme start="20261030174500 +0000" stop="20261030193000 +0000" channel="whale.956148002287389583"><title>Quiet Kitchen: The Silent Cooking Challenge</title></programme>
 <programme start="20261030193000 +0000" stop="20261030211500 +0000" channel="whale.956148002287389583"><title>Tasty's Ultimate Food Challenges</title></programme>
 <programme start="20261030211500 +0000" stop="20261030221500 +0000" channel="whale.956148002287389583"><title>Tasty’s Food Fight: Best Restaurant Wins</title></programme>
@@ -13582,9 +13550,7 @@
 <programme start="20261106140000 +0000" stop="20261106143001 +0000" channel="whale.522806775813578244"><title>One World Kitchen</title></programme>
 <programme start="20261106143001 +0000" stop="20261106150001 +0000" channel="whale.522806775813578244"><title>Global Street Eats</title></programme>
 <programme start="20261106150001 +0000" stop="20261106160000 +0000" channel="whale.522806775813578244"><title>Cook The Books</title></programme>
-<programme start="20261030151812 +0000" stop="20261030152444 +0000" channel="whale.1065522377628650141"><title>Pays et marchés du monde</title><desc>Every episode offers a different journey! Xavier Petit, cameraman reporter, invites us to explore a country, a town, a people and, of course, a traditional market and a local speciality.</desc></programme>
-<programme start="20261030152444 +0000" stop="20261030153000 +0000" channel="whale.1065522377628650141"><title>La Recette de Guy Martin S08</title></programme>
-<programme start="20261030153000 +0000" stop="20261030155846 +0000" channel="whale.1065522377628650141"><title>Papilles</title></programme>
+<programme start="20261030153000 +0000" stop="20261030155846 +0000" channel="whale.1065522377628650141"><title>Papilles</title><desc>A journey rich in flavour through the regions and their terroirs, exploring local specialities and meeting the artisans perpetuating their age-old culinary traditions. An opportunity to stop off in the kitchen of a talented chef to prepare an emblematic regional recipe.</desc></programme>
 <programme start="20261030155846 +0000" stop="20261030162544 +0000" channel="whale.1065522377628650141"><title>CURIEUX BEGIN S16 - PART 2</title></programme>
 <programme start="20261030162544 +0000" stop="20261030165341 +0000" channel="whale.1065522377628650141"><title>PIQUE ASSIETTE S08</title></programme>
 <programme start="20261030165341 +0000" stop="20261030171701 +0000" channel="whale.1065522377628650141"><title>LA CUISINE D’ISABELLE ET RICARDO</title></programme>
@@ -13672,11 +13638,7 @@
 <programme start="20261031225726 +0000" stop="20261031232039 +0000" channel="whale.1065522377628650141"><title>CUISINE D'ISABELLE ET RICARDO S02 (LA)</title></programme>
 <programme start="20261031232039 +0000" stop="20261031234925 +0000" channel="whale.1065522377628650141"><title>Epicerie Fine S08</title></programme>
 <programme start="20261031234925 +0000" stop="20261101000000 +0000" channel="whale.1065522377628650141"><title>SAUVE MA RECETTE</title></programme>
-<programme start="20261030151813 +0000" stop="20261030152351 +0000" channel="whale.956148002287389585"><title>Coffee Chain Inspired Vanilla Scones Recipe</title><desc>Follow this easy to make coffee chain inspired vanilla scones recipe.</desc></programme>
-<programme start="20261030152351 +0000" stop="20261030153000 +0000" channel="whale.956148002287389585"><title>Coton Cheesecake Recipe</title></programme>
-<programme start="20261030153000 +0000" stop="20261030153441 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Guatemala</title></programme>
-<programme start="20261030153441 +0000" stop="20261030154048 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Kenya</title></programme>
-<programme start="20261030154048 +0000" stop="20261030154639 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Peru</title></programme>
+<programme start="20261030154048 +0000" stop="20261030154639 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Peru</title><desc>Introduction to coffee producing country Peru.</desc></programme>
 <programme start="20261030154639 +0000" stop="20261030155347 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Honduras</title></programme>
 <programme start="20261030155347 +0000" stop="20261030160000 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Uganda</title></programme>
 <programme start="20261030160000 +0000" stop="20261030160936 +0000" channel="whale.956148002287389585"><title>An Introduction How to Make Better Coffee at Home</title></programme>
@@ -13714,111 +13676,111 @@
 <programme start="20261030175035 +0000" stop="20261030180000 +0000" channel="whale.956148002287389585"><title>How to Make an Iced Vanilla Latte</title></programme>
 <programme start="20261030180000 +0000" stop="20261030182236 +0000" channel="whale.956148002287389585"><title>The Best Coffee Spots in Mallorca by Bike</title></programme>
 <programme start="20261030182236 +0000" stop="20261030182633 +0000" channel="whale.956148002287389585"><title>Leaves Coffee Roaster from Tokyo in Japan</title></programme>
-<programme start="20261030182633 +0000" stop="20261030183000 +0000" channel="whale.956148002287389585"><title>Takamura Coffee Roasters from Osaka in Japan</title><desc>Takamura Coffee has been leading the wave of specialty coffee in Kansai in Japan.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/7634fc9c0019c14daec2f34e55c3c4b0.jpg.webp"/></programme>
-<programme start="20261030183000 +0000" stop="20261030183137 +0000" channel="whale.956148002287389585"><title>Fly with Wacaco</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/b453312ce5da2f54e78267f428365c99.jpg.webp"/></programme>
+<programme start="20261030182633 +0000" stop="20261030183000 +0000" channel="whale.956148002287389585"><title>Takamura Coffee Roasters from Osaka in Japan</title></programme>
+<programme start="20261030183000 +0000" stop="20261030183137 +0000" channel="whale.956148002287389585"><title>Fly with Wacaco</title></programme>
 <programme start="20261030183137 +0000" stop="20261030183302 +0000" channel="whale.956148002287389585"><title>Heli-Skiing with Wacaco</title></programme>
 <programme start="20261030183302 +0000" stop="20261030183430 +0000" channel="whale.956148002287389585"><title>Rove - Arctic Cafe</title></programme>
 <programme start="20261030183430 +0000" stop="20261030183758 +0000" channel="whale.956148002287389585"><title>Sand Dunes Cafe</title></programme>
-<programme start="20261030183758 +0000" stop="20261030184148 +0000" channel="whale.956148002287389585"><title>LaCimbali Technology</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/4008e59b1779d6e23d045e5e382b83c4.jpg.webp"/></programme>
-<programme start="20261030184148 +0000" stop="20261030184315 +0000" channel="whale.956148002287389585"><title>Brewing with AeroPress Go after Ice Skating by Brandon Royce</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/d0351e8e930c353298948c0c04604cc2.jpg.webp"/></programme>
-<programme start="20261030184315 +0000" stop="20261030184916 +0000" channel="whale.956148002287389585"><title>Towards the Wind - Aneecha</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/d2420f21e57009dd9c55d641c0612a14.jpg.webp"/></programme>
-<programme start="20261030184916 +0000" stop="20261030185015 +0000" channel="whale.956148002287389585"><title>Dalgona Coffee</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/1b6e0eb94b7a2b39648d616c51601e80.jpg.webp"/></programme>
-<programme start="20261030185015 +0000" stop="20261030185355 +0000" channel="whale.956148002287389585"><title>Kooka Coffee New Coffee Truck</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/b23fb49aa8c171380ec11ceb37144763.jpg.webp"/></programme>
-<programme start="20261030185355 +0000" stop="20261030185752 +0000" channel="whale.956148002287389585"><title>48 Hours in Bangkok in Thailand</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/ffcf7674e583fa92cec12d5f6cb8fb2d.jpg.webp"/></programme>
-<programme start="20261030185752 +0000" stop="20261030190000 +0000" channel="whale.956148002287389585"><title>Single O Parachutes Surprisingly Good</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/d6531eed3866fc5b8bbee01969db6f10.jpg.webp"/></programme>
-<programme start="20261030190000 +0000" stop="20261030190559 +0000" channel="whale.956148002287389585"><title>Irish Coffee Recipe: A Tropical Twist on a Classic Drink</title><desc>Barista Jalen Kelly examines the internationally known Irish coffee drink.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/13bddc29de0afd892903074b9ba53f35.jpg.webp"/></programme>
-<programme start="20261030190559 +0000" stop="20261030190903 +0000" channel="whale.956148002287389585"><title>Iced Lychee Coffee</title><desc>Recipe for a delicious iced lychee coffee.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/3196e6fd501d6c844a31aaf4ff0b8fc6.jpg.webp"/></programme>
-<programme start="20261030190903 +0000" stop="20261030191556 +0000" channel="whale.956148002287389585"><title>Nitro Espresso Old Fashioned Way</title><desc>How to Make Nitro Espresso Old Fashioned.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/55cb792b2f400a6614709a19e7d7290b.jpg.webp"/></programme>
-<programme start="20261030191556 +0000" stop="20261030192107 +0000" channel="whale.956148002287389585"><title>How to Make the Perfect Pumpkin Spice Latte</title><desc>It's a coffee drink that tastes just like real pumpkin pie.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/8a997d705207893be1dc9e9cd3ab3d8b.jpg.webp"/></programme>
-<programme start="20261030192107 +0000" stop="20261030192608 +0000" channel="whale.956148002287389585"><title>Brewing Guide: Kalita Wave</title><desc>Check out or comprehensive brewing guide for the Kalita Wave coffee dripper.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/a665e9fca4cdf2677dba382c484860cc.jpg.webp"/></programme>
-<programme start="20261030192608 +0000" stop="20261030193000 +0000" channel="whale.956148002287389585"><title>Brewing Guide: Hario Switch</title><desc>Check out or comprehensive brewing guide for the Hario Switch coffee dripper.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/66a15f1257245d4a71e4e5c51a5a130a.jpg.webp"/></programme>
-<programme start="20261030193000 +0000" stop="20261030194310 +0000" channel="whale.956148002287389585"><title>The Best Coffee Grinder for You</title><desc>Brodie explores which kind of coffee grinder is right when you choose to grind coffee yourself.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/76038203c5fa6fd3a77882bc244e00cd.jpg.webp"/></programme>
-<programme start="20261030194310 +0000" stop="20261030195513 +0000" channel="whale.956148002287389585"><title>Peak Water Filter or Brita Filter?</title><desc>Brodie identifies what really makes the Peak water filter stand out as a water filter for coffee.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/9b5a66133bec24585870047a56cbd4dd.jpg.webp"/></programme>
-<programme start="20261030195513 +0000" stop="20261030200000 +0000" channel="whale.956148002287389585"><title>Hario Mobile Mill Stick</title><desc>Introducing the Hario Mobile Mill Stick.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/64be4cd6b1a37204b82aa57260c26cac.jpg.webp"/></programme>
-<programme start="20261030200000 +0000" stop="20261030200954 +0000" channel="whale.956148002287389585"><title>What Can Coffee Learn from Wine?</title><desc>Brodie finds out how coffee farms are constantly finding new ways of telling their own stories.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/590081f0a5fcf9df910984863aee8a26.jpg.webp"/></programme>
-<programme start="20261030200954 +0000" stop="20261030201939 +0000" channel="whale.956148002287389585"><title>Make Way Better Coffee</title><desc>Brodie shows you how to instantly improve your coffee at home if you follow these 5 steps.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/be565249e4c087407d1537632c96c367.jpg.webp"/></programme>
-<programme start="20261030201939 +0000" stop="20261030202505 +0000" channel="whale.956148002287389585"><title>The graycano Journey</title><desc>The graycano increases the value of the coffee cycle and offers a unique coffee dripper.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/adfb9c35c9e58bea804aef8ba0afb6b0.jpg.webp"/></programme>
-<programme start="20261030202505 +0000" stop="20261030203000 +0000" channel="whale.956148002287389585"><title>999 Different Pairs of Hands</title><desc>Coffee is not just about the beans, it's about how much care is put into all the other variables.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/84072eefdbcc8612d16c073d5155c23a.jpg.webp"/></programme>
-<programme start="20261030203000 +0000" stop="20261030203112 +0000" channel="whale.956148002287389585"><title>My Daily Routine at Work and Pouring a Bunny Latte Art</title><desc>My daily routine at work.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/8b4b9d602e890cbd6d953d19fde8a45e.jpg.webp"/></programme>
-<programme start="20261030203112 +0000" stop="20261030204429 +0000" channel="whale.956148002287389585"><title>A Journey into the Benguet Coffee Trail</title><desc>Indigenous Philippe Peoples from Benguet produce the well known coffee Benguet Arabica.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/b0f1f3e1fa9698ab0b0e4f9e1581248b.jpg.webp"/></programme>
-<programme start="20261030204429 +0000" stop="20261030204859 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Costa Rica</title><desc>Introduction to coffee producing country Costa Rica.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/6221f104ba6b5df6b57ba808adb49760.jpg.webp"/></programme>
-<programme start="20261030204859 +0000" stop="20261030205612 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Papua New Guinea</title><desc>Introduction to coffee producing country Papua New Guinea.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/e2570403cf8cd66b7e6ed641b07fa2f1.jpg.webp"/></programme>
-<programme start="20261030205612 +0000" stop="20261030210000 +0000" channel="whale.956148002287389585"><title>Coffee Culture in Ethiopia</title><desc>We are finding out about Ethiopia's passion for coffee.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/d20342dc7fab78c52a1c060f15988abe.jpg.webp"/></programme>
-<programme start="20261030210000 +0000" stop="20261030211406 +0000" channel="whale.956148002287389585"><title>French Press versus Mokka Pot  In-depth Comparison for Beginners</title><desc>Follow Brodie in an in-depth comparison for beginners of the French press versus the Moka pot.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/aa9dea9c7fbacf6e98a54560386ce15d.jpg.webp"/></programme>
-<programme start="20261030211406 +0000" stop="20261030212447 +0000" channel="whale.956148002287389585"><title>Ankomn Vacuum Contianer Review</title><desc>Introducing the Ankomn Turn N seal vacuum containers.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/50f2d674da4b26067b40efad0c3998e1.jpg.webp"/></programme>
-<programme start="20261030212447 +0000" stop="20261030213000 +0000" channel="whale.956148002287389585"><title>Coffee Compass by Caravela Coffee</title><desc>The Coffee Compass defines Ô¨Çowering dates on farms and dictates must carry out critical processes.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/e82194a45be95c63e225b345f9009c27.jpg.webp"/></programme>
-<programme start="20261030213000 +0000" stop="20261030213719 +0000" channel="whale.956148002287389585"><title>How to make French Press Coffee</title><desc>Brodie explains how to make French press coffe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/bd2e404451d4335f26f5b8e77f54b92e.jpg.webp"/></programme>
-<programme start="20261030213719 +0000" stop="20261030214532 +0000" channel="whale.956148002287389585"><title>How to make Aeropress Coffee at Home</title><desc>Brodie explains how to make Aeropress coffee at home or abroad.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/229101030de36dce8e5e045f6bb033fd.jpg.webp"/></programme>
-<programme start="20261030214532 +0000" stop="20261030215539 +0000" channel="whale.956148002287389585"><title>How to Make a Pour Over Coffee with a Chemex</title><desc>Brodie explains how to make a pour over coffee at home with a Chemex.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/114c09aaf0b93cc5597beef44ce75b28.jpg.webp"/></programme>
-<programme start="20261030215539 +0000" stop="20261030220000 +0000" channel="whale.956148002287389585"><title>3 Different Ways to Make Coldbrew Coffee at Home</title><desc>Brodie introduces three different ways how to make cold brew coffee at home.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/6f1196c4a3d331db1202e60bca0ea9ec.jpg.webp"/></programme>
-<programme start="20261030220000 +0000" stop="20261030220640 +0000" channel="whale.956148002287389585"><title>How to make Berries Dalgona Oreoffy Coffee</title><desc>Berries dalgona Oreoffy coffee recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/3e9b4d75f0851d2648ea50ac6379491e.jpg.webp"/></programme>
-<programme start="20261030220640 +0000" stop="20261030220807 +0000" channel="whale.956148002287389585"><title>Pearled Coffee</title><desc>A pearled coffee recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/032415b40997ee9ae79a1eecaf559a01.jpg.webp"/></programme>
-<programme start="20261030220807 +0000" stop="20261030221234 +0000" channel="whale.956148002287389585"><title>Quick + Easy Iced Coffee</title><desc>A quick + easy iced coffee recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/77bfc0efd4a6268b8ae5bca7646224a9.jpg.webp"/></programme>
-<programme start="20261030221234 +0000" stop="20261030221953 +0000" channel="whale.956148002287389585"><title>Iced Coffee Brewing Recipe with Hario V60</title><desc>Kurasu from Kyoto in Japan brews a delicious and flavorful iced coffee using a V60.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/58e11caf667ec652d299ce37dc8b879c.jpg.webp"/></programme>
-<programme start="20261030221953 +0000" stop="20261030222431 +0000" channel="whale.956148002287389585"><title>Milkì Mix Tutorial: Cherry Bomb</title><desc>Cherry Bomb - Cherry and cocoa. Cold-frothed milk recipe with coffee and comprital toppings.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/52cacf12d3d2d7ae56cf6eeb1d23ca96.jpg.webp"/></programme>
-<programme start="20261030222431 +0000" stop="20261030222734 +0000" channel="whale.956148002287389585"><title>Milkì Mix Tutorial: Exotic Passion</title><desc>Exotic Passion - Mango and coconut. Cold-frothed milk recipe with coffee and comprital toppings.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/766bc8fbb2c030fad6b601ff691fc529.jpg.webp"/></programme>
-<programme start="20261030222734 +0000" stop="20261030223000 +0000" channel="whale.956148002287389585"><title>Milkì Mix Tutorial: Gentleman</title><desc>Gentlemen - Amaretti, white chocolate and peach. Cold-frothed milk recipe with coffee and toppings.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/021794c2bb73811040776a045e319096.jpg.webp"/></programme>
-<programme start="20261030223000 +0000" stop="20261030223533 +0000" channel="whale.956148002287389585"><title>From One Barista To Another: The Coffee Cabin in the United Kingdom</title><desc>Introducing the Coffee Cabin from the United Kingdom.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/150930b03472093fc394b7b95e043292.jpg.webp"/></programme>
-<programme start="20261030223533 +0000" stop="20261030223645 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: First Interview with Channa Galhenage from Café Loustic</title><desc>Interview with Channa Galhenage from Café Loustic.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/e14e01070eb59ace3f78181006690ca6.jpg.webp"/></programme>
-<programme start="20261030223645 +0000" stop="20261030223758 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: Café Coutume</title><desc>Visiting Café Coutume in Paris in France.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/54945d85def0dda24a448ca13b038933.jpg.webp"/></programme>
-<programme start="20261030223758 +0000" stop="20261030224113 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: Café Holybelly</title><desc>Visiting Café Holybelly in Paris in France.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/61e800c83994f7366687e7a52e6d0bf0.jpg.webp"/></programme>
-<programme start="20261030224113 +0000" stop="20261030224248 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: Café La Caféothêque</title><desc>Visiting Café La Caféothêque in Paris in France.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/927075d5634344ea492e264e1273cdb1.jpg.webp"/></programme>
-<programme start="20261030224248 +0000" stop="20261030224405 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: Café The Broken Arm</title><desc>Visiting Café The Broken Arm in Paris in France.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/a39eeefdd578673d7a0867429e0b0a04.jpg.webp"/></programme>
-<programme start="20261030224405 +0000" stop="20261030224838 +0000" channel="whale.956148002287389585"><title>The Coffee Connection in Oswego in New York</title><desc>Visiting The Coffee Connection in Oswego, New York in the USA.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/4d699cb45b71d56dc29ee9be7cb0238f.jpg.webp"/></programme>
-<programme start="20261030224838 +0000" stop="20261030225120 +0000" channel="whale.956148002287389585"><title>Introducing Onibus Coffee from Tokyo in Japan</title><desc>Onibus means bus stop in Portuguese and signifies a place for everyone to connect.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/9b0e4fc4fdeb1e581a655dbab5246d78.jpg.webp"/></programme>
-<programme start="20261030225120 +0000" stop="20261030225557 +0000" channel="whale.956148002287389585"><title>Black Coffee Northwest, Washington</title><desc>Visiting Black Coffee Northwest in Washington in the USA.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/9196486c3063b51df65090870447d6aa.jpg.webp"/></programme>
-<programme start="20261030225557 +0000" stop="20261030230000 +0000" channel="whale.956148002287389585"><title>Colombian Coffee Done Right at the Coffee Shop Salvo Patria</title><desc>Visiting coffee shop Salvo Patria in Bogotà in Colombia.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/c1b3e032510abcd3c6cdcd8ced19f658.jpg.webp"/></programme>
-<programme start="20261030230000 +0000" stop="20261030230443 +0000" channel="whale.956148002287389585"><title>Crispy Walnut Caramel Ice Cream Recipe</title><desc>Follow this easy to make crispy walnut caramel ice cream recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/225a7e8a50a8e21f0b9f30b39bf4c378.jpg.webp"/></programme>
-<programme start="20261030230443 +0000" stop="20261030230958 +0000" channel="whale.956148002287389585"><title>Classic New York Cheesecake Recipe</title><desc>Follow this easy to make classic New York cheesecake recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/ee59cd4954d5c432e44281073c0d02d1.jpg.webp"/></programme>
-<programme start="20261030230958 +0000" stop="20261030231813 +0000" channel="whale.956148002287389585"><title>Coffee Mousse Cake Recipe</title><desc>Follow this easy to make coffee mousse recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/fcd068cbaac4c201607b31d30cbb08c4.jpg.webp"/></programme>
-<programme start="20261030231813 +0000" stop="20261030232351 +0000" channel="whale.956148002287389585"><title>Coffee Chain Inspired Vanilla Scones Recipe</title><desc>Follow this easy to make coffee chain inspired vanilla scones recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/a23dfb7ecb8c59767a08e11fc2347d39.jpg.webp"/></programme>
-<programme start="20261030232351 +0000" stop="20261030233000 +0000" channel="whale.956148002287389585"><title>Coton Cheesecake Recipe</title><desc>Follow this easy to make coton cheesecake recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/3f7febc2e42c41ac2f201fc652aa1a50.jpg.webp"/></programme>
-<programme start="20261030233000 +0000" stop="20261030233441 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Guatemala</title><desc>Introduction to coffee producing country Guatemala.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/159395019df1385011b5e95842c2d11d.jpg.webp"/></programme>
-<programme start="20261030233441 +0000" stop="20261030234048 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Kenya</title><desc>Introduction to coffee producing country Kenya.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/960a04259199a09d3029ad783586add3.jpg.webp"/></programme>
-<programme start="20261030234048 +0000" stop="20261030234639 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Peru</title><desc>Introduction to coffee producing country Peru.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/8873000dff7c4d1bbb19750e47e54805.jpg.webp"/></programme>
-<programme start="20261030234639 +0000" stop="20261030235347 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Honduras</title><desc>Introduction to coffee producing country Honduras.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/57a0f0bfe60b540ae0c1909535be2a71.jpg.webp"/></programme>
-<programme start="20261030235347 +0000" stop="20261031000000 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Uganda</title><desc>Introduction to coffee producing country Uganda.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/ea849bc240c400aa6881be51e8874f39.jpg.webp"/></programme>
-<programme start="20261031000000 +0000" stop="20261031000936 +0000" channel="whale.956148002287389585"><title>An Introduction How to Make Better Coffee at Home</title><desc>Brodie shares how to generally make better coffee at home.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/f668486b33159f5a8e170ee37f00e4db.jpg.webp"/></programme>
-<programme start="20261031000936 +0000" stop="20261031001549 +0000" channel="whale.956148002287389585"><title>Simple Coffee Hacks at Home</title><desc>Find out with Brodie about these simple coffee hacks at home.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/87c0f18e64f2f49e017883ea5b84a402.jpg.webp"/></programme>
-<programme start="20261031001549 +0000" stop="20261031002549 +0000" channel="whale.956148002287389585"><title>How to Make Easy Cold Brew Coffee</title><desc>A speciality cold brew drink recipe.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/a2575bd11d353697ad78f47b85dfd141.jpg.webp"/></programme>
-<programme start="20261031002549 +0000" stop="20261031003039 +0000" channel="whale.956148002287389585"><title>Barista Skills: Latte Art</title><desc>Barista Sam shows how to pour your first latte using the Wacaco Nanopresso.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/9b9a4c4a5fd9a12e50f1400c617dbeac.jpg.webp"/></programme>
-<programme start="20261031003039 +0000" stop="20261031003127 +0000" channel="whale.956148002287389585"><title>I Need-A Vita - Caffe Vita Cartoon</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/72e599f86fadd9c106739f9e145e53ff.jpg.webp"/></programme>
-<programme start="20261031003127 +0000" stop="20261031003256 +0000" channel="whale.956148002287389585"><title>Golden Hour Brew with Iced AeroPress</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/295b826472586def3361ef3a848c00b4.jpg.webp"/></programme>
-<programme start="20261031003256 +0000" stop="20261031003506 +0000" channel="whale.956148002287389585"><title>Golden Hour Brew with Manual Flair Espresso Maker</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/ca1dda6e09c9d82162c00ce2aa1d8207.jpg.webp"/></programme>
-<programme start="20261031003506 +0000" stop="20261031003958 +0000" channel="whale.956148002287389585"><title>Outdoor Brewing with Kalita Tsubame and Kovea Cube Gas Stove</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/58cae9b6a58e8db972cc7dad0d69582d.jpg.webp"/></programme>
-<programme start="20261031003958 +0000" stop="20261031004313 +0000" channel="whale.956148002287389585"><title>Taking Lunch Slow with Origami Air Plastic Dripper</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/9c2f46fca73660a9ee4f685694072aa9.jpg.webp"/></programme>
-<programme start="20261031004313 +0000" stop="20261031004405 +0000" channel="whale.956148002287389585"><title>Hibi Coffee Kyoto</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/0a5db22f34c04b43dc5bf8ae1b5f9c3e.jpg.webp"/></programme>
-<programme start="20261031004405 +0000" stop="20261031004505 +0000" channel="whale.956148002287389585"><title>Kalita Tsubame Series</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/52e554a1b519ad9294ede7aa145ea050.jpg.webp"/></programme>
-<programme start="20261031004505 +0000" stop="20261031004646 +0000" channel="whale.956148002287389585"><title>Kurasu from Singapore</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/5e20beefda53afdfcd82ed1005754bb9.jpg.webp"/></programme>
-<programme start="20261031004646 +0000" stop="20261031005010 +0000" channel="whale.956148002287389585"><title>Catalysing Peace and Prosperity</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/8ebed8de705b5ad1681532ac2fd3b8d9.jpg.webp"/></programme>
-<programme start="20261031005010 +0000" stop="20261031005106 +0000" channel="whale.956148002287389585"><title>Introducing Raw Coffee Company from Dubai in the UAE</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/02fe007d9c29248992a8b6249f5e8b7f.jpg.webp"/></programme>
-<programme start="20261031005106 +0000" stop="20261031005158 +0000" channel="whale.956148002287389585"><title>Outdoor Coffee Brewing Video with Hario Mugen Dripper on Pangandaran Beach</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/b338b47b82155c246b0679a2b2a2098f.jpg.webp"/></programme>
-<programme start="20261031005158 +0000" stop="20261031005438 +0000" channel="whale.956148002287389585"><title>Workflow ECM Mechanika V Slim and Niche Zero</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/2164f8e6923ab431d1699085c892606f.jpg.webp"/></programme>
-<programme start="20261031005438 +0000" stop="20261031005537 +0000" channel="whale.956148002287389585"><title>A Journey, a Moment of Flavor!</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/cb8718854badb6f5eae37e3c3591f06b.jpg.webp"/></programme>
-<programme start="20261031005537 +0000" stop="20261031010000 +0000" channel="whale.956148002287389585"><title>Espresso at Hand</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/86f7c1a2b89708d75625e0c6b421fe75.jpg.webp"/></programme>
-<programme start="20261031010000 +0000" stop="20261031011444 +0000" channel="whale.956148002287389585"><title>The Best Glassware For Coffee Reviewing</title><desc>Brodie is reviewing The Kruve EQ and ICOSA Avensi.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/a10a6d1f6cbe764ea12b79a028a7c793.jpg.webp"/></programme>
-<programme start="20261031011444 +0000" stop="20261031012503 +0000" channel="whale.956148002287389585"><title>Introducing the Timemore Chestnut C2 Grinder 2022</title><desc>We unbox, recap and discus the new changes to the Timemore C2 coffee grinder.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/96135976aa6a69065e49ddff3113d470.jpg.webp"/></programme>
-<programme start="20261031012503 +0000" stop="20261031012707 +0000" channel="whale.956148002287389585"><title>The Holzklotz Drip Stand S Gold</title><desc>Unboxing the Holzklotz drip stand S Gold.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/d27c261dcc027f63e237d3d995c489bf.jpg.webp"/></programme>
-<programme start="20261031012707 +0000" stop="20261031013044 +0000" channel="whale.956148002287389585"><title>Yoshikawa Pour Over Kettle</title><desc>The Yoshikawa is a professional barista-style kettle.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/442beb5272ae4a6034859f7d1e3264e8.jpg.webp"/></programme>
-<programme start="20261031013044 +0000" stop="20261031013244 +0000" channel="whale.956148002287389585"><title>Milkì Mix Tutorial: Orient Express</title><desc>Orient Express - Cinnamon and cocoa. Cold-frothed milk recipe with coffee and tasty toppings.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/6ecc3194842d1f78e0a424c56f33b4b4.jpg.webp"/></programme>
-<programme start="20261031013244 +0000" stop="20261031013656 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Cappuccino</title><desc>Cappuccino from Italy - Countries are contributing their own unique recipes to coffee drinking.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/5d8f7933c3ee4c04863e782d4926bf1d.jpg.webp"/></programme>
-<programme start="20261031013656 +0000" stop="20261031013745 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Espresso Italiano</title><desc>Espresso Italiano from Italy - Countries are contributing their unique recipes to coffee drinking.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/44b2203bbd36fe2c5477e3fb4d633098.jpg.webp"/></programme>
-<programme start="20261031013745 +0000" stop="20261031013839 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Flat White</title><desc>Flat White from Australia - Countries are contributing their unique recipes to coffee drinking.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/d28ac41fb5742ba1df855e25d22a472b.jpg.webp"/></programme>
-<programme start="20261031013839 +0000" stop="20261031013941 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Freddo Greco</title><desc>Freddo Greco from Greece - Countries are contributing their unique recipes to coffee drinking.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/f1338f021b682909dd10071b0b760e54.jpg.webp"/></programme>
-<programme start="20261031013941 +0000" stop="20261031014037 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Latte Macchiato</title><desc>Latte Macchiato from Italy - Countries are contributing their unique recipes to coffee drinking.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/3eeae772cc877ea98587790ff6adfa91.jpg.webp"/></programme>
-<programme start="20261031014037 +0000" stop="20261031014344 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Marocchino</title><desc>Marcocchino from Italy - Countries are contributing their unique recipes to coffee drinking.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/580b331b196b1e67e390f5b975fe4e44.jpg.webp"/></programme>
-<programme start="20261031014344 +0000" stop="20261031014455 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Shakerato</title><desc>Shakerato from Italy - Countries are contributing their unique recipes to coffee drinking.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/d0ff104a86b33b202cfeaa668f0da49c.jpg.webp"/></programme>
-<programme start="20261031014455 +0000" stop="20261031014846 +0000" channel="whale.956148002287389585"><title>Cold Brewing with AeroPress with Joe Cline</title><desc>Joe Cline shares his demo of cold brewing a cold brew latte with the AeroPress Go travel coffee press.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/870e0ccf3010f5d4d0a0d8ec5c3643d8.jpg.webp"/></programme>
-<programme start="20261031014846 +0000" stop="20261031015035 +0000" channel="whale.956148002287389585"><title>How to Make an Iced Matcha Latte</title><desc>A Matcha Latte is a refreshing, delicious way to experience the health-boosting benefits of matcha.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/9efd79107a19c07e71067c20864e4533.jpg.webp"/></programme>
-<programme start="20261031015035 +0000" stop="20261031020000 +0000" channel="whale.956148002287389585"><title>How to Make an Iced Vanilla Latte</title><desc>This iced vanilla latte recipe takes only a few minutes to make and is so refreshing.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/5a2a44d6cfa7a813e1498e1b152af691.jpg.webp"/></programme>
-<programme start="20261031020000 +0000" stop="20261031022236 +0000" channel="whale.956148002287389585"><title>The Best Coffee Spots in Mallorca by Bike</title><desc>Brodie cycles around Mallorca to unpack some of the unique coffee stories from this island.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/d448fdd5106543bee1d193b7125af569.jpg.webp"/></programme>
-<programme start="20261031022236 +0000" stop="20261031022633 +0000" channel="whale.956148002287389585"><title>Leaves Coffee Roaster from Tokyo in Japan</title><desc>The guys from Leaves Coffee Roaster are making waves in the Tokyo coffee scene.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/b7c26ade417792fd5005a1ada8de4e68.jpg.webp"/></programme>
-<programme start="20261031022633 +0000" stop="20261031023000 +0000" channel="whale.956148002287389585"><title>Takamura Coffee Roasters from Osaka in Japan</title><desc>Takamura Coffee has been leading the wave of specialty coffee in Kansai in Japan.</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/7634fc9c0019c14daec2f34e55c3c4b0.jpg.webp"/></programme>
+<programme start="20261030183758 +0000" stop="20261030184148 +0000" channel="whale.956148002287389585"><title>LaCimbali Technology</title></programme>
+<programme start="20261030184148 +0000" stop="20261030184315 +0000" channel="whale.956148002287389585"><title>Brewing with AeroPress Go after Ice Skating by Brandon Royce</title></programme>
+<programme start="20261030184315 +0000" stop="20261030184916 +0000" channel="whale.956148002287389585"><title>Towards the Wind - Aneecha</title></programme>
+<programme start="20261030184916 +0000" stop="20261030185015 +0000" channel="whale.956148002287389585"><title>Dalgona Coffee</title></programme>
+<programme start="20261030185015 +0000" stop="20261030185355 +0000" channel="whale.956148002287389585"><title>Kooka Coffee New Coffee Truck</title></programme>
+<programme start="20261030185355 +0000" stop="20261030185752 +0000" channel="whale.956148002287389585"><title>48 Hours in Bangkok in Thailand</title></programme>
+<programme start="20261030185752 +0000" stop="20261030190000 +0000" channel="whale.956148002287389585"><title>Single O Parachutes Surprisingly Good</title></programme>
+<programme start="20261030190000 +0000" stop="20261030190559 +0000" channel="whale.956148002287389585"><title>Irish Coffee Recipe: A Tropical Twist on a Classic Drink</title></programme>
+<programme start="20261030190559 +0000" stop="20261030190903 +0000" channel="whale.956148002287389585"><title>Iced Lychee Coffee</title></programme>
+<programme start="20261030190903 +0000" stop="20261030191556 +0000" channel="whale.956148002287389585"><title>Nitro Espresso Old Fashioned Way</title></programme>
+<programme start="20261030191556 +0000" stop="20261030192107 +0000" channel="whale.956148002287389585"><title>How to Make the Perfect Pumpkin Spice Latte</title></programme>
+<programme start="20261030192107 +0000" stop="20261030192608 +0000" channel="whale.956148002287389585"><title>Brewing Guide: Kalita Wave</title></programme>
+<programme start="20261030192608 +0000" stop="20261030193000 +0000" channel="whale.956148002287389585"><title>Brewing Guide: Hario Switch</title></programme>
+<programme start="20261030193000 +0000" stop="20261030194310 +0000" channel="whale.956148002287389585"><title>The Best Coffee Grinder for You</title></programme>
+<programme start="20261030194310 +0000" stop="20261030195513 +0000" channel="whale.956148002287389585"><title>Peak Water Filter or Brita Filter?</title></programme>
+<programme start="20261030195513 +0000" stop="20261030200000 +0000" channel="whale.956148002287389585"><title>Hario Mobile Mill Stick</title></programme>
+<programme start="20261030200000 +0000" stop="20261030200954 +0000" channel="whale.956148002287389585"><title>What Can Coffee Learn from Wine?</title></programme>
+<programme start="20261030200954 +0000" stop="20261030201939 +0000" channel="whale.956148002287389585"><title>Make Way Better Coffee</title></programme>
+<programme start="20261030201939 +0000" stop="20261030202505 +0000" channel="whale.956148002287389585"><title>The graycano Journey</title></programme>
+<programme start="20261030202505 +0000" stop="20261030203000 +0000" channel="whale.956148002287389585"><title>999 Different Pairs of Hands</title></programme>
+<programme start="20261030203000 +0000" stop="20261030203112 +0000" channel="whale.956148002287389585"><title>My Daily Routine at Work and Pouring a Bunny Latte Art</title></programme>
+<programme start="20261030203112 +0000" stop="20261030204429 +0000" channel="whale.956148002287389585"><title>A Journey into the Benguet Coffee Trail</title></programme>
+<programme start="20261030204429 +0000" stop="20261030204859 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Costa Rica</title></programme>
+<programme start="20261030204859 +0000" stop="20261030205612 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Papua New Guinea</title></programme>
+<programme start="20261030205612 +0000" stop="20261030210000 +0000" channel="whale.956148002287389585"><title>Coffee Culture in Ethiopia</title></programme>
+<programme start="20261030210000 +0000" stop="20261030211406 +0000" channel="whale.956148002287389585"><title>French Press versus Mokka Pot  In-depth Comparison for Beginners</title></programme>
+<programme start="20261030211406 +0000" stop="20261030212447 +0000" channel="whale.956148002287389585"><title>Ankomn Vacuum Contianer Review</title></programme>
+<programme start="20261030212447 +0000" stop="20261030213000 +0000" channel="whale.956148002287389585"><title>Coffee Compass by Caravela Coffee</title></programme>
+<programme start="20261030213000 +0000" stop="20261030213719 +0000" channel="whale.956148002287389585"><title>How to make French Press Coffee</title></programme>
+<programme start="20261030213719 +0000" stop="20261030214532 +0000" channel="whale.956148002287389585"><title>How to make Aeropress Coffee at Home</title></programme>
+<programme start="20261030214532 +0000" stop="20261030215539 +0000" channel="whale.956148002287389585"><title>How to Make a Pour Over Coffee with a Chemex</title></programme>
+<programme start="20261030215539 +0000" stop="20261030220000 +0000" channel="whale.956148002287389585"><title>3 Different Ways to Make Coldbrew Coffee at Home</title></programme>
+<programme start="20261030220000 +0000" stop="20261030220640 +0000" channel="whale.956148002287389585"><title>How to make Berries Dalgona Oreoffy Coffee</title></programme>
+<programme start="20261030220640 +0000" stop="20261030220807 +0000" channel="whale.956148002287389585"><title>Pearled Coffee</title></programme>
+<programme start="20261030220807 +0000" stop="20261030221234 +0000" channel="whale.956148002287389585"><title>Quick + Easy Iced Coffee</title></programme>
+<programme start="20261030221234 +0000" stop="20261030221953 +0000" channel="whale.956148002287389585"><title>Iced Coffee Brewing Recipe with Hario V60</title></programme>
+<programme start="20261030221953 +0000" stop="20261030222431 +0000" channel="whale.956148002287389585"><title>Milkì Mix Tutorial: Cherry Bomb</title></programme>
+<programme start="20261030222431 +0000" stop="20261030222734 +0000" channel="whale.956148002287389585"><title>Milkì Mix Tutorial: Exotic Passion</title></programme>
+<programme start="20261030222734 +0000" stop="20261030223000 +0000" channel="whale.956148002287389585"><title>Milkì Mix Tutorial: Gentleman</title></programme>
+<programme start="20261030223000 +0000" stop="20261030223533 +0000" channel="whale.956148002287389585"><title>From One Barista To Another: The Coffee Cabin in the United Kingdom</title></programme>
+<programme start="20261030223533 +0000" stop="20261030223645 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: First Interview with Channa Galhenage from Café Loustic</title></programme>
+<programme start="20261030223645 +0000" stop="20261030223758 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: Café Coutume</title></programme>
+<programme start="20261030223758 +0000" stop="20261030224113 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: Café Holybelly</title></programme>
+<programme start="20261030224113 +0000" stop="20261030224248 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: Café La Caféothêque</title></programme>
+<programme start="20261030224248 +0000" stop="20261030224405 +0000" channel="whale.956148002287389585"><title>Paris Coffee Project: Café The Broken Arm</title></programme>
+<programme start="20261030224405 +0000" stop="20261030224838 +0000" channel="whale.956148002287389585"><title>The Coffee Connection in Oswego in New York</title></programme>
+<programme start="20261030224838 +0000" stop="20261030225120 +0000" channel="whale.956148002287389585"><title>Introducing Onibus Coffee from Tokyo in Japan</title></programme>
+<programme start="20261030225120 +0000" stop="20261030225557 +0000" channel="whale.956148002287389585"><title>Black Coffee Northwest, Washington</title></programme>
+<programme start="20261030225557 +0000" stop="20261030230000 +0000" channel="whale.956148002287389585"><title>Colombian Coffee Done Right at the Coffee Shop Salvo Patria</title></programme>
+<programme start="20261030230000 +0000" stop="20261030230443 +0000" channel="whale.956148002287389585"><title>Crispy Walnut Caramel Ice Cream Recipe</title></programme>
+<programme start="20261030230443 +0000" stop="20261030230958 +0000" channel="whale.956148002287389585"><title>Classic New York Cheesecake Recipe</title></programme>
+<programme start="20261030230958 +0000" stop="20261030231813 +0000" channel="whale.956148002287389585"><title>Coffee Mousse Cake Recipe</title></programme>
+<programme start="20261030231813 +0000" stop="20261030232351 +0000" channel="whale.956148002287389585"><title>Coffee Chain Inspired Vanilla Scones Recipe</title></programme>
+<programme start="20261030232351 +0000" stop="20261030233000 +0000" channel="whale.956148002287389585"><title>Coton Cheesecake Recipe</title></programme>
+<programme start="20261030233000 +0000" stop="20261030233441 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Guatemala</title></programme>
+<programme start="20261030233441 +0000" stop="20261030234048 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Kenya</title></programme>
+<programme start="20261030234048 +0000" stop="20261030234639 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Peru</title></programme>
+<programme start="20261030234639 +0000" stop="20261030235347 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Honduras</title></programme>
+<programme start="20261030235347 +0000" stop="20261031000000 +0000" channel="whale.956148002287389585"><title>The Genuine Origin Coffee Project: Uganda</title></programme>
+<programme start="20261031000000 +0000" stop="20261031000936 +0000" channel="whale.956148002287389585"><title>An Introduction How to Make Better Coffee at Home</title></programme>
+<programme start="20261031000936 +0000" stop="20261031001549 +0000" channel="whale.956148002287389585"><title>Simple Coffee Hacks at Home</title></programme>
+<programme start="20261031001549 +0000" stop="20261031002549 +0000" channel="whale.956148002287389585"><title>How to Make Easy Cold Brew Coffee</title></programme>
+<programme start="20261031002549 +0000" stop="20261031003039 +0000" channel="whale.956148002287389585"><title>Barista Skills: Latte Art</title></programme>
+<programme start="20261031003039 +0000" stop="20261031003127 +0000" channel="whale.956148002287389585"><title>I Need-A Vita - Caffe Vita Cartoon</title></programme>
+<programme start="20261031003127 +0000" stop="20261031003256 +0000" channel="whale.956148002287389585"><title>Golden Hour Brew with Iced AeroPress</title></programme>
+<programme start="20261031003256 +0000" stop="20261031003506 +0000" channel="whale.956148002287389585"><title>Golden Hour Brew with Manual Flair Espresso Maker</title></programme>
+<programme start="20261031003506 +0000" stop="20261031003958 +0000" channel="whale.956148002287389585"><title>Outdoor Brewing with Kalita Tsubame and Kovea Cube Gas Stove</title></programme>
+<programme start="20261031003958 +0000" stop="20261031004313 +0000" channel="whale.956148002287389585"><title>Taking Lunch Slow with Origami Air Plastic Dripper</title></programme>
+<programme start="20261031004313 +0000" stop="20261031004405 +0000" channel="whale.956148002287389585"><title>Hibi Coffee Kyoto</title></programme>
+<programme start="20261031004405 +0000" stop="20261031004505 +0000" channel="whale.956148002287389585"><title>Kalita Tsubame Series</title></programme>
+<programme start="20261031004505 +0000" stop="20261031004646 +0000" channel="whale.956148002287389585"><title>Kurasu from Singapore</title></programme>
+<programme start="20261031004646 +0000" stop="20261031005010 +0000" channel="whale.956148002287389585"><title>Catalysing Peace and Prosperity</title></programme>
+<programme start="20261031005010 +0000" stop="20261031005106 +0000" channel="whale.956148002287389585"><title>Introducing Raw Coffee Company from Dubai in the UAE</title></programme>
+<programme start="20261031005106 +0000" stop="20261031005158 +0000" channel="whale.956148002287389585"><title>Outdoor Coffee Brewing Video with Hario Mugen Dripper on Pangandaran Beach</title></programme>
+<programme start="20261031005158 +0000" stop="20261031005438 +0000" channel="whale.956148002287389585"><title>Workflow ECM Mechanika V Slim and Niche Zero</title></programme>
+<programme start="20261031005438 +0000" stop="20261031005537 +0000" channel="whale.956148002287389585"><title>A Journey, a Moment of Flavor!</title></programme>
+<programme start="20261031005537 +0000" stop="20261031010000 +0000" channel="whale.956148002287389585"><title>Espresso at Hand</title></programme>
+<programme start="20261031010000 +0000" stop="20261031011444 +0000" channel="whale.956148002287389585"><title>The Best Glassware For Coffee Reviewing</title></programme>
+<programme start="20261031011444 +0000" stop="20261031012503 +0000" channel="whale.956148002287389585"><title>Introducing the Timemore Chestnut C2 Grinder 2022</title></programme>
+<programme start="20261031012503 +0000" stop="20261031012707 +0000" channel="whale.956148002287389585"><title>The Holzklotz Drip Stand S Gold</title></programme>
+<programme start="20261031012707 +0000" stop="20261031013044 +0000" channel="whale.956148002287389585"><title>Yoshikawa Pour Over Kettle</title></programme>
+<programme start="20261031013044 +0000" stop="20261031013244 +0000" channel="whale.956148002287389585"><title>Milkì Mix Tutorial: Orient Express</title></programme>
+<programme start="20261031013244 +0000" stop="20261031013656 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Cappuccino</title></programme>
+<programme start="20261031013656 +0000" stop="20261031013745 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Espresso Italiano</title></programme>
+<programme start="20261031013745 +0000" stop="20261031013839 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Flat White</title></programme>
+<programme start="20261031013839 +0000" stop="20261031013941 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Freddo Greco</title></programme>
+<programme start="20261031013941 +0000" stop="20261031014037 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Latte Macchiato</title></programme>
+<programme start="20261031014037 +0000" stop="20261031014344 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Marocchino</title></programme>
+<programme start="20261031014344 +0000" stop="20261031014455 +0000" channel="whale.956148002287389585"><title>LaCimbali Coffee Tutorial: Shakerato</title></programme>
+<programme start="20261031014455 +0000" stop="20261031014846 +0000" channel="whale.956148002287389585"><title>Cold Brewing with AeroPress with Joe Cline</title></programme>
+<programme start="20261031014846 +0000" stop="20261031015035 +0000" channel="whale.956148002287389585"><title>How to Make an Iced Matcha Latte</title></programme>
+<programme start="20261031015035 +0000" stop="20261031020000 +0000" channel="whale.956148002287389585"><title>How to Make an Iced Vanilla Latte</title></programme>
+<programme start="20261031020000 +0000" stop="20261031022236 +0000" channel="whale.956148002287389585"><title>The Best Coffee Spots in Mallorca by Bike</title></programme>
+<programme start="20261031022236 +0000" stop="20261031022633 +0000" channel="whale.956148002287389585"><title>Leaves Coffee Roaster from Tokyo in Japan</title></programme>
+<programme start="20261031022633 +0000" stop="20261031023000 +0000" channel="whale.956148002287389585"><title>Takamura Coffee Roasters from Osaka in Japan</title></programme>
 <programme start="20261031023000 +0000" stop="20261031023137 +0000" channel="whale.956148002287389585"><title>Fly with Wacaco</title></programme>
 <programme start="20261031023137 +0000" stop="20261031023302 +0000" channel="whale.956148002287389585"><title>Heli-Skiing with Wacaco</title></programme>
-<programme start="20261031023302 +0000" stop="20261031023430 +0000" channel="whale.956148002287389585"><title>Rove - Arctic Cafe</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/300d6b5f073ef9791885e6ebdb12d3cd.jpg.webp"/></programme>
-<programme start="20261031023430 +0000" stop="20261031023758 +0000" channel="whale.956148002287389585"><title>Sand Dunes Cafe</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/128d6401544619d92a79bff23218dac4.jpg.webp"/></programme>
-<programme start="20261031023758 +0000" stop="20261031024148 +0000" channel="whale.956148002287389585"><title>LaCimbali Technology</title><desc>Feel the crema vibes!</desc><icon src="https://d28p74hx180360.cloudfront.net/79/EPG/3/2026-08-29/4008e59b1779d6e23d045e5e382b83c4.jpg.webp"/></programme>
+<programme start="20261031023302 +0000" stop="20261031023430 +0000" channel="whale.956148002287389585"><title>Rove - Arctic Cafe</title></programme>
+<programme start="20261031023430 +0000" stop="20261031023758 +0000" channel="whale.956148002287389585"><title>Sand Dunes Cafe</title></programme>
+<programme start="20261031023758 +0000" stop="20261031024148 +0000" channel="whale.956148002287389585"><title>LaCimbali Technology</title></programme>
 <programme start="20261031024148 +0000" stop="20261031024315 +0000" channel="whale.956148002287389585"><title>Brewing with AeroPress Go after Ice Skating by Brandon Royce</title></programme>
 <programme start="20261031024315 +0000" stop="20261031024916 +0000" channel="whale.956148002287389585"><title>Towards the Wind - Aneecha</title></programme>
 <programme start="20261031024916 +0000" stop="20261031025015 +0000" channel="whale.956148002287389585"><title>Dalgona Coffee</title></programme>
@@ -14152,8 +14114,7 @@
 <programme start="20261031234729 +0000" stop="20261031235039 +0000" channel="whale.956148002287389585"><title>Kape Tayo</title></programme>
 <programme start="20261031235039 +0000" stop="20261031235802 +0000" channel="whale.956148002287389585"><title>Home Brewing Espresso with the Flair Pro 2</title></programme>
 <programme start="20261031235802 +0000" stop="20261101000037 +0000" channel="whale.956148002287389585"><title>Just A Cup of Coffee</title></programme>
-<programme start="20261030151907 +0000" stop="20261030153108 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title><desc>Are you looking for recipes that are tasty and delicious? Look no further as we have put together a bundle of recipes we're certain you're going to love and want to try! Make cooking fun and exciting!</desc></programme>
-<programme start="20261030153108 +0000" stop="20261030160000 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title></programme>
+<programme start="20261030153108 +0000" stop="20261030160000 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title><desc>Are you looking for recipes that are tasty and delicious? Look no further as we have put together a bundle of recipes we're certain you're going to love and want to try! Make cooking fun and exciting!</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030161704 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title></programme>
 <programme start="20261030161704 +0000" stop="20261030162407 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title></programme>
 <programme start="20261030162407 +0000" stop="20261030163610 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title></programme>
@@ -14300,7 +14261,6 @@
 <programme start="20261031231407 +0000" stop="20261031232608 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title></programme>
 <programme start="20261031232608 +0000" stop="20261031233313 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title></programme>
 <programme start="20261031233313 +0000" stop="20261101000000 +0000" channel="whale.422056370578787609"><title>Cooking Panda Recipe Videos</title></programme>
-<programme start="20261030152135 +0000" stop="20261030154323 +0000" channel="whale.1057801252425569157"><title>All the goals</title></programme>
 <programme start="20261030154323 +0000" stop="20261030161234 +0000" channel="whale.1057801252425569157"><title>All the goals</title></programme>
 <programme start="20261030161234 +0000" stop="20261030173316 +0000" channel="whale.1057801252425569157"><title>All the goals</title></programme>
 <programme start="20261030173316 +0000" stop="20261030184357 +0000" channel="whale.1057801252425569157"><title>All the goals</title></programme>
@@ -14402,8 +14362,7 @@
 <programme start="20261104230404 +0000" stop="20261105012738 +0000" channel="whale.1057801252425569157"><title>All the goals</title></programme>
 <programme start="20261105012738 +0000" stop="20261105042143 +0000" channel="whale.1057801252425569157"><title>All the goals</title></programme>
 <programme start="20261105042143 +0000" stop="20261105050000 +0000" channel="whale.1057801252425569157"><title>All the goals</title></programme>
-<programme start="20261030144205 +0000" stop="20261030154108 +0000" channel="whale.999420644834214624"><title>Serie A 2026/2027 |Inter - Napoli | 45-Minute Extended Highlights</title><desc>Relive 2026/2027 season top moments</desc></programme>
-<programme start="20261030154108 +0000" stop="20261030160000 +0000" channel="whale.999420644834214624"><title>Off The Pitch | Arianna Fontana</title></programme>
+<programme start="20261030154108 +0000" stop="20261030160000 +0000" channel="whale.999420644834214624"><title>Off The Pitch | Arianna Fontana</title><desc>With eleven medals, she is Italy's most decorated female athlete at the Winter Olympics Arianna Fontana and her love for Inter in the second episode of Off The Pitch</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030173013 +0000" channel="whale.999420644834214624"><title>Inter Weekly - All The Insights Ahead Of Inter - Parma | 2026/27</title></programme>
 <programme start="20261030173013 +0000" stop="20261030183000 +0000" channel="whale.999420644834214624"><title>Serie A | 2026/2027 | Inter - Parma | 45-Minute Extended Highlights</title></programme>
 <programme start="20261030183000 +0000" stop="20261030190149 +0000" channel="whale.999420644834214624"><title>Showreel |Eto'O</title></programme>
@@ -14621,8 +14580,8 @@
 <programme start="20261106142435 +0000" stop="20261106143000 +0000" channel="whale.999420644834214624"><title>Nerazzurri Tide: The Parade Through The Streets Of Milan</title></programme>
 <programme start="20261106143000 +0000" stop="20261106144205 +0000" channel="whale.999420644834214624"><title>Welcome Kit | John Stones</title></programme>
 <programme start="20261106144205 +0000" stop="20261106154003 +0000" channel="whale.999420644834214624"><title>Serie A 2026/2027 |Inter - Napoli | 45-Minute Extended Highlights</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.1022125030546936768"><title>Live Scores</title><desc>Stay on the edge of your seat with Live Scores, the pulse-pounding program on our soccer news channel GOAL TV. Catch the action as it happens with real-time updates, goals, and highlights from the most anticipated matches worldwide.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1022125030546936768"><title>Latest News</title></programme>
+<programme start="20261106154003 +0000" stop="20261106160000 +0000" channel="whale.999420644834214624"><title>Matthäus: &quot;Inter Is Always In My Heart&quot;</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1022125030546936768"><title>Latest News</title><desc>Your ultimate destination for the most up-to-date and comprehensive coverage of the world of soccer. Stay ahead in the game as we deliver breaking news, exclusive interviews, and in-depth analyses from the dynamic realm of football.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.1022125030546936768"><title>Latest News</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.1022125030546936768"><title>Get the Score</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.1022125030546936768"><title>Videos News</title></programme>
@@ -14870,8 +14829,7 @@
 <programme start="20261106130002 +0000" stop="20261106140002 +0000" channel="whale.879287701189693311"><title>World Poker Tour</title></programme>
 <programme start="20261106140002 +0000" stop="20261106150000 +0000" channel="whale.879287701189693311"><title>World Poker Tour</title></programme>
 <programme start="20261106150000 +0000" stop="20261106170000 +0000" channel="whale.879287701189693311"><title>World Poker Tour</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.1047691487359932800"><title>GoPro In Action</title><desc>The very best of GoPro In Action around the world!</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1047691487359932800"><title>GoPro In Action</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1047691487359932800"><title>GoPro In Action</title><desc>The very best of GoPro In Action around the world!</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.1047691487359932800"><title>GoPro In Action</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.1047691487359932800"><title>GoPro In Action</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.1047691487359932800"><title>GoPro In Action</title></programme>
@@ -15207,7 +15165,7 @@
 <programme start="20261106140000 +0000" stop="20261106143000 +0000" channel="whale.1047691487359932800"><title>GoPro Capture and Conquer</title></programme>
 <programme start="20261106143000 +0000" stop="20261106150000 +0000" channel="whale.1047691487359932800"><title>GoPro Capture and Conquer</title></programme>
 <programme start="20261106150000 +0000" stop="20261106153000 +0000" channel="whale.1047691487359932800"><title>GoPro Capture and Conquer</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.1088385876566278479"><title>PAC 12 - Pac-12 Football Preview - Week 6 Conference Play</title></programme>
+<programme start="20261106153000 +0000" stop="20261106160000 +0000" channel="whale.1047691487359932800"><title>GoPro Capture and Conquer</title></programme>
 <programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1088385876566278479"><title>PAC 12 - Football in 30 - Memphis vs. Boise State (9/12/26)</title></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.1088385876566278479"><title>PAC 12 - Football in 30 - #21 Boise State vs. Washington State (10/24/26)</title></programme>
 <programme start="20261030163000 +0000" stop="20261030183000 +0000" channel="whale.1088385876566278479"><title>PAC 12 - (LIVE) Cross Country - Pac-12 Championships</title></programme>
@@ -15356,8 +15314,7 @@
 <programme start="20261105053000 +0000" stop="20261105060000 +0000" channel="whale.1088385876566278479"><title>Pokernight In America - Monied Men With Experience - Poker Night In America</title></programme>
 <programme start="20261105060000 +0000" stop="20261105063000 +0000" channel="whale.1088385876566278479"><title>Pokernight In America - Who Will Survive At Maryland Live? - Poker Night In America</title></programme>
 <programme start="20261105063000 +0000" stop="20261105070000 +0000" channel="whale.1088385876566278479"><title>Pokernight In America - Monied Men With Experience - Poker Night In America</title></programme>
-<programme start="20261030124453 +0000" stop="20261030154451 +0000" channel="whale.1047691487359932797"><title>Djokovic v Nadal - Rome 2019 Final</title><desc>The final of the 2019 Internazionali BNL d'Italia between Novak Djokovic and Rafael Nadal.</desc></programme>
-<programme start="20261030154451 +0000" stop="20261030175958 +0000" channel="whale.1047691487359932797"><title>Sinner v Medvedev - Miami 2023 Final</title></programme>
+<programme start="20261030154451 +0000" stop="20261030175958 +0000" channel="whale.1047691487359932797"><title>Sinner v Medvedev - Miami 2023 Final</title><desc>Former runner-up Jannik Sinner took on fourth seed Daniil Medvedev for the title at the Hard Rock Stadium.</desc></programme>
 <programme start="20261030175958 +0000" stop="20261030205951 +0000" channel="whale.1047691487359932797"><title>Djokovic v Medvedev - Paris 2021 Final</title></programme>
 <programme start="20261030205951 +0000" stop="20261030232937 +0000" channel="whale.1047691487359932797"><title>Dimitrov v Nadal - Monte Carlo 2013 Quarter-Final</title></programme>
 <programme start="20261030232937 +0000" stop="20261031021454 +0000" channel="whale.1047691487359932797"><title>Nadal v Cilic - Toronto 2018 Quarter-Final</title></programme>
@@ -15532,9 +15489,8 @@
 <programme start="20261106130000 +0000" stop="20261106133000 +0000" channel="whale.1057801252425569155"><title>WSL Competition Highlights</title></programme>
 <programme start="20261106133000 +0000" stop="20261106143000 +0000" channel="whale.1057801252425569155"><title>#TourNotes</title></programme>
 <programme start="20261106143000 +0000" stop="20261106153000 +0000" channel="whale.1057801252425569155"><title>'25 Margaret River Pro Highlights</title></programme>
-<programme start="20261030143005 +0000" stop="20261030152358 +0000" channel="whale.1088385876566278478"><title>Faultless: The Riders, Their Horses and the Pursuit of Excellence</title><desc>Elite athletes from across the globe gather at Spruce Meadows for the 50th Anniversary Masters Tournament. Lillie Keenan and Kyle King are among those competing for the 34 remaining places in Sunday’s record-breaking five-million-dollar Grand Prix.</desc></programme>
-<programme start="20261030152358 +0000" stop="20261030153005 +0000" channel="whale.1088385876566278478"><title>Jockey Fit 2026</title></programme>
-<programme start="20261030153005 +0000" stop="20261030160255 +0000" channel="whale.1088385876566278478"><title>Longines Global Champions Tour</title></programme>
+<programme start="20261106153000 +0000" stop="20261106163000 +0000" channel="whale.1057801252425569155"><title>Unboxing Things</title></programme>
+<programme start="20261030153005 +0000" stop="20261030160255 +0000" channel="whale.1088385876566278478"><title>Longines Global Champions Tour</title><desc>Held at Riesenbeck International, this German event highlights exceptional horsemanship and strategic course navigation on large grass and sand arenas.</desc></programme>
 <programme start="20261030160255 +0000" stop="20261030160649 +0000" channel="whale.1088385876566278478"><title>Jockey Fit 2026</title></programme>
 <programme start="20261030160649 +0000" stop="20261030161505 +0000" channel="whale.1088385876566278478"><title>Jockey Fit 2026</title></programme>
 <programme start="20261030161505 +0000" stop="20261030164938 +0000" channel="whale.1088385876566278478"><title>Global Champions League</title></programme>
@@ -15945,6 +15901,7 @@
 <programme start="20261106140005 +0000" stop="20261106142544 +0000" channel="whale.1088385876566278478"><title>The World of Luiten</title></programme>
 <programme start="20261106142544 +0000" stop="20261106143005 +0000" channel="whale.1088385876566278478"><title>Jockey Fit 2026</title></programme>
 <programme start="20261106143005 +0000" stop="20261106153005 +0000" channel="whale.1088385876566278478"><title>Blackfort Equestrian All Star Academy</title></programme>
+<programme start="20261106153005 +0000" stop="20261106160147 +0000" channel="whale.1088385876566278478"><title>Longines Global Champions Tour</title></programme>
 <programme start="20261030150000 +0000" stop="20261030160000 +0000" channel="whale.1098521474803237797"><title>The Sporting Tribune Today</title><desc>A daily sports news and analysis program delivering headlines, commentary, and insight.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030170000 +0000" channel="whale.1098521474803237797"><title>Outspoken With Dan Sileo</title></programme>
 <programme start="20261030170000 +0000" stop="20261030180000 +0000" channel="whale.1098521474803237797"><title>The Bobby Carpenter Show</title></programme>
@@ -16060,8 +16017,7 @@
 <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="whale.1098521474803237797"><title>The Sporting Tribune Today</title></programme>
 <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="whale.1098521474803237797"><title>The Early Line</title></programme>
 <programme start="20261106140000 +0000" stop="20261106160000 +0000" channel="whale.1098521474803237797"><title>World Downhill Skating Championship</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.1022125030546936763"><title>Hoop Insider</title><desc>Dive deep into the world of basketball with &quot;Hoop Insider,&quot; where we go beyond the box score to bring you in-depth analysis, expert commentary, and insider perspectives on the hottest topics and controversies in the sport. From strategy breakdowns to player profiles, get ready to expand your basketball IQ.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1022125030546936763"><title>Latest News</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1022125030546936763"><title>Latest News</title><desc>Stay ahead of the game with our &quot;Latest News&quot; segment, where we bring you up-to-the-minute updates, breaking stories, and exclusive insights from the world of basketball. From trade rumors to injury reports, we've got you covered with all the buzz circulating in the basketball universe.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.1022125030546936763"><title>Latest News</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.1022125030546936763"><title>Get the Score</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.1022125030546936763"><title>Get the Score</title></programme>
@@ -16173,8 +16129,7 @@
 <programme start="20261101220000 +0000" stop="20261101223000 +0000" channel="whale.1022125030546936763"><title>Highlights</title></programme>
 <programme start="20261101223000 +0000" stop="20261101230000 +0000" channel="whale.1022125030546936763"><title>Latest News</title></programme>
 <programme start="20261101230000 +0000" stop="20261101233000 +0000" channel="whale.1022125030546936763"><title>Latest News</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.1022125030546936764"><title>Latest News</title><desc>Stay ahead of the curve with Homerun latest news. From player trades to team updates, and everything in between, we deliver the freshest insights and breaking stories straight from the diamond. Whether it's trade rumors, injury updates, or managerial changes, our dedicated team ensures you're always in the know about the latest developments shaping the baseball world.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1022125030546936764"><title>Videos News</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1022125030546936764"><title>Videos News</title><desc>Dive deeper into the world of baseball with our Homerun Video News. From in-depth analysis to behind-the-scenes footage, exclusive player interviews, and insightful commentary, we bring you a comprehensive view of the game. Whether you're a casual fan or a die-hard enthusiast, our video news program offers a rich multimedia experience that enhances your love for the sport.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.1022125030546936764"><title>Videos News</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.1022125030546936764"><title>Videos News</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.1022125030546936764"><title>Videos News</title></programme>
@@ -16455,8 +16410,7 @@
 <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="whale.1022125030546936780"><title>Xtrem Sports</title></programme>
 <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="whale.1022125030546936780"><title>Xtrem Sports</title></programme>
 <programme start="20261106150000 +0000" stop="20261106160000 +0000" channel="whale.1022125030546936780"><title>Xtrem Sports</title></programme>
-<programme start="20261030151112 +0000" stop="20261030154243 +0000" channel="whale.1022125030546936762"><title>Fish TV</title><desc>The guys head to Muskoka to experience the first class accommodations and fishing at Grand Tappattoo.</desc></programme>
-<programme start="20261030154243 +0000" stop="20261030161413 +0000" channel="whale.1022125030546936762"><title>Fish TV</title></programme>
+<programme start="20261030154243 +0000" stop="20261030161413 +0000" channel="whale.1022125030546936762"><title>Fish TV</title><desc>Because it was so good the first time, the guys had to head back to Tumblehome Lodge once again.  Catch all the action!</desc></programme>
 <programme start="20261030161413 +0000" stop="20261030164544 +0000" channel="whale.1022125030546936762"><title>Fish TV</title></programme>
 <programme start="20261030164544 +0000" stop="20261030174412 +0000" channel="whale.1022125030546936762"><title>Documentary - Hero Lodge:</title></programme>
 <programme start="20261030174412 +0000" stop="20261030181458 +0000" channel="whale.1022125030546936762"><title>Homegrown Hunter TV</title></programme>
@@ -16523,8 +16477,7 @@
 <programme start="20261101015551 +0000" stop="20261101022637 +0000" channel="whale.1022125030546936762"><title>Homegrown Hunter TV</title></programme>
 <programme start="20261101022637 +0000" stop="20261101025722 +0000" channel="whale.1022125030546936762"><title>Homegrown Hunter TV</title></programme>
 <programme start="20261101025722 +0000" stop="20261101031942 +0000" channel="whale.1022125030546936762"><title>Homegrown Hunter TV</title></programme>
-<programme start="20261030150155 +0000" stop="20261030153128 +0000" channel="whale.1022125030546936776"><title>Mirage</title><desc>Dan goes fishing at the Channel Islands for rock fish, halibut and white seabass</desc></programme>
-<programme start="20261030153128 +0000" stop="20261030160100 +0000" channel="whale.1022125030546936776"><title>Ensenada</title></programme>
+<programme start="20261030153128 +0000" stop="20261030160100 +0000" channel="whale.1022125030546936776"><title>Ensenada</title><desc>Dan goes fishing out of Ensenada, Mexico for rockfish and yellowtail</desc></programme>
 <programme start="20261030160100 +0000" stop="20261030163032 +0000" channel="whale.1022125030546936776"><title>Chief Off Shore</title></programme>
 <programme start="20261030163032 +0000" stop="20261030170005 +0000" channel="whale.1022125030546936776"><title>Deep Creek Episode 2</title></programme>
 <programme start="20261030170005 +0000" stop="20261030172741 +0000" channel="whale.1022125030546936776"><title>Eclipse Episode 2</title></programme>
@@ -16596,7 +16549,6 @@
 <programme start="20261030230000 +0000" stop="20261031020000 +0000" channel="whale.967946649035481278"><title>ONEFA 2026 UDELAP vs Pumas UNAM  241026</title></programme>
 <programme start="20261031020000 +0000" stop="20261031050000 +0000" channel="whale.967946649035481278"><title>Lucha libre IWRG Función 181026</title></programme>
 <programme start="20261031050000 +0000" stop="20261031050100 +0000" channel="whale.967946649035481278"><title>Revolucionando 218 | Estreno</title></programme>
-<programme start="20261030140128 +0000" stop="20261030152707 +0000" channel="whale.1088385876566278481"><title>Radioactive</title></programme>
 <programme start="20261030152707 +0000" stop="20261030171548 +0000" channel="whale.1088385876566278481"><title>NASCAR Classics: Truck Series</title></programme>
 <programme start="20261030171548 +0000" stop="20261030190317 +0000" channel="whale.1088385876566278481"><title>NASCAR Classics: Truck Series</title></programme>
 <programme start="20261030190317 +0000" stop="20261030203224 +0000" channel="whale.1088385876566278481"><title>NASCAR Classics: Truck Series</title></programme>
@@ -16667,7 +16619,6 @@
 <programme start="20261105210517 +0000" stop="20261106003550 +0000" channel="whale.1088385876566278481"><title>NASCAR Classics: Cup Series</title></programme>
 <programme start="20261106003550 +0000" stop="20261106033112 +0000" channel="whale.1088385876566278481"><title>NASCAR Classics: Cup Series</title></programme>
 <programme start="20261106033112 +0000" stop="20261106063548 +0000" channel="whale.1088385876566278481"><title>NASCAR Classics: Cup Series</title></programme>
-<programme start="20261030150032 +0000" stop="20261030152819 +0000" channel="whale.1088385876566278484"><title>Supercars</title></programme>
 <programme start="20261030152819 +0000" stop="20261030155854 +0000" channel="whale.1088385876566278484"><title>Supercars</title></programme>
 <programme start="20261030155854 +0000" stop="20261030162745 +0000" channel="whale.1088385876566278484"><title>Supercars</title></programme>
 <programme start="20261030162745 +0000" stop="20261030165700 +0000" channel="whale.1088385876566278484"><title>Supercars</title></programme>
@@ -16990,8 +16941,7 @@
 <programme start="20261106003839 +0000" stop="20261106010659 +0000" channel="whale.1088385876566278484"><title>Supercars</title></programme>
 <programme start="20261106010659 +0000" stop="20261106013529 +0000" channel="whale.1088385876566278484"><title>Car History</title></programme>
 <programme start="20261106013529 +0000" stop="20261106015959 +0000" channel="whale.1088385876566278484"><title>Car History</title></programme>
-<programme start="20261030150246 +0000" stop="20261030153430 +0000" channel="whale.1022125030546936769"><title>Shifting Gears</title><desc>Shifting Gears is the all-new authoritative guide to the latest trends and technology from within today’s ever-changing automotive industry. From the racetrack to the suburban street, Shifting Gears delivers the most up-to-date news on cutting edge research, development and design. We delve beneath the skin of some of the most advanced machines on the planet – we visit international motor shows for the newest releases and concept vehicles; uncover new advances in technology developed both in the laboratory and on the race track; keep up to date in the race for alternative fuels, improved safety, satellite navigation, in-car entertainment and multi-media connectivity; and look ahead to the designs and trends of the future. From luxury dream machines and fantasy prototypes to the globally marketed mainstays, our access to the world’s leading race teams and automotive manufacturers ensure we have every corner covered. Enjoy the ride, as the future unfolds and we keep on shifting gears!</desc></programme>
-<programme start="20261030153430 +0000" stop="20261030160534 +0000" channel="whale.1022125030546936769"><title>Garage Dreams</title></programme>
+<programme start="20261030153430 +0000" stop="20261030160534 +0000" channel="whale.1022125030546936769"><title>Garage Dreams</title><desc>The speed records are breaking by the second. From one side of the paddock to the other in record time. Bikes and Japanese influence this café racer world. The best of Series 1 Garage Dreams B-Roll and extended Sequences</desc></programme>
 <programme start="20261030160534 +0000" stop="20261030163603 +0000" channel="whale.1022125030546936769"><title>AutoSpeed</title></programme>
 <programme start="20261030163603 +0000" stop="20261030170631 +0000" channel="whale.1022125030546936769"><title>GP Racing</title></programme>
 <programme start="20261030170631 +0000" stop="20261030173815 +0000" channel="whale.1022125030546936769"><title>Shifting Gears</title></programme>
@@ -17076,8 +17026,7 @@
 <programme start="20261101104339 +0000" stop="20261101111443 +0000" channel="whale.1022125030546936769"><title>Garage Dreams</title></programme>
 <programme start="20261101111443 +0000" stop="20261101114512 +0000" channel="whale.1022125030546936769"><title>AutoSpeed</title></programme>
 <programme start="20261101114512 +0000" stop="20261101120727 +0000" channel="whale.1022125030546936769"><title>GP Racing</title></programme>
-<programme start="20261030151057 +0000" stop="20261030152401 +0000" channel="whale.1022125030546936770"><title>European Le Mans Series – Rain Lap 2</title><desc>The European Le Mans Series (abbreviated as ELMS) is a European sports car racing endurance series inspired by the 24 Hours of Le Mans race and organized by the Automobile Club de l'Ouest (ACO). The European Le Mans Series is similar to the former American Le Mans Series (ALMS) based in the United States and Canada that was running with ACO and IMSA between 1999 and 2013.</desc></programme>
-<programme start="20261030152401 +0000" stop="20261030163713 +0000" channel="whale.1022125030546936770"><title>Formula 1 Renault Eurocup Round 7</title></programme>
+<programme start="20261030152401 +0000" stop="20261030163713 +0000" channel="whale.1022125030546936770"><title>Formula 1 Renault Eurocup Round 7</title><desc>Formula Renault Eurocup was a Formula Renault motor racing championship. Eurocup raced only on European circuits.</desc></programme>
 <programme start="20261030163713 +0000" stop="20261030175026 +0000" channel="whale.1022125030546936770"><title>Formula 1 Renault Eurocup Round 8</title></programme>
 <programme start="20261030175026 +0000" stop="20261030190042 +0000" channel="whale.1022125030546936770"><title>Formula 1 Renault Eurocup Round 5</title></programme>
 <programme start="20261030190042 +0000" stop="20261030191848 +0000" channel="whale.1022125030546936770"><title>European Le Mans Series – Onboard 18</title></programme>
@@ -17165,8 +17114,7 @@
 <programme start="20261031200000 +0000" stop="20261031210000 +0000" channel="whale.942280082834594504"><title>Africa Eco Race Days</title></programme>
 <programme start="20261031210000 +0000" stop="20261031230000 +0000" channel="whale.942280082834594504"><title>Pay Dirt: The Story of Supercross</title></programme>
 <programme start="20261031230000 +0000" stop="20261101000000 +0000" channel="whale.942280082834594504"><title>Lynx Snowmobiles</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.1065522377628650140"><title>DW News</title><desc>Detailed explanations, expert analysis, full coverage from the worlds of politics, business, sports and culture. Stories you won’t see elsewhere. Fascinating insights beyond the headlines.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1065522377628650140"><title>DocFilm</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1065522377628650140"><title>DocFilm</title><desc>A unique look at today’s world, featuring exclusive reports on current events and in-depth stories about what moves and inspires people around the globe.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.1065522377628650140"><title>DW News</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.1065522377628650140"><title>Eco India</title></programme>
 <programme start="20261030170000 +0000" stop="20261030171500 +0000" channel="whale.1065522377628650140"><title>DW News</title></programme>
@@ -17687,6 +17635,7 @@
 <programme start="20261106140200 +0000" stop="20261106141500 +0000" channel="whale.1065522377628650140"><title>DW News Focus</title></programme>
 <programme start="20261106141500 +0000" stop="20261106150000 +0000" channel="whale.1065522377628650140"><title>DocFilm</title></programme>
 <programme start="20261106150000 +0000" stop="20261106153000 +0000" channel="whale.1065522377628650140"><title>DW News</title></programme>
+<programme start="20261106153000 +0000" stop="20261106160000 +0000" channel="whale.1065522377628650140"><title>DocFilm</title></programme>
 <programme start="20261030150003 +0000" stop="20261030160706 +0000" channel="whale.989293714931712086"><title>Global Business-African Edition</title><desc>Global Business is the flagship business show of CGTN English Channel, bringing you the latest economic data, business trends and policies.</desc></programme>
 <programme start="20261030160706 +0000" stop="20261030164153 +0000" channel="whale.989293714931712086"><title>Global Business-European Edition</title></programme>
 <programme start="20261030164153 +0000" stop="20261030171239 +0000" channel="whale.989293714931712086"><title>China's Economy and the World: Exploring the 15th Five-Year Plan and global economic order shift</title></programme>
@@ -17915,8 +17864,7 @@
 <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="whale.956148002287389581"><title>OAN Special</title></programme>
 <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="whale.956148002287389581"><title>OAN Special</title></programme>
 <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="whale.956148002287389581"><title>Weekly Briefing</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.879563029959157019"><title>NTD News Today</title><desc>News from the U.S. and around the world.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.879563029959157019"><title>NTD News Today</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.879563029959157019"><title>NTD News Today</title><desc>News from the U.S. and around the world.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.879563029959157019"><title>NTD News Today</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.879563029959157019"><title>NTD News Today</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.879563029959157019"><title>NTD News Today</title></programme>
@@ -18250,6 +18198,7 @@
 <programme start="20261106140000 +0000" stop="20261106143000 +0000" channel="whale.879563029959157019"><title>NTD Good Morning</title></programme>
 <programme start="20261106143000 +0000" stop="20261106150000 +0000" channel="whale.879563029959157019"><title>NTD Good Morning</title></programme>
 <programme start="20261106150000 +0000" stop="20261106153000 +0000" channel="whale.879563029959157019"><title>NTD Good Morning</title></programme>
+<programme start="20261106153000 +0000" stop="20261106160000 +0000" channel="whale.879563029959157019"><title>NTD Good Morning</title></programme>
 <programme start="20261030150000 +0000" stop="20261030160000 +0000" channel="whale.945087649944309085"><title>TRT World</title></programme>
 <programme start="20261030160000 +0000" stop="20261030170000 +0000" channel="whale.945087649944309085"><title>TRT World</title></programme>
 <programme start="20261030170000 +0000" stop="20261030180000 +0000" channel="whale.945087649944309085"><title>TRT World</title></programme>
@@ -18419,9 +18368,7 @@
 <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="whale.945087649944309085"><title>TRT World</title></programme>
 <programme start="20261106140000 +0000" stop="20261106150000 +0000" channel="whale.945087649944309085"><title>TRT World</title></programme>
 <programme start="20261106150000 +0000" stop="20261106160000 +0000" channel="whale.945087649944309085"><title>TRT World</title></programme>
-<programme start="20261030151600 +0000" stop="20261030153000 +0000" channel="whale.925715003465143077"><title>The 51 Percent</title><desc>A programme about the women reshaping our world.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030154600 +0000" channel="whale.925715003465143077"><title>News</title></programme>
-<programme start="20261030154600 +0000" stop="20261030160000 +0000" channel="whale.925715003465143077"><title>Arts24</title></programme>
+<programme start="20261030154600 +0000" stop="20261030160000 +0000" channel="whale.925715003465143077"><title>Arts24</title><desc>Daily international culture news from the world's art, food and fashion capital, Paris.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030161200 +0000" channel="whale.925715003465143077"><title>News</title></programme>
 <programme start="20261030161200 +0000" stop="20261030162400 +0000" channel="whale.925715003465143077"><title>Reporters</title></programme>
 <programme start="20261030162400 +0000" stop="20261030163000 +0000" channel="whale.925715003465143077"><title>Short Cuts</title></programme>
@@ -19086,8 +19033,7 @@
 <programme start="20261105230000 +0000" stop="20261105231000 +0000" channel="whale.925715003465143077"><title>News</title></programme>
 <programme start="20261105231000 +0000" stop="20261105235300 +0000" channel="whale.925715003465143077"><title>The Debate</title></programme>
 <programme start="20261105235300 +0000" stop="20261106000000 +0000" channel="whale.925715003465143077"><title>Short Cuts</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.931186243466302959"><title>Pulso del Mercado</title><desc>Pulso del Mercado, con Johny Fernández desde el piso del NYSE y en colaboración con Fintech.TV, ofrece análisis y noticias clave de los mercados financieros en tiempo real.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.931186243466302959"><title>Pulso del Mercado</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.931186243466302959"><title>Pulso del Mercado</title><desc>Pulso del Mercado, con Johny Fernández desde el piso del NYSE y en colaboración con Fintech.TV, ofrece análisis y noticias clave de los mercados financieros en tiempo real.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030170000 +0000" channel="whale.931186243466302959"><title>Strive 305</title></programme>
 <programme start="20261030170000 +0000" stop="20261030180000 +0000" channel="whale.931186243466302959"><title>Buenos Días Wall Street</title></programme>
 <programme start="20261030180000 +0000" stop="20261030190000 +0000" channel="whale.931186243466302959"><title>Buenos Días Wall Street</title></programme>
@@ -19268,8 +19214,7 @@
 <programme start="20261106113000 +0000" stop="20261106120000 +0000" channel="whale.931186243466302959"><title>Revolución Empresarial</title></programme>
 <programme start="20261106120000 +0000" stop="20261106140000 +0000" channel="whale.931186243466302959"><title>Noticias y Análisis</title></programme>
 <programme start="20261106140000 +0000" stop="20261106160000 +0000" channel="whale.931186243466302959"><title>Buenos Días Wall Street</title></programme>
-<programme start="20261030150000 +0000" stop="20261030153000 +0000" channel="whale.1065522377628650142"><title>64' Le Monde En Français - 1re Partie</title><desc>L'actualité internationale décryptée par le monde francophone.</desc></programme>
-<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1065522377628650142"><title>64' Le Monde En Français - 2e Partie</title></programme>
+<programme start="20261030153000 +0000" stop="20261030160000 +0000" channel="whale.1065522377628650142"><title>64' Le Monde En Français - 2e Partie</title><desc>L'actualité internationale décryptée par le monde francophone.</desc></programme>
 <programme start="20261030160000 +0000" stop="20261030163000 +0000" channel="whale.1065522377628650142"><title>Le Journal De La RTS</title></programme>
 <programme start="20261030163000 +0000" stop="20261030170000 +0000" channel="whale.1065522377628650142"><title>Le Journal De France 2</title></programme>
 <programme start="20261030170000 +0000" stop="20261030173000 +0000" channel="whale.1065522377628650142"><title>64' Le Monde En Français - 1re Partie</title></programme>
@@ -19330,8 +19275,7 @@
 <programme start="20261031235000 +0000" stop="20261101002000 +0000" channel="whale.1065522377628650142"><title>64' Le Monde En Français - 2e Partie</title></programme>
 <programme start="20261101002000 +0000" stop="20261101005000 +0000" channel="whale.1065522377628650142"><title>64' Le Monde En Français - 1re Partie</title></programme>
 <programme start="20261101005000 +0000" stop="20261101012000 +0000" channel="whale.1065522377628650142"><title>64' Le Monde En Français - 2e Partie</title></programme>
-<programme start="20261030131955 +0000" stop="20261030154105 +0000" channel="whale.942280082834594503"><title>time2Rlx - Nature Walks</title><desc>Embark on a tranquil journey through Hawaii’s Tropical Botanical Garden, where exotic plants, colorful flowers, and the calming sounds of nature surround you, creating a peaceful and relaxing atmosphere.</desc></programme>
-<programme start="20261030154105 +0000" stop="20261030190927 +0000" channel="whale.942280082834594503"><title>time2Rlx - Water</title></programme>
+<programme start="20261030154105 +0000" stop="20261030190927 +0000" channel="whale.942280082834594503"><title>time2Rlx - Water</title><desc>This video offers a peaceful underwater journey through the Vancouver Aquarium, showcasing vibrant marine life, including fish, jellyfish, and sea lions, paired with calming music to promote relaxation and inner peace.</desc></programme>
 <programme start="20261030190927 +0000" stop="20261030215305 +0000" channel="whale.942280082834594503"><title>time2Rlx Fire</title></programme>
 <programme start="20261030215305 +0000" stop="20261030235150 +0000" channel="whale.942280082834594503"><title>time2rlx Flowers</title></programme>
 <programme start="20261030235150 +0000" stop="20261031020843 +0000" channel="whale.942280082834594503"><title>time2Rlx - Water</title></programme>
@@ -19407,8 +19351,8 @@
 <programme start="20261106072606 +0000" stop="20261106101153 +0000" channel="whale.942280082834594503"><title>time2Rlx - Wildlife</title></programme>
 <programme start="20261106101153 +0000" stop="20261106121759 +0000" channel="whale.942280082834594503"><title>time2Rlx - Landscape</title></programme>
 <programme start="20261106121759 +0000" stop="20261106152652 +0000" channel="whale.942280082834594503"><title>time2Rlx - Nature Walks</title></programme>
-<programme start="20261030151700 +0000" stop="20261030154300 +0000" channel="whale.979187723418476864"><title>rhoutier farm sunrise birds - drone in d - kevin macleod</title><desc>NOMADslow.tv is an atmospheric travel channel, a stream of consciousness designed to transform screen time into a meditative, cinematic experience.</desc></programme>
-<programme start="20261030154300 +0000" stop="20261030161600 +0000" channel="whale.979187723418476864"><title>canadian flag on inuksuk summer</title></programme>
+<programme start="20261106152652 +0000" stop="20261106182820 +0000" channel="whale.942280082834594503"><title>time2Rlx - Landscape</title></programme>
+<programme start="20261030154300 +0000" stop="20261030161600 +0000" channel="whale.979187723418476864"><title>canadian flag on inuksuk summer</title><desc>NOMADslow.tv is an atmospheric travel channel, a stream of consciousness designed to transform screen time into a meditative, cinematic experience.</desc></programme>
 <programme start="20261030161600 +0000" stop="20261030162100 +0000" channel="whale.979187723418476864"><title>Libernoa - music by Tim Kahn</title></programme>
 <programme start="20261030162100 +0000" stop="20261030164000 +0000" channel="whale.979187723418476864"><title>fear is the mind killer - maestro tlakaelel - jesse gallagher</title></programme>
 <programme start="20261030164000 +0000" stop="20261030164600 +0000" channel="whale.979187723418476864"><title>cabin fever mood - the house glows (with almost no help) - chris zabriskie</title></programme>
