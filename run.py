@@ -42,10 +42,10 @@ RESOLVE_DELAY = {'stirr': 1.0}
 PROFILES = {
     'adultswim':      (True,  True,  'direct HLS after build-time resolve', {}),
     'hallmark':       (True,  True,  'direct HLS after build-time resolve', {}),
-    'samsung':        (True,  False, 'direct redirect URLs', {}),
+    'samsung':        (False,  False, 'direct redirect URLs', {}),
     'vizio':          (True,  False, 'direct HLS', {}),
-    'lg-channels':    (True,  True,  'direct HLS after macro expansion', {}),
-    'freelivesports': (True,  True,  'direct HLS after macro expansion', {}),
+    'lg-channels':    (False,  False,  'direct HLS after macro expansion', {}),
+    'freelivesports': (False,  False,  'direct HLS after macro expansion', {}),
     'free_networks':  (True,  True,  'mostly direct HLS; cbn/newsnation/ognetwork need per-play '
                                      'tokens so they are excluded',
                        {'disabled_networks': 'cbn,newsnation,ognetwork'}),
