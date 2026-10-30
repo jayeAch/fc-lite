@@ -30,6 +30,8 @@ from app.scrapers import registry  # noqa: E402
 
 log = logging.getLogger('run')
 HTTP = re.compile(r'^https?://', re.I)
+# ad-macro placeholder like =[CB] or /[DEVICE_ID]; not a bracketed param name like device[did]=
+MACRO = re.compile(r'(?<![A-Za-z0-9_])\[[^\]\s]+\]')
 
 DEFAULT_OPTIONS = {'out': 'playlists', 'workers': 4, 'combined': True, 'base_url': ''}
 
@@ -42,10 +44,10 @@ RESOLVE_DELAY = {'stirr': 1.0}
 PROFILES = {
     'adultswim':      (True,  True,  'direct HLS after build-time resolve', {}),
     'hallmark':       (True,  True,  'direct HLS after build-time resolve', {}),
-    'samsung':        (False,  False, 'direct redirect URLs', {}),
+    'samsung':        (False, False, 'direct redirect URLs', {}),
     'vizio':          (True,  False, 'direct HLS', {}),
-    'lg-channels':    (False,  False,  'direct HLS after macro expansion', {}),
-    'freelivesports': (False,  False,  'direct HLS after macro expansion', {}),
+    'lg-channels':    (False, False,  'direct HLS after macro expansion', {}),
+    'freelivesports': (False, False,  'direct HLS after macro expansion', {}),
     'free_networks':  (True,  True,  'mostly direct HLS; cbn/newsnation/ognetwork need per-play '
                                      'tokens so they are excluded',
                        {'disabled_networks': 'cbn,newsnation,ognetwork'}),
@@ -137,7 +139,7 @@ def cid(source: str, ch_id) -> str:
 def stream_line(source, ch, base_url):
     """Direct URL when playable as-is; resolver URL otherwise; None if neither possible."""
     url = ch.stream_url or ''
-    if HTTP.match(url) and not ('[' in url and ']' in url):
+    if HTTP.match(url) and not MACRO.search(url):
         return url
     return f"{base_url.rstrip('/')}/play/{source}/{ch.source_channel_id}" if base_url else None
 
@@ -208,7 +210,7 @@ def write_xmltv(path, chans, progs):
 # ── scraping ────────────────────────────────────────────────────────────────
 
 def needs_resolve(url) -> bool:
-    return bool(url) and (not HTTP.match(url) or ('[' in url and ']' in url))
+    return bool(url) and (not HTTP.match(url) or MACRO.search(url))
 
 
 def resolve_now(name, sc, channels, delay=0.0, passes=3):
