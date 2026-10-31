@@ -64,7 +64,7 @@ PROFILES = {
     'philo':          (False, False, 'DRM + login', {}),
     # login
     'tubi':           (False, False, 'login required', {'username': '', 'password': ''}),
-    'freecast':       (True, True, 'login required', {'username': '', 'password': ''}),
+    'freecast':       (False, False, 'login required', {'username': '', 'password': ''}),
     'hdhomerun':      (False, False, 'local tuner; needs device_url', {'device_url': ''}),
     'custom':         (False, False, 'your own playlist; needs config', {}),
     # stream URL only obtained per play (session/token), needs resolver.py + options.base_url
