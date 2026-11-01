@@ -54,7 +54,7 @@ PROFILES = {
                                      'tokens so they are excluded',
                        {'disabled_networks': 'cbn,newsnation,ognetwork'}),
     # DRM
-    'roku':           (False, False, 'token + DRM (Widevine/FairPlay variants)', {}),
+    'roku':           (True, True, 'token + DRM (Widevine/FairPlay variants)', {}),
     'vix':            (False, False, 'DRM', {}),
     'vidaa':          (True, False, 'DRM', {}),
     'pbs':            (False, False, 'DRM', {}),
