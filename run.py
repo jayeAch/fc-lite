@@ -38,7 +38,7 @@ MACRO = re.compile(r'(?<![A-Za-z0-9_])\[[^\]\s]+\]')
 DEFAULT_OPTIONS = {'out': 'playlists', 'workers': 4, 'combined': True, 'base_url': ''}
 
 # seconds to pause between build-time resolves for rate-limited services
-RESOLVE_DELAY = {'stirr': 1.0,'roku': 0.5}
+RESOLVE_DELAY = {'stirr': 1.5,'roku': 1.5}
 
 # name: (enabled, resolve_at_build, note, default scraper config)
 # Enabled by default = free, no login, no DRM, and the stream URL is playable as a plain URL
