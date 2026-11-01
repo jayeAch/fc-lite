@@ -8,7 +8,7 @@
 
 config.json:
   {
-    "options": {"out": "playlists", "workers": 4, "combined": true, "base_url": ""},
+    "options": {"out": "playlists", "workers": 2, "combined": true, "base_url": ""},
     "sources": {"samsung": {"enabled": true, "resolve_at_build": false, "config": {}}, ...}
   }
 
@@ -54,7 +54,7 @@ PROFILES = {
                                      'tokens so they are excluded',
                        {'disabled_networks': 'cbn,newsnation,ognetwork'}),
     # DRM
-    'roku':           (True, False, 'token + DRM (Widevine/FairPlay variants)', {}),
+    'roku':           (True, True, 'token + DRM (Widevine/FairPlay variants)', {}),
     'vix':            (False, False, 'DRM', {}),
     'vidaa':          (True, False, 'DRM', {}),
     'pbs':            (False, False, 'DRM', {}),
