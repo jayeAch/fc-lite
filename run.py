@@ -8,7 +8,7 @@
 
 config.json:
   {
-    "options": {"out": "playlists", "workers": 2, "combined": true, "base_url": ""},
+    "options": {"out": "playlists", "workers": 4, "combined": true, "base_url": ""},
     "sources": {"samsung": {"enabled": true, "resolve_at_build": false, "config": {}}, ...}
   }
 
