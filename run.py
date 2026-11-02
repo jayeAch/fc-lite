@@ -38,7 +38,7 @@ MACRO = re.compile(r'(?<![A-Za-z0-9_])\[[^\]\s]+\]')
 DEFAULT_OPTIONS = {'out': 'playlists', 'workers': 4, 'combined': True, 'base_url': ''}
 
 # seconds to pause between build-time resolves for rate-limited services
-RESOLVE_DELAY = {'stirr': 1.5,'roku': 5.5}
+RESOLVE_DELAY = {'stirr': 1.5,'free_networks': 0.5}
 
 # name: (enabled, resolve_at_build, note, default scraper config)
 # Enabled by default = free, no login, no DRM, and the stream URL is playable as a plain URL
@@ -54,7 +54,7 @@ PROFILES = {
                                      'tokens so they are excluded',
                        {'disabled_networks': 'cbn,newsnation,ognetwork'}),
     # DRM
-    'roku':           (True, True, 'token + DRM (Widevine/FairPlay variants)', {}),
+    'roku':           (False, False, 'token + DRM (Widevine/FairPlay variants)', {}),
     'vix':            (False, False, 'DRM', {}),
     'vidaa':          (True, False, 'DRM', {}),
     'pbs':            (False, False, 'DRM', {}),
