@@ -35,7 +35,7 @@ HTTP = re.compile(r'^https?://', re.I)
 # ad-macro placeholder like =[CB] or /[DEVICE_ID]; not a bracketed param name like device[did]=
 MACRO = re.compile(r'(?<![A-Za-z0-9_])\[[^\]\s]+\]')
 
-DEFAULT_OPTIONS = {'out': 'playlists', 'workers': 4, 'combined': True, 'base_url': ''}
+DEFAULT_OPTIONS = {'out': 'playlists', 'workers': 4, 'combined': False, 'base_url': ''}
 
 # seconds to pause between build-time resolves for rate-limited services
 RESOLVE_DELAY = {'stirr': 1.5,'free_networks': 0.5}
@@ -45,7 +45,7 @@ RESOLVE_DELAY = {'stirr': 1.5,'free_networks': 0.5}
 # (directly, or after a stable build-time resolve). Everything else is off.
 PROFILES = {
     'adultswim':      (True,  True,  'direct HLS after build-time resolve', {}),
-    'hallmark':       (True,  True,  'direct HLS after build-time resolve', {}),
+    'hallmark':       (False, False,  'direct HLS after build-time resolve', {}),
     'samsung':        (False, False, 'direct redirect URLs', {}),
     'vizio':          (True,  False, 'direct HLS', {}),
     'lg-channels':    (False, False,  'direct HLS after macro expansion', {}),
